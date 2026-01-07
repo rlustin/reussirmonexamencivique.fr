@@ -1,0 +1,2884 @@
+{
+  "questions": [
+    {
+      "id": "pv-001",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Complétez les paroles de la Marseillaise « Allons enfants de la patrie… »",
+      "options": [
+        "Le jour de gloire est arrivé",
+        "Le temps de la liberté est venu",
+        "L’heure de la victoire a sonné",
+        "Le moment de combattre est là"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Marseillaise, composée par Rouget de Lisle en 1792, commence par « Allons enfants de la patrie, le jour de gloire est arrivé ».",
+      "isSituational": false
+    },
+    {
+      "id": "pv-002",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Dans le cadre d’un entretien d’embauche, que peut-on demander au candidat ?",
+      "options": [
+        "Des questions liées au poste et aux compétences",
+        "Sa situation familiale et ses projets d’enfants",
+        "Ses convictions religieuses ou ses opinions politiques",
+        "Son état de santé et ses antécédents médicaux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selon le Code du travail, seules les questions ayant un lien direct avec le poste et les compétences professionnelles sont autorisées lors d’un entretien d’embauche.",
+      "isSituational": true
+    },
+    {
+      "id": "pv-003",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Déclarer ses revenus aux services fiscaux est :",
+      "options": [
+        "Une obligation légale pour tous les contribuables",
+        "Facultatif si les revenus sont inférieurs au SMIC",
+        "Obligatoire uniquement pour les personnes imposables",
+        "Une simple recommandation sans sanction prévue"
+      ],
+      "correctIndex": 0,
+      "explanation": "La déclaration de revenus est obligatoire pour tous les contribuables, quel que soit le montant de leurs revenus.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-004",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "options": [
+        "Ils financent les services publics essentiels",
+        "Ils servent uniquement à rembourser la dette",
+        "Ils sont payés exclusivement par les entreprises",
+        "Ils sont redistribués directement aux citoyens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les impôts financent les services publics : éducation, santé, sécurité, infrastructures et protection sociale.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-005",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "La liberté d’association est :",
+      "options": [
+        "Un droit fondamental à valeur constitutionnelle",
+        "Un droit administratif soumis à autorisation",
+        "Un droit réservé aux seuls citoyens français",
+        "Une liberté limitée aux associations sportives"
+      ],
+      "correctIndex": 0,
+      "explanation": "La liberté d’association est un droit constitutionnel reconnu depuis la décision du Conseil constitutionnel du 16 juillet 1971.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-006",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "La liberté d’expression sur les réseaux sociaux en France est :",
+      "options": [
+        "Garantie mais encadrée par la loi",
+        "Totalement illimitée et sans restriction",
+        "Interdite car espace non reconnu comme public",
+        "Réservée aux journalistes professionnels"
+      ],
+      "correctIndex": 0,
+      "explanation": "La liberté d’expression est garantie mais encadrée : la diffamation, l’incitation à la haine et les fausses informations sont interdites.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-007",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Lequel de ces prénoms évoque un symbole de la République ?",
+      "options": [
+        "Marianne",
+        "Jeanne",
+        "Victoire",
+        "Liberté"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marianne est la figure allégorique de la République française, présente dans les mairies et sur les timbres.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-008",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Lequel de ces symboles représente la République française ?",
+      "options": [
+        "Le drapeau tricolore bleu, blanc, rouge",
+        "Le drapeau blanc à fleur de lys",
+        "L’aigle impérial",
+        "La couronne royale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le drapeau tricolore est l’emblème national de la France, inscrit à l’article 2 de la Constitution.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-009",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Où peut-on voir la devise de la République ?",
+      "options": [
+        "Sur les mairies, écoles et bâtiments publics",
+        "Uniquement sur les billets et pièces de monnaie",
+        "Exclusivement à l’Assemblée nationale et au Sénat",
+        "Seulement dans les tribunaux et cours de justice"
+      ],
+      "correctIndex": 0,
+      "explanation": "La devise « Liberté, Égalité, Fraternité » est affichée sur les bâtiments publics depuis 1880.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-010",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Lesquels sont des symboles officiels de la République française ?",
+      "options": [
+        "Le drapeau tricolore, La Marseillaise et la devise « Liberté, Égalité, Fraternité »",
+        "Le coq gaulois, le béret et la baguette de pain",
+        "La Tour Eiffel, le croissant et le vin rouge",
+        "Le château de Versailles, le parfum et la mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’article 2 de la Constitution établit trois symboles officiels : le drapeau, l’hymne national et la devise.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-011",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Peut-on brûler publiquement un drapeau français ?",
+      "options": [
+        "Non, c’est interdit et puni par la loi",
+        "Oui, c’est autorisé au nom de la liberté d’expression",
+        "Oui, mais uniquement lors de manifestations déclarées",
+        "Oui, si le drapeau vous appartient personnellement"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’outrage au drapeau est un délit puni d’une amende pouvant aller jusqu’à 7 500 euros.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-012",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quand la sécurité sociale a-t-elle été établie en France ?",
+      "options": [
+        "En 1945",
+        "En 1936",
+        "En 1958",
+        "En 1968"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Sécurité sociale a été créée par les ordonnances des 4 et 19 octobre 1945.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-013",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que commémore la fête nationale ?",
+      "options": [
+        "La prise de la Bastille et la Fête de la Fédération",
+        "La fin de la Première Guerre mondiale en 1918",
+        "La proclamation de la Cinquième République",
+        "La victoire finale de la Révolution française"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le 14 juillet commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790).",
+      "isSituational": false
+    },
+    {
+      "id": "pv-014",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que porte Marianne sur la tête ?",
+      "options": [
+        "Un bonnet phrygien",
+        "Une couronne de laurier",
+        "Un diadème tricolore",
+        "Un chapeau révolutionnaire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marianne porte un bonnet phrygien, symbole de liberté hérité de l’Antiquité romaine.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-015",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que signifie le mot « fraternité » dans la devise française ?",
+      "options": [
+        "La solidarité entre les citoyens",
+        "Le lien familial entre tous les Français",
+        "L’amitié entre les nations européennes",
+        "Le respect des traditions républicaines"
+      ],
+      "correctIndex": 0,
+      "explanation": "La fraternité désigne la solidarité qui unit tous les membres de la société française.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-016",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quel symbole de la République peut-on voir sur les maillots de l’équipe de France de football ?",
+      "options": [
+        "Le coq",
+        "Marianne",
+        "Le drapeau tricolore",
+        "La fleur de lys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le coq gaulois orne le maillot de l’équipe de France depuis 1920.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-017",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quelle est la devise de la République française ?",
+      "options": [
+        "Liberté, Égalité, Fraternité",
+        "Travail, Famille, Patrie",
+        "Unité, Force, Progrès",
+        "Honneur, Patrie, Valeur"
+      ],
+      "correctIndex": 0,
+      "explanation": "« Liberté, Égalité, Fraternité » est la devise officielle depuis 1848, inscrite dans la Constitution.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-018",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Qu’est-ce que la liberté d’association ?",
+      "options": [
+        "Le droit de créer ou rejoindre une association",
+        "L’obligation de s’inscrire à un ordre professionnel",
+        "Le droit de manifester en groupe dans la rue",
+        "La possibilité de créer une entreprise individuelle"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi de 1901 garantit le droit de former librement une association sans autorisation préalable de l’État.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-019",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Qu’est-ce qu’une liberté ?",
+      "options": [
+        "Le droit d’agir sans nuire à autrui",
+        "Le droit d’agir sans aucune limite",
+        "L’absence de règles et de contraintes",
+        "Le pouvoir de l’État sur les individus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Une liberté permet d’agir selon sa volonté dans les limites fixées par la loi pour garantir les droits de tous.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-020",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Selon la Constitution, la France est une République…",
+      "options": [
+        "Indivisible, laïque, démocratique et sociale",
+        "Fédérale, laïque et démocratique",
+        "Unitaire, chrétienne et libérale",
+        "Décentralisée, pluraliste et capitaliste"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’article 1er de la Constitution définit la France comme une République indivisible, laïque, démocratique et sociale.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-021",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Sur quel document peut-on voir Marianne ?",
+      "options": [
+        "Les timbres-poste",
+        "Les billets de banque en euros",
+        "Les cartes d’identité étrangères",
+        "Les passeports européens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marianne figure sur les timbres-poste français depuis 1944.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-022",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Une des valeurs de la devise républicaine est l’Égalité. Qu’est-ce que cela signifie ?",
+      "options": [
+        "Tous ont les mêmes droits et devoirs devant la loi",
+        "Tous les citoyens reçoivent le même salaire",
+        "Tous doivent partager les mêmes opinions politiques",
+        "Tous les citoyens doivent pratiquer une religion"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’Égalité signifie l’égalité de tous les citoyens devant la loi, sans distinction d’origine, de religion ou de condition sociale.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-023",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Une personne peut-elle changer librement de religion en France ?",
+      "options": [
+        "Oui, c’est garanti par la liberté de conscience",
+        "Non, on doit garder la religion de naissance",
+        "Oui, mais avec l’autorisation d’un juge",
+        "Non, sauf demande officielle après 18 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "La liberté de conscience, garantie par la loi de 1905, inclut le droit de croire, ne pas croire ou changer de religion librement.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-024",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Selon le principe de laïcité, que signifie la neutralité de l’État ?",
+      "options": [
+        "L’État ne favorise aucune religion",
+        "L’État interdit toutes les religions",
+        "L’État choisit la religion officielle",
+        "L’État impose l’athéisme aux citoyens"
+      ],
+      "correctIndex": 0,
+      "explanation": "La neutralité de l’État signifie qu’il ne favorise aucune religion et traite tous les citoyens de manière égale, sans distinction fondée sur les convictions religieuses.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-025",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que peut faire un usager du service public dans une mairie ?",
+      "options": [
+        "Porter un signe religieux visible",
+        "Exiger d’être reçu uniquement par un agent de sa religion",
+        "Refuser de respecter les horaires d’ouverture pour des raisons religieuses",
+        "Faire du prosélytisme auprès des autres usagers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contrairement aux agents publics, les usagers peuvent exprimer leurs convictions religieuses, notamment par le port de signes religieux.",
+      "isSituational": true
+    },
+    {
+      "id": "pv-026",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "En France, il est possible pour l’État de financer :",
+      "options": [
+        "Les services d’aumônerie dans les lieux fermés",
+        "La construction de nouveaux lieux de culte",
+        "Les salaires des ministres du culte",
+        "L’organisation des fêtes religieuses"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi de 1905 prévoit une exception permettant le financement des services d’aumônerie dans les hôpitaux, prisons et l’armée.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-027",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "En quelle année la loi de séparation des Églises et de l’État a-t-elle été votée ?",
+      "options": [
+        "1905",
+        "1789",
+        "1881",
+        "1958"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi de séparation des Églises et de l’État a été promulguée le 9 décembre 1905.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-028",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que dit la loi de 1905 ?",
+      "options": [
+        "La République garantit la liberté de conscience",
+        "La République reconnaît le catholicisme officiel",
+        "La République interdit la pratique religieuse",
+        "La République impose de déclarer sa religion"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi de 1905 dispose que « La République assure la liberté de conscience » et « ne reconnaît, ne salarie ni ne subventionne aucun culte ».",
+      "isSituational": false
+    },
+    {
+      "id": "pv-029",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Que garantit le principe de laïcité ?",
+      "options": [
+        "La liberté de croire ou non et l’égalité de tous",
+        "L’interdiction de toute religion en France",
+        "La primauté du catholicisme sur les autres cultes",
+        "L’obligation de pratiquer une religion officielle"
+      ],
+      "correctIndex": 0,
+      "explanation": "La laïcité repose sur la liberté de conscience, la neutralité de l’État et l’égalité de tous devant la loi.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-030",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quel jour célèbre-t-on officiellement la laïcité en France ?",
+      "options": [
+        "Le 9 décembre",
+        "Le 14 juillet",
+        "Le 1er mai",
+        "Le 11 novembre"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Journée nationale de la laïcité est célébrée le 9 décembre, anniversaire de la loi de 1905.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-031",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quel symbole religieux peut être porté dans une école publique dans le respect de la laïcité ?",
+      "options": [
+        "Un signe religieux discret",
+        "Un voile islamique couvrant les cheveux",
+        "Une grande croix visible portée sur les vêtements",
+        "Aucun symbole religieux n’est autorisé"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi de 2004 interdit les signes religieux ostensibles à l’école publique, mais autorise les signes discrets.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-032",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quel terme désigne précisément la haine ou les préjugés contre les Juifs ?",
+      "options": [
+        "L’antisémitisme",
+        "La xénophobie",
+        "Le racisme",
+        "L’antisionisme"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le terme « antisémitisme » désigne spécifiquement la haine et les préjugés à l’encontre des Juifs.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-033",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
+      "options": [
+        "La loi de séparation des Églises et de l’État",
+        "La Déclaration des Droits de l’Homme de 1789",
+        "La Constitution de la Cinquième République",
+        "La Charte de la laïcité à l’École de 2013"
+      ],
+      "correctIndex": 0,
+      "explanation": "La loi du 9 décembre 1905 établit les principes fondamentaux de la laïcité française.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-034",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Quelle institution française doit rester neutre en matière de religion ?",
+      "options": [
+        "L’État et les services publics",
+        "Les entreprises privées",
+        "Les associations cultuelles",
+        "Les médias"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’État, les collectivités territoriales et les services publics doivent observer une stricte neutralité religieuse.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-035",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Qu’est-ce que la laïcité ?",
+      "options": [
+        "La séparation des religions et de l’État",
+        "L’interdiction de pratiquer une religion",
+        "La promotion de l’athéisme par l’État",
+        "L’obligation de neutralité pour tous les citoyens"
+      ],
+      "correctIndex": 0,
+      "explanation": "La laïcité garantit la liberté de conscience et la séparation des institutions publiques et des organisations religieuses.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-036",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "À l’école, la charte de la laïcité permet de :",
+      "options": [
+        "Rappeler et expliquer les règles de la laïcité",
+        "Interdire toute discussion sur les religions",
+        "Imposer l’athéisme à tous les élèves",
+        "Sanctionner tout comportement religieux"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Charte de la laïcité à l’École (2013) est un outil pédagogique pour faire comprendre et respecter les valeurs de la République.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-037",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Qui doit respecter et veiller à la neutralité religieuse dans les services publics ?",
+      "options": [
+        "Les agents publics",
+        "Uniquement les directeurs et cadres supérieurs",
+        "Les usagers des services publics",
+        "Tous les citoyens français"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les agents publics doivent s’abstenir de manifester leurs opinions religieuses dans l’exercice de leurs fonctions.",
+      "isSituational": false
+    },
+    {
+      "id": "pv-038",
+      "category": "principes-valeurs",
+      "categoryLabel": "Principes et valeurs de la République",
+      "question": "Une personne déclare ne croire en aucun dieu. On peut dire :",
+      "options": [
+        "Qu’elle est athée",
+        "Qu’elle est agnostique",
+        "Qu’elle est laïque",
+        "Qu’elle est anticléricale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athée désigne une personne qui ne croit pas en l’existence de Dieu ou de toute divinité.",
+      "isSituational": false
+    },
+    {
+      "id": "si-001",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Comment est désigné le Premier ministre ?",
+      "options": [
+        "Il est nommé par le Président de la République",
+        "Il est élu par l’Assemblée nationale",
+        "Il est élu au suffrage universel direct",
+        "Il est désigné par le Sénat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selon l’article 8 de la Constitution, le Président de la République nomme le Premier ministre.",
+      "isSituational": false
+    },
+    {
+      "id": "si-002",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui peut se présenter aux élections présidentielles ?",
+      "options": [
+        "Tout citoyen français ayant 500 parrainages",
+        "Tout citoyen européen résidant en France",
+        "Tout citoyen français sans condition",
+        "Uniquement les membres d’un parti politique"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pour être candidat, il faut être citoyen français, avoir 18 ans, et obtenir 500 parrainages d’élus de 30 départements différents.",
+      "isSituational": false
+    },
+    {
+      "id": "si-003",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "À qui appartient la souveraineté nationale ?",
+      "options": [
+        "Au peuple",
+        "Au Président de la République",
+        "Au Parlement",
+        "Au Gouvernement"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’article 3 de la Constitution dispose que la souveraineté nationale appartient au peuple.",
+      "isSituational": false
+    },
+    {
+      "id": "si-004",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui est élu lors des élections municipales ?",
+      "options": [
+        "Les conseillers municipaux",
+        "Le maire directement",
+        "Le préfet",
+        "Les adjoints au maire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les citoyens élisent les conseillers municipaux, qui élisent ensuite le maire.",
+      "isSituational": false
+    },
+    {
+      "id": "si-005",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "L’inscription sur les listes électorales est :",
+      "options": [
+        "Obligatoire pour pouvoir voter",
+        "Facultative",
+        "Automatique pour tous les citoyens sans exception",
+        "Réservée aux personnes de plus de 21 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’inscription sur les listes électorales est obligatoire pour voter. Elle est automatique à 18 ans pour les jeunes recensés.",
+      "isSituational": false
+    },
+    {
+      "id": "si-006",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+      "options": [
+        "Être de nationalité française",
+        "Être citoyen d’un pays de l’Union européenne",
+        "Résider en France depuis au moins 5 ans",
+        "Avoir un casier judiciaire vierge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pour voter aux présidentielles, il faut être de nationalité française, avoir 18 ans et être inscrit sur les listes.",
+      "isSituational": false
+    },
+    {
+      "id": "si-007",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
+      "options": [
+        "Être français ou ressortissant d’un État membre de l’UE",
+        "Être exclusivement de nationalité française",
+        "Avoir au moins 21 ans",
+        "Résider dans la commune depuis au moins 10 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les citoyens français ou de l’UE peuvent être candidats aux municipales, mais seuls les Français peuvent être maire.",
+      "isSituational": false
+    },
+    {
+      "id": "si-008",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Parmi ces autorités, laquelle est élue ?",
+      "options": [
+        "Le maire",
+        "Le préfet",
+        "Le procureur de la République",
+        "Le directeur de cabinet du Président"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le maire est élu par les conseillers municipaux. Le préfet et le procureur sont nommés.",
+      "isSituational": false
+    },
+    {
+      "id": "si-009",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelles sont les fonctions du maire ?",
+      "options": [
+        "Officier d’état civil et chef de l’administration",
+        "Responsable de la collecte des impôts locaux",
+        "Représentant de l’État au niveau régional",
+        "Nomination des préfets de son département"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le maire a une double casquette : agent de la commune et agent de l’État (état civil, police judiciaire).",
+      "isSituational": false
+    },
+    {
+      "id": "si-010",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Une personne, n’ayant pas d’accès à internet, veut s’inscrire sur les listes électorales. Où peut-elle s’inscrire ?",
+      "options": [
+        "À la mairie de son domicile",
+        "À la préfecture de son département",
+        "Au tribunal judiciaire de sa ville",
+        "Au commissariat de police"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’inscription sur les listes électorales peut se faire en mairie avec un justificatif d’identité et de domicile.",
+      "isSituational": true
+    },
+    {
+      "id": "si-011",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "À quel âge peut-on devenir électeur ?",
+      "options": [
+        "18 ans",
+        "16 ans",
+        "21 ans",
+        "25 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depuis 1974, l’âge de la majorité et du droit de vote en France est fixé à 18 ans.",
+      "isSituational": false
+    },
+    {
+      "id": "si-012",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "En France, est-ce obligatoire de voter ?",
+      "options": [
+        "Non, le vote n’est pas obligatoire",
+        "Oui, c’est obligatoire sous peine d’amende",
+        "Oui, uniquement pour les présidentielles",
+        "Oui, pour les citoyens de plus de 25 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "En France, le vote est un droit et un devoir civique, mais il n’est pas obligatoire.",
+      "isSituational": false
+    },
+    {
+      "id": "si-013",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "A-t-on le droit de ne pas respecter une loi ?",
+      "options": [
+        "Non, toute personne doit respecter les lois",
+        "Oui, si la loi va contre ses convictions",
+        "Oui, si la majorité des citoyens est en désaccord",
+        "Oui, si la loi date de plus de 50 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dans un État de droit, tous les citoyens sont soumis au respect des lois votées par le Parlement.",
+      "isSituational": false
+    },
+    {
+      "id": "si-014",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Comment sont désignés les députés ?",
+      "options": [
+        "Au suffrage universel direct",
+        "Au suffrage universel indirect par les grands électeurs",
+        "Par nomination du Président de la République",
+        "Par élection des conseillers régionaux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les 577 députés sont élus au suffrage universel direct, au scrutin uninominal majoritaire à deux tours.",
+      "isSituational": false
+    },
+    {
+      "id": "si-015",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui vote les lois ?",
+      "options": [
+        "Le Parlement",
+        "Le Président de la République",
+        "Le Conseil constitutionnel",
+        "Le Premier ministre et son gouvernement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le Parlement, composé de l’Assemblée nationale et du Sénat, est chargé de voter les lois.",
+      "isSituational": false
+    },
+    {
+      "id": "si-016",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+      "options": [
+        "Exécutif, législatif et judiciaire",
+        "Présidentiel, gouvernemental et parlementaire",
+        "National, régional et local",
+        "Civil, militaire et religieux"
+      ],
+      "correctIndex": 0,
+      "explanation": "La séparation des pouvoirs distingue l’exécutif (appliquer les lois), le législatif (faire les lois) et le judiciaire (les faire respecter).",
+      "isSituational": false
+    },
+    {
+      "id": "si-017",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qu’est-ce que l’État de droit ?",
+      "options": [
+        "Un système où la puissance publique est soumise au droit",
+        "Un État où le président détient tous les pouvoirs",
+        "Un État qui applique uniquement le droit international",
+        "Un système politique sans Constitution écrite"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’État de droit est un système où la puissance publique est soumise au droit, avec une hiérarchie des normes et l’égalité devant la loi.",
+      "isSituational": false
+    },
+    {
+      "id": "si-018",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelles sont les durées du mandat du conseil municipal et du maire ?",
+      "options": [
+        "6 ans pour les deux",
+        "4 ans pour le conseil et 5 ans pour le maire",
+        "5 ans pour les deux",
+        "6 ans pour le conseil et 4 ans pour le maire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les conseillers municipaux sont élus pour 6 ans, et le maire est élu par le conseil pour la même durée.",
+      "isSituational": false
+    },
+    {
+      "id": "si-019",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui est élu lors des élections législatives ?",
+      "options": [
+        "Les députés",
+        "Les sénateurs",
+        "Le Président de la République",
+        "Les conseillers régionaux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les élections législatives permettent d’élire les 577 députés de l’Assemblée nationale.",
+      "isSituational": false
+    },
+    {
+      "id": "si-020",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat du Président de la République française ?",
+      "options": [
+        "5 ans (quinquennat)",
+        "7 ans (septennat)",
+        "4 ans",
+        "6 ans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depuis la réforme de 2000, le Président est élu pour un mandat de 5 ans (quinquennat).",
+      "isSituational": false
+    },
+    {
+      "id": "si-021",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat des députés ?",
+      "options": ["5 ans", "6 ans", "4 ans", "7 ans"],
+      "correctIndex": 0,
+      "explanation": "Les députés sont élus pour un mandat de 5 ans, sauf dissolution anticipée de l’Assemblée.",
+      "isSituational": false
+    },
+    {
+      "id": "si-022",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat des sénateurs ?",
+      "options": ["6 ans", "5 ans", "9 ans", "7 ans"],
+      "correctIndex": 0,
+      "explanation": "Les sénateurs sont élus pour 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans.",
+      "isSituational": false
+    },
+    {
+      "id": "si-023",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui dirige l’action du gouvernement ?",
+      "options": ["Le Premier ministre", "Le Président de la République", "Le Président de l’Assemblée nationale", "Le ministre de l’Intérieur"],
+      "correctIndex": 0,
+      "explanation": "Selon l’article 21 de la Constitution, le Premier ministre dirige l’action du Gouvernement.",
+      "isSituational": false
+    },
+    {
+      "id": "si-024",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "En France, est-ce possible d’adhérer à un parti politique ?",
+      "options": ["C’est un droit garanti par la Constitution", "Non, c’est interdit par la loi", "Uniquement pour les fonctionnaires", "Seulement après l’âge de 25 ans"],
+      "correctIndex": 0,
+      "explanation": "La liberté d’adhérer à un parti politique est garantie par l’article 4 de la Constitution.",
+      "isSituational": false
+    },
+    {
+      "id": "si-025",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui sanctionne l’auteur d’un vol ?",
+      "options": ["La justice (le tribunal)", "La police", "Le maire", "Le préfet"],
+      "correctIndex": 0,
+      "explanation": "C’est la justice qui sanctionne les auteurs d’infractions. Le vol est jugé par le tribunal correctionnel.",
+      "isSituational": false
+    },
+    {
+      "id": "si-026",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui gère les collèges publics ?",
+      "options": ["Le département", "La commune", "La région", "L’État"],
+      "correctIndex": 0,
+      "explanation": "Le département a la charge des collèges publics : construction, rénovation, entretien et fonctionnement.",
+      "isSituational": false
+    },
+    {
+      "id": "si-027",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui gère les écoles primaires et maternelles publiques ?",
+      "options": ["La commune", "Le département", "La région", "L’État"],
+      "correctIndex": 0,
+      "explanation": "La commune a la charge des écoles maternelles et élémentaires depuis les lois de Jules Ferry.",
+      "isSituational": false
+    },
+    {
+      "id": "si-028",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Comment sont désignés les maires ?",
+      "options": ["Ils sont élus par les conseillers municipaux", "Ils sont élus directement par les citoyens", "Ils sont nommés par le préfet", "Ils sont nommés par le Président"],
+      "correctIndex": 0,
+      "explanation": "Le maire est élu par le conseil municipal lors de sa première réunion après les élections.",
+      "isSituational": false
+    },
+    {
+      "id": "si-029",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle collectivité territoriale est responsable des transports régionaux ?",
+      "options": ["La région", "Le département", "La commune", "L’État"],
+      "correctIndex": 0,
+      "explanation": "Depuis la loi SRU de 2000, la région est responsable des transports régionaux (TER).",
+      "isSituational": false
+    },
+    {
+      "id": "si-030",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle est l’une des voies possibles pour modifier la Constitution ?",
+      "options": ["Par référendum ou par le Congrès", "Par décret du président", "Par décision du Conseil constitutionnel", "Par vote de l’Assemblée seule"],
+      "correctIndex": 0,
+      "explanation": "L’article 89 prévoit que la révision peut être approuvée par référendum ou par le Congrès à la majorité des 3/5.",
+      "isSituational": false
+    },
+    {
+      "id": "si-031",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui assure l’intérim du président de la République en cas de décès ?",
+      "options": ["Le président du Sénat", "Le Premier ministre", "Le président de l’Assemblée nationale", "Le président du Conseil constitutionnel"],
+      "correctIndex": 0,
+      "explanation": "Selon l’article 7 de la Constitution, en cas de vacance, c’est le président du Sénat qui assure l’intérim.",
+      "isSituational": false
+    },
+    {
+      "id": "si-032",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Conseil constitutionnel ?",
+      "options": ["Contrôler la constitutionnalité des lois", "Juger les crimes les plus graves", "Conseiller le gouvernement français", "Représenter la France à l’étranger"],
+      "correctIndex": 0,
+      "explanation": "Le Conseil constitutionnel contrôle la constitutionnalité des lois et veille à la régularité des élections.",
+      "isSituational": false
+    },
+    {
+      "id": "si-033",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle condition est obligatoire pour se présenter à l’élection présidentielle ?",
+      "options": ["Obtenir 500 parrainages d’élus", "Être membre d’un parti politique", "Avoir été ministre ou député", "Avoir au moins 40 ans révolus"],
+      "correctIndex": 0,
+      "explanation": "Il faut obtenir le parrainage de 500 élus provenant d’au moins 30 départements différents.",
+      "isSituational": false
+    },
+    {
+      "id": "si-034",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Combien y a-t-il de départements en France ?",
+      "options": ["101 départements", "95 départements", "96 départements", "110 départements"],
+      "correctIndex": 0,
+      "explanation": "La France compte 101 départements : 96 en métropole et 5 en outre-mer.",
+      "isSituational": false
+    },
+    {
+      "id": "si-035",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Comment est organisé le découpage administratif de la France ?",
+      "options": ["En communes, départements et régions", "En provinces, cantons et villes", "En préfectures, sous-préfectures et mairies", "En districts et arrondissements"],
+      "correctIndex": 0,
+      "explanation": "La France est organisée en trois niveaux de collectivités : communes, départements et régions.",
+      "isSituational": false
+    },
+    {
+      "id": "si-036",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui représente l’État dans un département ?",
+      "options": ["Le préfet", "Le maire de la préfecture", "Le président du conseil départemental", "Le député"],
+      "correctIndex": 0,
+      "explanation": "Le préfet est le représentant de l’État dans le département, nommé par le Président.",
+      "isSituational": false
+    },
+    {
+      "id": "si-037",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Président de la République ?",
+      "options": ["Veiller au respect de la Constitution", "Diriger l’action du gouvernement", "Voter les lois au Parlement", "Présider la Cour de cassation"],
+      "correctIndex": 0,
+      "explanation": "Selon l’article 5, le Président veille au respect de la Constitution et assure le fonctionnement régulier des pouvoirs publics.",
+      "isSituational": false
+    },
+    {
+      "id": "si-038",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Premier ministre ?",
+      "options": ["Diriger l’action du gouvernement", "Présider le Conseil des ministres", "Nommer les ministres du cabinet", "Dissoudre l’Assemblée nationale"],
+      "correctIndex": 0,
+      "explanation": "Le Premier ministre dirige l’action gouvernementale, détient le pouvoir réglementaire et assure l’exécution des lois.",
+      "isSituational": false
+    },
+    {
+      "id": "si-039",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Défenseur des droits ?",
+      "options": ["Défendre les droits des citoyens", "Défendre les intérêts de la France", "Représenter les accusés au tribunal", "Rédiger les projets de loi"],
+      "correctIndex": 0,
+      "explanation": "Le Défenseur des droits intervient pour les droits des usagers, lutte contre les discriminations et protège les lanceurs d’alerte.",
+      "isSituational": false
+    },
+    {
+      "id": "si-040",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+      "options": ["1992", "1985", "1957", "2002"],
+      "correctIndex": 0,
+      "explanation": "La citoyenneté européenne a été créée par le traité de Maastricht, signé le 7 février 1992.",
+      "isSituational": false
+    },
+    {
+      "id": "si-041",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel pays est le dernier à avoir intégré l’Union européenne ?",
+      "options": ["La Croatie", "La Bulgarie", "La Roumanie", "Chypre"],
+      "correctIndex": 0,
+      "explanation": "La Croatie est le dernier pays à avoir rejoint l’UE, le 1er juillet 2013, devenant le 28e État membre.",
+      "isSituational": false
+    },
+    {
+      "id": "si-042",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Qui a composé l’hymne européen ?",
+      "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Franz Schubert"],
+      "correctIndex": 0,
+      "explanation": "L’hymne européen est l’Ode à la Joie, extrait de la 9e symphonie de Beethoven, adoptée en 1985.",
+      "isSituational": false
+    },
+    {
+      "id": "si-043",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel jour célèbre-t-on la Journée de l’Europe ?",
+      "options": ["Le 9 mai", "Le 8 mai", "Le 1er mai", "Le 14 juillet"],
+      "correctIndex": 0,
+      "explanation": "Le 9 mai commémore la déclaration Schuman de 1950, considérée comme l’acte fondateur de l’UE.",
+      "isSituational": false
+    },
+    {
+      "id": "si-044",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Dans quelle ville se trouve le siège de la Banque centrale européenne ?",
+      "options": ["Francfort", "Bruxelles", "Strasbourg", "Luxembourg"],
+      "correctIndex": 0,
+      "explanation": "La BCE, créée en 1998, a son siège à Francfort-sur-le-Main en Allemagne.",
+      "isSituational": false
+    },
+    {
+      "id": "si-045",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Dans quelle ville se trouve le siège de la Commission européenne ?",
+      "options": ["Bruxelles", "Strasbourg", "Luxembourg", "La Haye"],
+      "correctIndex": 0,
+      "explanation": "La Commission européenne siège à Bruxelles, en Belgique, centre administratif de l’UE.",
+      "isSituational": false
+    },
+    {
+      "id": "si-046",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Combien de députés européens sont élus en France ?",
+      "options": ["81 députés", "74 députés", "96 députés", "72 députés"],
+      "correctIndex": 0,
+      "explanation": "La France élit 81 députés au Parlement européen, le deuxième contingent après l’Allemagne (96).",
+      "isSituational": false
+    },
+    {
+      "id": "si-047",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Combien d’États membres compte l’Union européenne ?",
+      "options": ["27 États membres", "28 États membres", "25 États membres", "30 États membres"],
+      "correctIndex": 0,
+      "explanation": "Depuis le Brexit (2020), l’UE compte 27 États membres.",
+      "isSituational": false
+    },
+    {
+      "id": "si-048",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel traité a créé l’Union européenne ?",
+      "options": ["Le traité de Maastricht", "Le traité de Rome", "Le traité de Lisbonne", "Le traité de Nice"],
+      "correctIndex": 0,
+      "explanation": "Le traité de Maastricht (1992) a créé l’UE et institué la citoyenneté européenne.",
+      "isSituational": false
+    },
+    {
+      "id": "si-049",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel pays a quitté l’Union européenne en 2020 ?",
+      "options": ["Le Royaume-Uni", "La Suisse", "La Norvège", "L’Islande"],
+      "correctIndex": 0,
+      "explanation": "Le Royaume-Uni a quitté l’UE le 31 janvier 2020, suite au référendum de 2016 (Brexit).",
+      "isSituational": false
+    },
+    {
+      "id": "si-050",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle est la devise de l’Union européenne ?",
+      "options": ["Unie dans la diversité", "L’union fait la force", "Liberté, Égalité, Fraternité", "Paix et prospérité"],
+      "correctIndex": 0,
+      "explanation": "La devise « Unie dans la diversité » symbolise l’unité européenne dans le respect des cultures nationales.",
+      "isSituational": false
+    },
+    {
+      "id": "si-051",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est l’hymne de l’Union européenne ?",
+      "options": ["L’Ode à la Joie", "La Marseillaise", "Le Boléro de Ravel", "Les Quatre Saisons"],
+      "correctIndex": 0,
+      "explanation": "L’Ode à la Joie de Beethoven a été adoptée comme hymne européen en 1985 par le Conseil de l’Europe.",
+      "isSituational": false
+    },
+    {
+      "id": "si-052",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Que représentent les douze étoiles du drapeau européen ?",
+      "options": ["La perfection et l’unité", "Les douze premiers États membres", "Les douze mois de l’année", "Les douze fondateurs de l’Europe"],
+      "correctIndex": 0,
+      "explanation": "Les 12 étoiles symbolisent la perfection et l’unité. Le nombre 12 ne représente pas les États membres.",
+      "isSituational": false
+    },
+    {
+      "id": "si-053",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Dans quelle ville siège le Parlement européen ?",
+      "options": ["Strasbourg", "Bruxelles", "Luxembourg", "Francfort"],
+      "correctIndex": 0,
+      "explanation": "Le siège officiel du Parlement européen est à Strasbourg, où se tiennent les sessions plénières.",
+      "isSituational": false
+    },
+    {
+      "id": "si-054",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Comment les députés européens sont-ils élus ?",
+      "options": ["Au suffrage universel direct", "Par les parlements nationaux", "Par les gouvernements des États membres", "Par le Conseil européen"],
+      "correctIndex": 0,
+      "explanation": "Depuis 1979, les députés européens sont élus au suffrage universel direct par les citoyens européens.",
+      "isSituational": false
+    },
+    {
+      "id": "si-055",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quelle institution européenne propose les lois ?",
+      "options": ["La Commission européenne", "Le Parlement européen", "Le Conseil de l’UE", "La Cour de justice"],
+      "correctIndex": 0,
+      "explanation": "La Commission européenne a le monopole de l’initiative législative et propose les textes de loi.",
+      "isSituational": false
+    },
+    {
+      "id": "si-056",
+      "category": "systeme-institutionnel",
+      "categoryLabel": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Conseil de l’Union européenne ?",
+      "options": ["Représenter les gouvernements des États", "Gérer la politique monétaire de l’UE", "Juger les litiges entre États membres", "Proposer les lois européennes"],
+      "correctIndex": 0,
+      "explanation": "Le Conseil de l’UE réunit les ministres des États membres et co-légifère avec le Parlement européen.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-001",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qui est responsable des dettes personnelles en France ?",
+      "options": ["Chacun est responsable de ses dettes", "L’État prend en charge les dettes", "La famille est solidaire des dettes", "Les dettes sont annulées après 5 ans"],
+      "correctIndex": 0,
+      "explanation": "En France, chaque personne majeure est juridiquement responsable de ses propres dettes et engagements.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-002",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Que signifie payer des impôts et taxes ?",
+      "options": ["Contribuer au financement des services publics", "Payer une amende pour infraction", "Rembourser une dette à l’État", "Financer les partis politiques"],
+      "correctIndex": 0,
+      "explanation": "Les impôts financent les services publics : éducation, santé, infrastructures, défense, etc.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-003",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce qu’une contravention ?",
+      "options": ["Une infraction mineure punie d’une amende", "Un délit grave puni de prison", "Un crime passible de la cour d’assises", "Une faute professionnelle"],
+      "correctIndex": 0,
+      "explanation": "Une contravention est une infraction pénale légère (excès de vitesse, stationnement) punie d’amende.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-004",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Que risque-t-on si l’on ne respecte pas les lois ?",
+      "options": ["Des sanctions pénales", "Uniquement un avertissement oral", "L’expulsion du territoire français", "Rien si c’est une première fois"],
+      "correctIndex": 0,
+      "explanation": "Ne pas respecter les lois expose à des sanctions : amendes, prison, travaux d’intérêt général selon la gravité.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-005",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "La scolarisation des enfants de 3 à 16 ans est-elle obligatoire ?",
+      "options": ["L’instruction est obligatoire de 3 à 16 ans", "Non, elle est entièrement facultative", "Seulement de 6 à 16 ans", "Seulement pour les citoyens français"],
+      "correctIndex": 0,
+      "explanation": "L’instruction est obligatoire de 3 à 16 ans (loi de 2019), à l’école ou par l’instruction en famille.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-006",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "L’école publique est-elle gratuite et laïque ?",
+      "options": ["Elle est gratuite et laïque depuis 1882", "Non, elle est payante pour tous", "Elle est gratuite mais religieuse", "Seulement pour les citoyens français"],
+      "correctIndex": 0,
+      "explanation": "Depuis les lois Ferry (1881-1882), l’école publique est gratuite, laïque et obligatoire.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-007",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Quelles sont les obligations des parents vis-à-vis de leurs enfants ?",
+      "options": ["Protection, entretien et éducation", "Uniquement les nourrir", "Aucune obligation légale", "Seulement jusqu’à 12 ans"],
+      "correctIndex": 0,
+      "explanation": "Les parents ont l’obligation légale de protéger, entretenir et éduquer leurs enfants jusqu’à leur autonomie.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-008",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Les hommes et les femmes ont-ils les mêmes droits en France ?",
+      "options": ["L’égalité est un principe constitutionnel", "Non, les hommes ont plus de droits", "Seulement dans certains domaines", "Cela dépend des régions françaises"],
+      "correctIndex": 0,
+      "explanation": "L’égalité femmes-hommes est inscrite dans la Constitution et garantie par de nombreuses lois.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-009",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que la liberté de conscience ?",
+      "options": ["Le droit de croire ou de ne pas croire", "Le droit de dénoncer ses voisins", "L’obligation de pratiquer une religion", "Un concept qui n’existe pas en France"],
+      "correctIndex": 0,
+      "explanation": "La liberté de conscience garantit à chacun le droit d’avoir ses propres convictions religieuses ou non.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-010",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que la liberté d’expression ?",
+      "options": ["Le droit d’exprimer ses opinions", "Le droit de tout dire sans limite", "Un privilège réservé aux journalistes", "Le droit de garder le silence"],
+      "correctIndex": 0,
+      "explanation": "La liberté d’expression permet de s’exprimer librement, sauf incitation à la haine, diffamation, etc.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-011",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Peut-on être arrêté sans raison en France ?",
+      "options": ["Non, toute arrestation doit être légale", "Oui, la police peut arrêter librement", "Seulement les étrangers en situation irrégulière", "Seulement pendant la nuit"],
+      "correctIndex": 0,
+      "explanation": "L’article 66 de la Constitution protège contre les détentions arbitraires. Toute arrestation doit être légale.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-012",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le droit à la présomption d’innocence ?",
+      "options": ["Être innocent jusqu’à preuve du contraire", "Pouvoir mentir lors d’un procès", "Ne jamais être jugé par un tribunal", "Être automatiquement acquitté"],
+      "correctIndex": 0,
+      "explanation": "La présomption d’innocence signifie que toute personne est innocente tant qu’elle n’a pas été jugée coupable.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-013",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Les citoyens ont-ils le droit de manifester ?",
+      "options": ["C’est un droit fondamental en France", "Non, c’est strictement interdit", "Seulement avec autorisation présidentielle", "Seulement les syndicats reconnus"],
+      "correctIndex": 0,
+      "explanation": "Le droit de manifester découle de la liberté de réunion et d’expression, avec obligation de déclaration préalable.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-014",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le droit de grève ?",
+      "options": ["Le droit de cesser le travail collectivement", "Le droit de ne jamais travailler", "Un droit réservé aux fonctionnaires", "Le droit de détruire son lieu de travail"],
+      "correctIndex": 0,
+      "explanation": "Le droit de grève, reconnu par la Constitution, permet aux salariés d’arrêter le travail pour revendiquer.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-015",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "La France est-elle un État de droit ?",
+      "options": ["L’État est soumis aux règles de droit", "Non, le Président est au-dessus des lois", "Seulement en temps de paix", "Cela dépend du gouvernement"],
+      "correctIndex": 0,
+      "explanation": "Dans un État de droit, tous (citoyens et pouvoirs publics) sont soumis aux mêmes règles juridiques.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-016",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le droit d’asile ?",
+      "options": ["La protection des personnes persécutées", "Le droit de vivre dans une église", "Un visa de tourisme longue durée", "Le droit de changer de nationalité"],
+      "correctIndex": 0,
+      "explanation": "Le droit d’asile protège les personnes fuyant des persécutions (politique, religieuse, ethnique, etc.).",
+      "isSituational": false
+    },
+    {
+      "id": "dd-017",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Les discriminations sont-elles interdites en France ?",
+      "options": ["Elles sont punies par la loi française", "Non, elles sont tolérées en France", "Seulement dans le monde du travail", "Seulement les discriminations raciales"],
+      "correctIndex": 0,
+      "explanation": "La loi interdit les discriminations fondées sur l’origine, le sexe, l’orientation sexuelle, le handicap, etc.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-018",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le PACS ?",
+      "options": ["Un contrat d’union civile", "Un type de mariage religieux", "Un contrat de travail spécifique", "Une adoption simplifiée pour tous"],
+      "correctIndex": 0,
+      "explanation": "Le PACS (Pacte Civil de Solidarité), créé en 1999, organise la vie commune de deux personnes majeures.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-019",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Le mariage entre personnes de même sexe est-il autorisé ?",
+      "options": ["Depuis la loi du 17 mai 2013", "Non, c’est interdit en France", "Seulement le PACS est autorisé", "Seulement dans certaines villes"],
+      "correctIndex": 0,
+      "explanation": "La loi du 17 mai 2013 a ouvert le mariage et l’adoption aux couples de même sexe en France.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-020",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le Code civil ?",
+      "options": ["Les lois sur les personnes et contrats", "Le code de la route automobile", "Les règles de politesse en société", "Le règlement intérieur de l’armée"],
+      "correctIndex": 0,
+      "explanation": "Le Code civil (1804, code Napoléon) régit le droit des personnes, de la famille, des biens et des contrats.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-021",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que l’autorité parentale ?",
+      "options": ["Les droits et devoirs des parents", "Le droit de punir physiquement", "L’autorité de l’école sur les élèves", "Le pouvoir des grands-parents"],
+      "correctIndex": 0,
+      "explanation": "L’autorité parentale est l’ensemble des droits et devoirs des parents pour protéger l’enfant jusqu’à sa majorité.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-022",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Quel est l’âge de la majorité en France ?",
+      "options": ["18 ans", "21 ans", "16 ans", "25 ans"],
+      "correctIndex": 0,
+      "explanation": "La majorité civile est fixée à 18 ans depuis 1974. Avant, c’était 21 ans.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-023",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Les violences conjugales sont-elles punies par la loi ?",
+      "options": ["C’est un délit pénal aggravé", "Non, c’est une affaire privée", "Seulement si elles sont graves", "Seulement envers les femmes"],
+      "correctIndex": 0,
+      "explanation": "Les violences conjugales sont un délit pénal, avec circonstance aggravante quand commises par le partenaire.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-024",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que la Sécurité sociale ?",
+      "options": ["Le système de protection sociale", "Une assurance privée facultative", "La police nationale française", "Un impôt sur les entreprises"],
+      "correctIndex": 0,
+      "explanation": "La Sécurité sociale, créée en 1945, assure la protection maladie, retraite, famille et accidents du travail.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-025",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "L’assurance maladie est-elle obligatoire en France ?",
+      "options": ["Elle est obligatoire pour tous les résidents", "Non, c’est entièrement facultatif", "Seulement pour les salariés", "Seulement pour les Français"],
+      "correctIndex": 0,
+      "explanation": "La Protection Universelle Maladie (PUMa) garantit à tous les résidents une couverture maladie.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-026",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le RSA ?",
+      "options": ["Une allocation de revenu minimum", "Un impôt sur les revenus des ménages", "Une assurance automobile obligatoire", "Un diplôme scolaire professionnel"],
+      "correctIndex": 0,
+      "explanation": "Le RSA (Revenu de Solidarité Active) garantit un revenu minimum aux personnes sans ressources.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-027",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le droit du travail ?",
+      "options": ["Les règles employeur-salarié", "Le droit de ne pas travailler", "Les règles de la fonction publique", "Le droit de créer une entreprise"],
+      "correctIndex": 0,
+      "explanation": "Le droit du travail fixe les règles des contrats, durée du travail, salaire minimum, licenciement, etc.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-028",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le SMIC ?",
+      "options": ["Le salaire minimum légal en France", "Un type de contrat de travail", "Une aide au logement", "Un diplôme professionnel"],
+      "correctIndex": 0,
+      "explanation": "Le SMIC (Salaire Minimum Interprofessionnel de Croissance) est le salaire horaire minimum légal.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-029",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce qu’un syndicat ?",
+      "options": ["Une organisation de travailleurs", "Une entreprise privée", "Un tribunal du travail", "Une agence de recrutement"],
+      "correctIndex": 0,
+      "explanation": "Les syndicats défendent les intérêts professionnels et négocient les conditions de travail.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-030",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le service civique ?",
+      "options": ["Un engagement volontaire", "Le service militaire obligatoire", "Un travail forcé par l’État", "Un stage obligatoire en entreprise"],
+      "correctIndex": 0,
+      "explanation": "Le service civique permet aux 16-25 ans de s’engager volontairement dans des missions d’intérêt général.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-031",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que la JDC (Journée Défense et Citoyenneté) ?",
+      "options": ["Une journée d’information obligatoire", "Le service militaire actuel", "Une journée de bénévolat", "Un examen civique obligatoire"],
+      "correctIndex": 0,
+      "explanation": "La JDC est obligatoire pour tous les jeunes Français de 16 à 25 ans, informant sur la défense et la citoyenneté.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-032",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Le service national universel (SNU) est-il obligatoire ?",
+      "options": ["Non, il est actuellement volontaire", "Oui, pour tous les jeunes", "Seulement pour les garçons", "Seulement pour obtenir la nationalité"],
+      "correctIndex": 0,
+      "explanation": "Le SNU est actuellement basé sur le volontariat, avec des séjours de cohésion et des missions d’intérêt général.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-033",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Quel est le rôle du juge ?",
+      "options": ["Appliquer la loi et juger", "Faire les lois au Parlement", "Arrêter les criminels", "Défendre les accusés au tribunal"],
+      "correctIndex": 0,
+      "explanation": "Le juge applique la loi aux litiges qui lui sont soumis et rend des décisions de justice impartiales.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-034",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce qu’un avocat ?",
+      "options": ["Un défenseur des justiciables", "Un juge du tribunal", "Un policier judiciaire", "Un greffier du tribunal"],
+      "correctIndex": 0,
+      "explanation": "L’avocat conseille ses clients, les représente et les défend devant les tribunaux.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-035",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "L’aide juridictionnelle existe-t-elle en France ?",
+      "options": ["L’État peut financer l’avocat", "Non, les avocats sont toujours payants", "Seulement pour les criminels présumés", "Seulement pour les personnes étrangères"],
+      "correctIndex": 0,
+      "explanation": "L’aide juridictionnelle permet aux personnes à revenus modestes de bénéficier d’un avocat gratuit ou partiellement pris en charge.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-036",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Les décisions de justice peuvent-elles être contestées ?",
+      "options": ["Par voie d’appel ou de cassation", "Non, elles sont définitives", "Seulement par le Président", "Seulement en cas d’erreur évidente"],
+      "correctIndex": 0,
+      "explanation": "Le double degré de juridiction permet de faire appel. La Cour de cassation vérifie l’application du droit.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-037",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que la médiation ?",
+      "options": ["Une résolution amiable des conflits", "Un procès simplifié au tribunal", "Une sanction pénale légère", "Une procédure d’appel accélérée"],
+      "correctIndex": 0,
+      "explanation": "La médiation permet de résoudre un conflit à l’amiable avec l’aide d’un médiateur neutre et impartial.",
+      "isSituational": false
+    },
+    {
+      "id": "dd-038",
+      "category": "droits-devoirs",
+      "categoryLabel": "Droits et devoirs",
+      "question": "Qu’est-ce que le droit à un procès équitable ?",
+      "options": ["Le droit à une justice impartiale", "Le droit d’être toujours acquitté", "Le droit de choisir son propre juge", "Le droit de ne pas être jugé"],
+      "correctIndex": 0,
+      "explanation": "L’article 6 de la CEDH garantit le droit à un procès équitable : impartialité, publicité, délai raisonnable.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-001",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Panthéon ?",
+      "options": ["Un monument aux grands personnages", "Une église catholique de Paris", "Le siège du gouvernement français", "Un musée d’art moderne parisien"],
+      "correctIndex": 0,
+      "explanation": "Le Panthéon à Paris honore les personnalités qui ont marqué l’histoire de France (Voltaire, Hugo, Curie…).",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-002",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Jeanne d’Arc ?",
+      "options": ["Une héroïne de la guerre de Cent Ans", "Une reine de France au Moyen Âge", "Une révolutionnaire de 1789", "Une impératrice de Rome antique"],
+      "correctIndex": 0,
+      "explanation": "Jeanne d’Arc (1412-1431) a libéré Orléans et conduit Charles VII au sacre à Reims pendant la guerre de Cent Ans.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-003",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Louis XIV ?",
+      "options": ["Le Roi-Soleil, symbole de la monarchie absolue", "Le roi guillotiné pendant la Révolution", "Le premier roi de France", "Le dernier empereur français"],
+      "correctIndex": 0,
+      "explanation": "Louis XIV (1643-1715) a incarné la monarchie absolue et fait construire le château de Versailles.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-004",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand a eu lieu la Révolution française ?",
+      "options": ["1789", "1815", "1848", "1870"],
+      "correctIndex": 0,
+      "explanation": "La Révolution française a débuté en 1789 avec la prise de la Bastille le 14 juillet.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-005",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Déclaration des droits de l’homme et du citoyen ?",
+      "options": ["Un texte fondateur de 1789", "La Constitution de la Ve République", "Un traité européen fondateur", "Une loi sur le droit du travail"],
+      "correctIndex": 0,
+      "explanation": "Adoptée le 26 août 1789, elle proclame les droits naturels et imprescriptibles de l’homme.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-006",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Napoléon Bonaparte ?",
+      "options": ["Un général devenu empereur", "Un roi de la dynastie des Bourbons", "Un président de la IIIe République", "Un révolutionnaire de 1789"],
+      "correctIndex": 0,
+      "explanation": "Napoléon Bonaparte a été Premier consul puis empereur, modernisant l’administration et créant le Code civil.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-007",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand la République a-t-elle été définitivement instaurée en France ?",
+      "options": ["En 1870, avec la IIIe République", "En 1789, avec la Révolution", "En 1958, avec la Ve République", "En 1848, avec la IIe République"],
+      "correctIndex": 0,
+      "explanation": "La IIIe République (1870-1940) a établi durablement le régime républicain en France.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-008",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’affaire Dreyfus ?",
+      "options": ["Une erreur judiciaire célèbre", "Un scandale financier majeur", "Un attentat terroriste", "Une guerre coloniale française"],
+      "correctIndex": 0,
+      "explanation": "Le capitaine Dreyfus, accusé à tort d’espionnage, a été réhabilité en 1906. L’affaire a révélé l’antisémitisme.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-009",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand la loi de séparation des Églises et de l’État a-t-elle été adoptée ?",
+      "options": ["1905", "1789", "1848", "1958"],
+      "correctIndex": 0,
+      "explanation": "La loi du 9 décembre 1905 établit la laïcité : l’État ne reconnaît ni ne subventionne aucun culte.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-010",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand les femmes ont-elles obtenu le droit de vote en France ?",
+      "options": ["1944", "1789", "1905", "1968"],
+      "correctIndex": 0,
+      "explanation": "Les femmes ont obtenu le droit de vote le 21 avril 1944 et ont voté pour la première fois en 1945.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-011",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand a débuté la Première Guerre mondiale ?",
+      "options": ["1914", "1918", "1939", "1870"],
+      "correctIndex": 0,
+      "explanation": "La Première Guerre mondiale a commencé en 1914 et s’est terminée le 11 novembre 1918.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-012",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand a débuté la Seconde Guerre mondiale ?",
+      "options": ["1939", "1914", "1945", "1940"],
+      "correctIndex": 0,
+      "explanation": "La Seconde Guerre mondiale a débuté le 1er septembre 1939 avec l’invasion de la Pologne par l’Allemagne.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-013",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Résistance pendant la Seconde Guerre mondiale ?",
+      "options": ["La lutte contre l’occupation nazie", "L’armée régulière française", "Un parti politique de gauche", "Une organisation humanitaire"],
+      "correctIndex": 0,
+      "explanation": "La Résistance regroupait ceux qui luttaient contre l’occupation nazie et le régime de Vichy (1940-1944).",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-014",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Jean Moulin ?",
+      "options": ["Un héros de la Résistance", "Un général de la Première Guerre", "Un président de la République", "Un écrivain célèbre du XIXe"],
+      "correctIndex": 0,
+      "explanation": "Jean Moulin a unifié la Résistance sous l’autorité du général de Gaulle. Il est mort sous la torture en 1943.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-015",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Charles de Gaulle ?",
+      "options": ["Le fondateur de la Ve République", "Un roi de France médiéval", "Un révolutionnaire de 1789", "Un empereur du XIXe siècle"],
+      "correctIndex": 0,
+      "explanation": "De Gaulle a dirigé la France libre (1940-1944) et fondé la Ve République en 1958.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-016",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quand la Ve République a-t-elle été fondée ?",
+      "options": ["1958", "1946", "1870", "1969"],
+      "correctIndex": 0,
+      "explanation": "La Ve République a été fondée en 1958 par le général de Gaulle, avec une nouvelle Constitution.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-017",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quel est le plus long fleuve de France ?",
+      "options": ["La Loire", "La Seine", "Le Rhône", "La Garonne"],
+      "correctIndex": 0,
+      "explanation": "La Loire mesure 1 012 km, c’est le plus long fleuve entièrement français.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-018",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quel est le plus haut sommet de France ?",
+      "options": ["Le Mont Blanc", "Le Mont Ventoux", "Le Puy de Dôme", "Le Pic du Midi"],
+      "correctIndex": 0,
+      "explanation": "Le Mont Blanc, dans les Alpes, culmine à 4 807 mètres. C’est aussi le plus haut sommet d’Europe occidentale.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-019",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Combien de pays ont une frontière terrestre avec la France métropolitaine ?",
+      "options": ["8 pays", "6 pays", "5 pays", "10 pays"],
+      "correctIndex": 0,
+      "explanation": "La France métropolitaine partage ses frontières avec : Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne et Andorre.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-020",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quels sont les territoires français d’outre-mer ?",
+      "options": ["Guadeloupe, Martinique, Réunion, Guyane", "Uniquement la Corse méditerranéenne", "L’Algérie et le Maroc actuels", "Aucun territoire hors métropole"],
+      "correctIndex": 0,
+      "explanation": "Les DROM-COM incluent la Guadeloupe, Martinique, Guyane, Réunion, Mayotte, Polynésie française, Nouvelle-Calédonie, etc.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-021",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelle est la population approximative de la France ?",
+      "options": ["Environ 68 millions d’habitants", "Environ 50 millions d’habitants", "Environ 80 millions d’habitants", "Environ 100 millions d’habitants"],
+      "correctIndex": 0,
+      "explanation": "La France compte environ 68 millions d’habitants (métropole et outre-mer confondus).",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-022",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelle est la superficie de la France métropolitaine ?",
+      "options": ["Environ 551 000 km²", "Environ 300 000 km²", "Environ 800 000 km²", "Environ 1 million de km²"],
+      "correctIndex": 0,
+      "explanation": "La France métropolitaine couvre environ 551 000 km², ce qui en fait le plus grand pays d’Europe occidentale.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-023",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelles sont les principales chaînes de montagnes en France ?",
+      "options": ["Alpes, Pyrénées, Massif central, Vosges", "Uniquement les Alpes françaises", "Les Apennins et les Carpates européennes", "La Sierra Nevada et les Pyrénées"],
+      "correctIndex": 0,
+      "explanation": "La France possède plusieurs massifs : Alpes, Pyrénées, Massif central, Vosges et Jura.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-024",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quels sont les principaux fleuves de France ?",
+      "options": ["Seine, Loire, Rhône, Garonne", "Uniquement la Seine parisienne", "Le Danube et le Rhin", "Le Nil et l’Amazone"],
+      "correctIndex": 0,
+      "explanation": "Les quatre grands fleuves français sont la Seine, la Loire, le Rhône et la Garonne.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-025",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelles mers et océans bordent la France ?",
+      "options": ["Manche, Atlantique, Méditerranée", "Uniquement l’océan Atlantique", "La mer Baltique et la mer Noire", "L’océan Pacifique uniquement"],
+      "correctIndex": 0,
+      "explanation": "La France métropolitaine est bordée par la Manche, l’océan Atlantique et la mer Méditerranée.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-026",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la tour Eiffel ?",
+      "options": ["Le monument emblématique de Paris", "Une cathédrale médiévale célèbre", "Le siège du gouvernement français", "Un musée d’art contemporain"],
+      "correctIndex": 0,
+      "explanation": "La tour Eiffel, construite par Gustave Eiffel pour l’Exposition universelle de 1889, mesure 330 mètres.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-027",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Louvre ?",
+      "options": ["Le plus grand musée d’art au monde", "Un château de la vallée de la Loire", "Le palais présidentiel français", "Une université parisienne"],
+      "correctIndex": 0,
+      "explanation": "Le musée du Louvre, ancien palais royal, abrite des œuvres comme la Joconde et la Vénus de Milo.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-028",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le château de Versailles ?",
+      "options": ["Le palais de Louis XIV", "Une forteresse médiévale", "Le siège du Parlement français", "Un monastère bénédictin"],
+      "correctIndex": 0,
+      "explanation": "Le château de Versailles, construit sous Louis XIV, a été le centre du pouvoir royal de 1682 à 1789.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-029",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui a peint la Joconde ?",
+      "options": ["Léonard de Vinci", "Pablo Picasso", "Claude Monet", "Vincent van Gogh"],
+      "correctIndex": 0,
+      "explanation": "La Joconde (Mona Lisa) a été peinte par Léonard de Vinci au début du XVIe siècle. Elle est au Louvre.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-030",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui a écrit Les Misérables ?",
+      "options": ["Victor Hugo", "Émile Zola", "Gustave Flaubert", "Honoré de Balzac"],
+      "correctIndex": 0,
+      "explanation": "Victor Hugo a publié Les Misérables en 1862, roman majeur de la littérature française.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-031",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Molière ?",
+      "options": ["Un dramaturge du XVIIe siècle", "Un roi de France du XVIIe", "Un philosophe des Lumières", "Un peintre impressionniste"],
+      "correctIndex": 0,
+      "explanation": "Molière (1622-1673) a écrit Le Malade imaginaire, Tartuffe, Le Bourgeois gentilhomme et d’autres comédies.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-032",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Voltaire ?",
+      "options": ["Un philosophe des Lumières", "Un roi de France du XVIIIe", "Un général napoléonien", "Un peintre célèbre"],
+      "correctIndex": 0,
+      "explanation": "Voltaire (1694-1778) a défendu la liberté d’expression et la tolérance religieuse dans ses écrits.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-033",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le siècle des Lumières ?",
+      "options": ["Un mouvement intellectuel du XVIIIe", "La Renaissance italienne du XVe", "Le Moyen Âge européen", "La Révolution industrielle"],
+      "correctIndex": 0,
+      "explanation": "Les Lumières (XVIIIe siècle) ont promu la raison, la science et la liberté (Voltaire, Rousseau, Montesquieu).",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-034",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Marie Curie ?",
+      "options": ["Une scientifique double prix Nobel", "Une reine de France médiévale", "Une révolutionnaire de 1789", "Une actrice du cinéma muet"],
+      "correctIndex": 0,
+      "explanation": "Marie Curie (1867-1934) a découvert la radioactivité et obtenu deux prix Nobel. Elle est au Panthéon.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-035",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Louis Pasteur ?",
+      "options": ["Un pionnier de la microbiologie", "Un roi de France médiéval", "Un philosophe des Lumières", "Un compositeur classique"],
+      "correctIndex": 0,
+      "explanation": "Louis Pasteur (1822-1895) a développé la pasteurisation et le vaccin contre la rage.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-036",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’impressionnisme ?",
+      "options": ["Un mouvement artistique du XIXe siècle", "Un style architectural du Moyen Âge", "Un courant philosophique allemand", "Un genre musical romantique"],
+      "correctIndex": 0,
+      "explanation": "L’impressionnisme (Monet, Renoir, Degas) a révolutionné la peinture en privilégiant la lumière et l’instant.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-037",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Claude Monet ?",
+      "options": ["Un peintre impressionniste", "Un philosophe des Lumières", "Un roi de France médiéval", "Un compositeur de musique"],
+      "correctIndex": 0,
+      "explanation": "Claude Monet (1840-1926) est le père de l’impressionnisme, célèbre pour sa série des Nymphéas.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-038",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelle est la plus ancienne université de France ?",
+      "options": ["L’Université de Paris (Sorbonne)", "L’Université de Lyon", "L’Université de Bordeaux", "L’Université de Strasbourg"],
+      "correctIndex": 0,
+      "explanation": "L’Université de Paris (Sorbonne) a été fondée vers 1150-1200, c’est l’une des plus anciennes d’Europe.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-039",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Notre-Dame de Paris ?",
+      "options": ["Une cathédrale gothique parisienne", "Un musée d’art moderne parisien", "Le siège du gouvernement français", "Un château de la vallée de la Loire"],
+      "correctIndex": 0,
+      "explanation": "Notre-Dame de Paris, chef-d’œuvre gothique commencé en 1163, est au cœur de Paris sur l’île de la Cité.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-040",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Mont-Saint-Michel ?",
+      "options": ["Une abbaye médiévale normande", "Un volcan actif en Auvergne", "Une station de ski alpine", "Un port de pêche breton"],
+      "correctIndex": 0,
+      "explanation": "Le Mont-Saint-Michel, site classé au patrimoine mondial de l’UNESCO, est célèbre pour son abbaye et ses marées.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-041",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Festival de Cannes ?",
+      "options": ["Un prestigieux festival de cinéma", "Un festival de musique classique", "Une foire agricole nationale", "Un carnaval provençal"],
+      "correctIndex": 0,
+      "explanation": "Le Festival de Cannes, créé en 1946, récompense les meilleurs films avec la Palme d’Or.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-042",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Tour de France ?",
+      "options": ["Une course cycliste par étapes", "Un circuit automobile français", "Un marathon international annuel", "Un parcours touristique national"],
+      "correctIndex": 0,
+      "explanation": "Le Tour de France, créé en 1903, est la plus prestigieuse course cycliste par étapes au monde.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-043",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Roland-Garros ?",
+      "options": ["Un tournoi de tennis", "Un aéroport parisien international", "Un stade de football national", "Un musée d’aviation militaire"],
+      "correctIndex": 0,
+      "explanation": "Roland-Garros est l’un des quatre tournois du Grand Chelem de tennis, joué sur terre battue à Paris.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-044",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la gastronomie française ?",
+      "options": ["Un patrimoine culturel UNESCO", "Une simple tradition culinaire", "Un style de restauration rapide", "Un régime alimentaire strict"],
+      "correctIndex": 0,
+      "explanation": "Le repas gastronomique français est inscrit au patrimoine immatériel de l’UNESCO depuis 2010.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-045",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le champagne ?",
+      "options": ["Un vin effervescent de la région Champagne", "Un vin rouge produit à Bordeaux", "Une bière traditionnelle française", "Un cocktail d’origine française"],
+      "correctIndex": 0,
+      "explanation": "Le champagne est un vin effervescent AOC produit uniquement dans la région Champagne.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-046",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quels sont les principaux fromages français ?",
+      "options": ["Camembert, Roquefort, Brie, Comté", "Uniquement le Camembert de Normandie", "Les fromages anglais comme le Cheddar", "La France n’a pas de tradition fromagère"],
+      "correctIndex": 0,
+      "explanation": "La France produit plus de 400 variétés de fromages. Le général de Gaulle a dit : ’Comment gouverner un pays qui a 246 variétés de fromage ?’",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-047",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’Arc de Triomphe ?",
+      "options": ["Un monument aux armées françaises", "Une église parisienne historique", "Un musée d’art parisien", "Une gare ferroviaire parisienne"],
+      "correctIndex": 0,
+      "explanation": "L’Arc de Triomphe, commandé par Napoléon, abrite la tombe du Soldat inconnu sous sa voûte.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-048",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que les Champs-Élysées ?",
+      "options": ["La plus célèbre avenue de Paris", "Un parc national", "Un quartier de Lyon", "Un musée"],
+      "correctIndex": 0,
+      "explanation": "Les Champs-Élysées, longue de 1,9 km, relie la place de la Concorde à l’Arc de Triomphe.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-049",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Simone Veil ?",
+      "options": ["Une femme politique majeure", "Une reine de France médiévale", "Une actrice de théâtre", "Une chanteuse populaire"],
+      "correctIndex": 0,
+      "explanation": "Simone Veil (1927-2017) a fait voter la loi sur l’IVG en 1975 et fut la première présidente du Parlement européen élu. Elle est au Panthéon.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-050",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Édith Piaf ?",
+      "options": ["Une chanteuse légendaire", "Une actrice de cinéma muet", "Une femme politique française", "Une écrivaine célèbre"],
+      "correctIndex": 0,
+      "explanation": "Édith Piaf (1915-1963) est l’une des plus grandes chanteuses françaises, célèbre pour ’La Vie en rose’ et ’Non, je ne regrette rien’.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-051",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Coco Chanel ?",
+      "options": ["Une créatrice de mode célèbre", "Une chanteuse des années 1920", "Une actrice du cinéma français", "Une femme politique influente"],
+      "correctIndex": 0,
+      "explanation": "Coco Chanel (1883-1971) a libéré les femmes du corset et créé un style élégant et moderne.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-052",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Légion d’honneur ?",
+      "options": ["La plus haute distinction française", "Un régiment militaire d’élite", "Un titre de noblesse héréditaire", "Un diplôme universitaire supérieur"],
+      "correctIndex": 0,
+      "explanation": "La Légion d’honneur, créée en 1802 par Napoléon, récompense les mérites civils et militaires.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-053",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le TGV ?",
+      "options": ["Le train à grande vitesse", "Un avion de chasse", "Une autoroute", "Un type de voiture"],
+      "correctIndex": 0,
+      "explanation": "Le TGV (Train à Grande Vitesse), lancé en 1981, peut atteindre 320 km/h en service commercial.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-054",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’Académie française ?",
+      "options": ["L’institution gardienne du français", "Une école d’art prestigieuse", "Un parti politique historique", "Un musée national"],
+      "correctIndex": 0,
+      "explanation": "L’Académie française, fondée par Richelieu en 1635, veille sur la langue française et rédige le dictionnaire.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-055",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Combien de régions compte la France métropolitaine ?",
+      "options": ["13 régions depuis 2016", "22 régions", "18 régions", "27 régions"],
+      "correctIndex": 0,
+      "explanation": "Depuis la réforme territoriale de 2016, la France métropolitaine compte 13 régions.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-056",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Paris", "Lyon", "Marseille", "Bordeaux"],
+      "correctIndex": 0,
+      "explanation": "Paris est la capitale de la France depuis le Xe siècle et abrite les principales institutions de l’État.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-057",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Quelles sont les plus grandes villes de France après Paris ?",
+      "options": ["Marseille, Lyon, Toulouse, Nice", "Bordeaux, Nantes, Lille, Strasbourg", "Montpellier, Rennes, Le Havre, Reims", "Toulon, Grenoble, Dijon, Angers"],
+      "correctIndex": 0,
+      "explanation": "Les plus grandes villes après Paris sont Marseille, Lyon, Toulouse et Nice par leur population.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-058",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’abolition de l’esclavage en France ?",
+      "options": ["Une abolition définitive en 1848", "L’esclavage n’a jamais existé ici", "L’abolition date de 1789", "L’esclavage existe encore aujourd’hui"],
+      "correctIndex": 0,
+      "explanation": "L’esclavage a été définitivement aboli le 27 avril 1848, sous l’impulsion de Victor Schœlcher.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-059",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la décolonisation française ?",
+      "options": ["L’indépendance des colonies après 1945", "Une politique de colonisation active", "L’expansion de l’empire français", "Un mouvement artistique parisien"],
+      "correctIndex": 0,
+      "explanation": "La décolonisation s’est étendue de 1945 à 1962 (guerre d’Algérie), avec l’indépendance de nombreux territoires.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-060",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Mai 68 ?",
+      "options": ["Un mouvement de contestation sociale", "Une révolution politique violente", "Une guerre civile en France", "Une crise économique mondiale"],
+      "correctIndex": 0,
+      "explanation": "Mai 68 a été un mouvement étudiant et ouvrier qui a profondément transformé la société française.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-061",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Francophonie ?",
+      "options": ["Les pays partageant le français", "Une région de France métropolitaine", "Un parti politique francophone", "Un style musical traditionnel"],
+      "correctIndex": 0,
+      "explanation": "La Francophonie regroupe 88 États et gouvernements partageant le français, parlé par 321 millions de personnes.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-062",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Albert Camus ?",
+      "options": ["Un écrivain prix Nobel", "Un peintre impressionniste", "Un compositeur classique", "Un homme politique français"],
+      "correctIndex": 0,
+      "explanation": "Albert Camus (1913-1960) a écrit L’Étranger et La Peste. Prix Nobel de littérature 1957.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-063",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Jean-Paul Sartre ?",
+      "options": ["Un philosophe et écrivain existentialiste", "Un peintre impressionniste français", "Un roi de France du XVIIe siècle", "Un sportif olympique célèbre"],
+      "correctIndex": 0,
+      "explanation": "Jean-Paul Sartre (1905-1980) est le fondateur de l’existentialisme français. Il a refusé le prix Nobel.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-064",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était René Descartes ?",
+      "options": ["Un philosophe et mathématicien", "Un roi de France médiéval", "Un peintre de la Renaissance", "Un général de Napoléon"],
+      "correctIndex": 0,
+      "explanation": "Descartes (1596-1650), père du rationalisme, est célèbre pour ’Je pense, donc je suis’.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-065",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Pont du Gard ?",
+      "options": ["Un aqueduc romain antique", "Un pont médiéval fortifié", "Un barrage hydroélectrique", "Une autoroute du sud"],
+      "correctIndex": 0,
+      "explanation": "Le Pont du Gard est un aqueduc romain du 1er siècle, situé dans le Gard, classé au patrimoine mondial.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-066",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la grotte de Lascaux ?",
+      "options": ["Une grotte préhistorique ornée", "Une mine de charbon ancienne", "Une cave à vin historique", "Un abri de la Résistance"],
+      "correctIndex": 0,
+      "explanation": "La grotte de Lascaux (Dordogne) contient des peintures préhistoriques parmi les plus célèbres au monde.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-067",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que les châteaux de la Loire ?",
+      "options": ["Des châteaux Renaissance", "Des forteresses médiévales bretonnes", "Des palais parisiens historiques", "Des ruines romaines antiques"],
+      "correctIndex": 0,
+      "explanation": "Les châteaux de la Loire (Chambord, Chenonceau, Amboise…) sont des joyaux de la Renaissance française.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-068",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Corse ?",
+      "options": ["Une île française en Méditerranée", "Une région du nord de la France", "Un département d’outre-mer", "Une ville du sud"],
+      "correctIndex": 0,
+      "explanation": "La Corse est une île méditerranéenne française, lieu de naissance de Napoléon Bonaparte.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-069",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le débarquement du 6 juin 1944 ?",
+      "options": ["Une opération de libération alliée", "Une bataille de la Première Guerre", "Une révolution populaire", "Un coup d’État militaire"],
+      "correctIndex": 0,
+      "explanation": "Le D-Day (6 juin 1944) a marqué le début de la libération de l’Europe occidentale par les Alliés en Normandie.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-070",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Verdun ?",
+      "options": ["Une bataille de la Grande Guerre", "Une ville médiévale fortifiée", "Un château de la Loire", "Un port de commerce maritime"],
+      "correctIndex": 0,
+      "explanation": "La bataille de Verdun (1916) fut l’une des plus meurtrières de la Première Guerre mondiale (300 000 morts).",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-071",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Stade de France ?",
+      "options": ["Le plus grand stade français", "Un musée du sport national", "Le siège de la fédération football", "Un parc d’attractions parisien"],
+      "correctIndex": 0,
+      "explanation": "Le Stade de France à Saint-Denis (80 000 places) a été inauguré pour la Coupe du monde de football 1998.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-072",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que l’Airbus ?",
+      "options": ["Un constructeur d’avions européen", "Un train à grande vitesse français", "Un bateau de croisière de luxe", "Une fusée spatiale européenne"],
+      "correctIndex": 0,
+      "explanation": "Airbus est un constructeur aéronautique européen dont les usines principales sont à Toulouse.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-073",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Ariane ?",
+      "options": ["Une fusée spatiale européenne", "Un satellite de communication", "Un sous-marin nucléaire", "Un avion militaire français"],
+      "correctIndex": 0,
+      "explanation": "Ariane est le lanceur spatial européen, lancé depuis le Centre spatial guyanais à Kourou.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-074",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le Centre Pompidou ?",
+      "options": ["Un musée d’art moderne", "Un hôpital parisien", "Une université publique", "Un centre commercial parisien"],
+      "correctIndex": 0,
+      "explanation": "Le Centre Pompidou (Beaubourg), inauguré en 1977, est un musée d’art moderne à l’architecture innovante.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-075",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la Fête de la musique ?",
+      "options": ["Une fête annuelle le 21 juin", "Un festival de jazz parisien", "Un concours de chant national", "Une émission de télévision"],
+      "correctIndex": 0,
+      "explanation": "La Fête de la musique, créée en 1982, a lieu chaque 21 juin (solstice d’été) dans toute la France.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-076",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que les Journées du patrimoine ?",
+      "options": ["Un week-end d’ouverture des monuments", "Un salon professionnel du patrimoine", "Une foire commerciale nationale", "Un festival de cinéma d’art"],
+      "correctIndex": 0,
+      "explanation": "Les Journées européennes du patrimoine (3e week-end de septembre) permettent de visiter des lieux habituellement fermés.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-077",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Alexandre Dumas ?",
+      "options": ["Un écrivain du XIXe siècle", "Un peintre romantique", "Un musicien classique", "Un homme politique français"],
+      "correctIndex": 0,
+      "explanation": "Alexandre Dumas (1802-1870) a écrit des romans d’aventure populaires comme Les Trois Mousquetaires.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-078",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qui était Jules Verne ?",
+      "options": ["Un écrivain de science-fiction", "Un explorateur du XIXe siècle", "Un inventeur et ingénieur", "Un astronaute français"],
+      "correctIndex": 0,
+      "explanation": "Jules Verne (1828-1905) est l’auteur de Vingt Mille Lieues sous les mers et Le Tour du monde en 80 jours.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-079",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le musée d’Orsay ?",
+      "options": ["Un musée d’art impressionniste", "Un musée d’art contemporain", "Un musée d’histoire naturelle", "Un musée militaire parisien"],
+      "correctIndex": 0,
+      "explanation": "Le musée d’Orsay, dans l’ancienne gare d’Orsay à Paris, abrite la plus grande collection impressionniste au monde.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-080",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le coq gaulois ?",
+      "options": ["Un symbole national de la France", "Une race de poulet", "Un plat traditionnel", "Une équipe sportive"],
+      "correctIndex": 0,
+      "explanation": "Le coq gaulois est un symbole national français, présent notamment sur les maillots des équipes de France.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-081",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que Marianne ?",
+      "options": ["L’allégorie de la République française", "Une reine de France", "Une sainte catholique", "Une actrice célèbre"],
+      "correctIndex": 0,
+      "explanation": "Marianne est l’allégorie de la République française, représentée coiffée d’un bonnet phrygien.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-082",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que la baguette ?",
+      "options": ["Un pain traditionnel français", "Un instrument de musique", "Un bâton de marche traditionnel", "Une arme médiévale ancienne"],
+      "correctIndex": 0,
+      "explanation": "La baguette de pain française a été inscrite au patrimoine immatériel de l’UNESCO en 2022.",
+      "isSituational": false
+    },
+    {
+      "id": "hgc-083",
+      "category": "histoire-geographie-culture",
+      "categoryLabel": "Histoire, géographie et culture",
+      "question": "Qu’est-ce que le béret ?",
+      "options": ["Un couvre-chef traditionnel", "Un fromage du sud-ouest", "Un vin de Bordeaux", "Une danse traditionnelle"],
+      "correctIndex": 0,
+      "explanation": "Le béret est un couvre-chef traditionnel, originaire du sud-ouest de la France, devenu un symbole culturel.",
+      "isSituational": false
+    },
+    {
+      "id": "vs-001",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment appeler les secours en France ?",
+      "options": ["Le 15, 17, 18 ou 112", "Uniquement le 911", "Il n’y a pas de numéro", "Le 100 uniquement"],
+      "correctIndex": 0,
+      "explanation": "En France : 15 = SAMU (urgences médicales), 17 = police, 18 = pompiers, 112 = numéro européen.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-002",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment s’inscrire sur les listes électorales ?",
+      "options": ["En mairie, en ligne ou par courrier", "Automatiquement à la naissance", "Uniquement par le préfet local", "C’est impossible de s’inscrire"],
+      "correctIndex": 0,
+      "explanation": "L’inscription se fait en mairie, en ligne sur service-public.fr, ou par courrier avec les justificatifs requis.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-003",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Où se rendre pour effectuer des démarches administratives ?",
+      "options": ["En mairie, préfecture ou en ligne", "Uniquement à Paris intra-muros", "Chez un avocat obligatoirement", "À l’ambassade de France"],
+      "correctIndex": 0,
+      "explanation": "Les démarches se font en mairie, préfecture/sous-préfecture ou en ligne sur service-public.fr.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-004",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment obtenir une carte d’identité ou un passeport ?",
+      "options": ["En demandant en mairie", "Automatiquement à 18 ans", "Uniquement à Paris centre", "En ligne uniquement"],
+      "correctIndex": 0,
+      "explanation": "La demande se fait en mairie équipée d’un dispositif de recueil, avec photos, justificatifs d’identité et de domicile.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-005",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment déclarer une naissance ?",
+      "options": ["À la mairie dans les 5 jours", "À l’hôpital uniquement", "Par courrier dans le mois", "C’est entièrement automatique"],
+      "correctIndex": 0,
+      "explanation": "La naissance doit être déclarée à la mairie du lieu de naissance dans les 5 jours suivant l’accouchement.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-006",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment se marier en France ?",
+      "options": ["En déposant un dossier en mairie", "Uniquement à l’église catholique", "Par simple déclaration orale", "En signant un contrat notarié"],
+      "correctIndex": 0,
+      "explanation": "Le mariage civil, obligatoire, est célébré en mairie après constitution d’un dossier et publication des bans.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-007",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment inscrire un enfant à l’école ?",
+      "options": ["En contactant la mairie puis l’école", "L’État inscrit automatiquement", "Uniquement par courrier au ministère", "Il faut payer des frais d’inscription"],
+      "correctIndex": 0,
+      "explanation": "L’inscription se fait d’abord en mairie (école publique) puis à l’école, avec livret de famille et justificatif de domicile.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-008",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment trouver un médecin traitant ?",
+      "options": ["En le choisissant et le déclarant", "L’État vous en attribue un", "Il faut payer un abonnement", "C’est impossible sans recommandation"],
+      "correctIndex": 0,
+      "explanation": "Chacun choisit librement son médecin traitant et le déclare à l’Assurance maladie pour un meilleur remboursement.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-009",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment bénéficier de la Sécurité sociale ?",
+      "options": ["Par son travail ou la PUMa", "En payant une cotisation annuelle", "Uniquement si on est français", "C’est automatique à la naissance"],
+      "correctIndex": 0,
+      "explanation": "L’affiliation se fait par le travail. Les autres résidents peuvent demander la Protection Universelle Maladie (PUMa).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-010",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment déclarer ses impôts ?",
+      "options": ["En ligne ou par formulaire papier", "L’État calcule tout automatiquement", "En allant à la banque directement", "Les impôts n’existent pas en France"],
+      "correctIndex": 0,
+      "explanation": "La déclaration de revenus se fait principalement en ligne sur impots.gouv.fr, généralement au printemps.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-011",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment ouvrir un compte bancaire ?",
+      "options": ["En se rendant dans une banque", "Automatiquement à 18 ans révolus", "Uniquement sur recommandation", "C’est gratuit et sans conditions"],
+      "correctIndex": 0,
+      "explanation": "L’ouverture d’un compte nécessite une pièce d’identité et un justificatif de domicile. Le droit au compte existe.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-012",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment chercher un emploi ?",
+      "options": ["En s’inscrivant à France Travail", "En attendant qu’on vous contacte", "Uniquement par relations personnelles", "En payant une agence privée"],
+      "correctIndex": 0,
+      "explanation": "France Travail (anciennement Pôle emploi) accompagne les demandeurs d’emploi et propose des offres et formations.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-013",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment signer un contrat de travail ?",
+      "options": ["En signant un document écrit", "Oralement suffit pour tout contrat", "Uniquement devant notaire", "L’employeur décide seul des termes"],
+      "correctIndex": 0,
+      "explanation": "Le contrat de travail est généralement écrit (obligatoire pour CDD). Il précise les conditions d’emploi et de rémunération.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-014",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment louer un logement ?",
+      "options": ["En signant un bail avec le propriétaire", "En occupant simplement le logement", "Uniquement par une agence immobilière", "Sans aucun document requis"],
+      "correctIndex": 0,
+      "explanation": "La location nécessite un bail écrit, un dépôt de garantie et des justificatifs (revenus, identité, emploi).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-015",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment obtenir une aide au logement ?",
+      "options": ["En faisant une demande auprès de la CAF", "C’est automatique pour tous les locataires", "Uniquement pour les propriétaires", "En s’adressant à la mairie"],
+      "correctIndex": 0,
+      "explanation": "Les aides au logement (APL, ALF, ALS) se demandent à la CAF, en fonction des ressources et de la situation.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-016",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment porter plainte ?",
+      "options": ["Au commissariat ou à la gendarmerie", "Uniquement avec un avocat obligatoire", "À la mairie de son domicile", "C’est impossible sans témoin"],
+      "correctIndex": 0,
+      "explanation": "Une plainte peut être déposée au commissariat, à la gendarmerie, ou par courrier au procureur de la République.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-017",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Que faire en cas de conflit avec un voisin ?",
+      "options": ["Dialoguer puis faire appel à un médiateur", "Porter plainte immédiatement", "Déménager le plus vite possible", "Ne rien faire du tout"],
+      "correctIndex": 0,
+      "explanation": "Privilégier le dialogue, puis la médiation. Le conciliateur de justice est gratuit. En dernier recours, la justice.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-018",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment faire une réclamation auprès d’une administration ?",
+      "options": ["Par courrier ou en ligne", "Uniquement par avocat", "C’est impossible de réclamer", "En manifestant dans la rue"],
+      "correctIndex": 0,
+      "explanation": "Les réclamations se font par courrier ou en ligne. Le Défenseur des droits peut intervenir en cas de litige.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-019",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment s’engager dans une association ?",
+      "options": ["En contactant l’association", "En créant obligatoirement la sienne", "En payant des taxes à l’État", "C’est interdit aux étrangers"],
+      "correctIndex": 0,
+      "explanation": "L’engagement associatif est libre. Il suffit de contacter l’association, d’adhérer et de participer bénévolement.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-020",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment créer une association ?",
+      "options": ["En déclarant des statuts à la préfecture", "En obtenant l’autorisation du maire", "En payant une licence annuelle", "C’est réservé aux seuls Français"],
+      "correctIndex": 0,
+      "explanation": "Une association loi 1901 se crée en rédigeant des statuts et en les déclarant à la préfecture (ou en ligne).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-021",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment utiliser les transports en commun ?",
+      "options": ["En achetant et validant un titre", "Ils sont gratuits pour tous", "Uniquement avec un abonnement annuel", "En montant sans payer de ticket"],
+      "correctIndex": 0,
+      "explanation": "Les transports en commun nécessitent un titre de transport (ticket, carte, abonnement) à valider à chaque trajet.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-022",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment passer le permis de conduire ?",
+      "options": ["En auto-école ou candidat libre", "Il est délivré automatiquement à 18 ans", "Uniquement par tirage au sort officiel", "En payant une taxe à la mairie"],
+      "correctIndex": 0,
+      "explanation": "Le permis de conduire s’obtient après formation (code + conduite) et réussite aux examens, via auto-école ou candidat libre.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-023",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment faire immatriculer un véhicule ?",
+      "options": ["En ligne sur le site de l’ANTS", "À la préfecture uniquement", "C’est automatique à l’achat", "Chez le concessionnaire obligatoirement"],
+      "correctIndex": 0,
+      "explanation": "L’immatriculation se fait en ligne sur le site de l’ANTS (Agence Nationale des Titres Sécurisés).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-024",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment trier ses déchets ?",
+      "options": ["En séparant verre, papier, plastiques", "Tout dans la même poubelle classique", "Uniquement le verre est à recycler", "Le tri est entièrement facultatif"],
+      "correctIndex": 0,
+      "explanation": "Le tri sélectif sépare les déchets : verre, papier/carton, emballages plastiques/métalliques, et ordures ménagères.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-025",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Que faire en cas de problème de santé la nuit ou le week-end ?",
+      "options": ["Appeler le 15 ou aller aux urgences", "Attendre le lundi matin", "Appeler la police nationale", "Aller à la pharmacie uniquement"],
+      "correctIndex": 0,
+      "explanation": "Le 15 (SAMU) oriente vers le médecin de garde ou les urgences. Les pharmacies de garde sont aussi disponibles.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-026",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment faire garder ses enfants ?",
+      "options": ["Crèche, assistante maternelle, nounou", "Uniquement par la famille proche", "L’État garde tous les enfants", "C’est interdit avant l’âge de 3 ans"],
+      "correctIndex": 0,
+      "explanation": "Plusieurs modes de garde existent : crèche collective, assistante maternelle agréée, garde à domicile, école dès 3 ans.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-027",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment demander la nationalité française ?",
+      "options": ["Par naturalisation en préfecture", "Automatiquement après 5 ans de résidence", "En payant une taxe spéciale", "C’est impossible pour les adultes"],
+      "correctIndex": 0,
+      "explanation": "La naturalisation se demande à la préfecture (5 ans de résidence, intégration). D’autres voies existent (mariage, filiation).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-028",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment voter ?",
+      "options": ["Au bureau de vote avec pièce d’identité", "Par téléphone à la mairie", "Par Internet pour toutes les élections", "Sans aucun document requis"],
+      "correctIndex": 0,
+      "explanation": "Le vote se fait au bureau de vote indiqué sur la carte électorale, avec pièce d’identité. La procuration est possible.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-029",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment préparer l’examen civique pour la naturalisation ?",
+      "options": ["En étudiant les questions officielles", "Aucune préparation n’est nécessaire", "En payant un diplôme officiel", "En passant un test oral uniquement"],
+      "correctIndex": 0,
+      "explanation": "L’examen civique (depuis 2026) porte sur 260 questions officielles. Une formation civique gratuite est proposée.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-030",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment respecter la laïcité au quotidien ?",
+      "options": ["En respectant toutes les croyances", "En interdisant toute religion", "En imposant une religion officielle", "La laïcité n’existe pas en France"],
+      "correctIndex": 0,
+      "explanation": "La laïcité garantit la liberté de conscience, la neutralité de l’État et le respect de toutes les croyances.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-031",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment signaler des violences conjugales ?",
+      "options": ["Appeler le 3919 ou le 17", "Uniquement si on a des preuves", "À la mairie de son domicile", "C’est une affaire strictement privée"],
+      "correctIndex": 0,
+      "explanation": "Le 3919 est le numéro d’aide aux victimes de violences. Le 17 (police) peut aussi intervenir en urgence.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-032",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment signaler un enfant en danger ?",
+      "options": ["Appeler le 119 ou les services sociaux", "Uniquement par courrier recommandé", "À l’école de l’enfant uniquement", "C’est interdit de signaler"],
+      "correctIndex": 0,
+      "explanation": "Le 119 est le numéro national pour signaler un enfant en danger. L’appel est gratuit et confidentiel.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-033",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment accéder à la formation professionnelle ?",
+      "options": ["Via le CPF ou France Travail", "Uniquement pour les jeunes", "En payant intégralement la formation", "C’est réservé aux chômeurs"],
+      "correctIndex": 0,
+      "explanation": "Le CPF (Compte Personnel de Formation) permet de financer des formations. France Travail et les employeurs proposent aussi des formations.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-034",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment bénéficier des allocations familiales ?",
+      "options": ["En déclarant ses enfants à la CAF", "Automatiquement pour tous les parents", "Uniquement pour les familles nombreuses", "En payant une cotisation mensuelle"],
+      "correctIndex": 0,
+      "explanation": "Les allocations familiales sont versées par la CAF aux familles ayant au moins 2 enfants à charge, sous conditions.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-035",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment demander un titre de séjour ?",
+      "options": ["À la préfecture ou en ligne", "À la mairie de résidence", "À l’ambassade de France", "C’est automatique après l’entrée"],
+      "correctIndex": 0,
+      "explanation": "Les titres de séjour se demandent à la préfecture du lieu de résidence ou en ligne selon les procédures.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-036",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment faire reconnaître un diplôme étranger ?",
+      "options": ["Via le centre ENIC-NARIC", "C’est automatique dans l’UE", "Impossible de faire reconnaître", "À l’université uniquement"],
+      "correctIndex": 0,
+      "explanation": "Le centre ENIC-NARIC délivre des attestations de comparabilité pour les diplômes étrangers.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-037",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment obtenir le statut de réfugié ?",
+      "options": ["En demandant l’asile à l’OFPRA", "Automatiquement en arrivant en France", "À l’ambassade du pays d’origine", "En mairie de résidence"],
+      "correctIndex": 0,
+      "explanation": "La demande d’asile se fait auprès de l’OFPRA (Office Français de Protection des Réfugiés et Apatrides).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-038",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment contester une décision administrative ?",
+      "options": ["Par recours gracieux ou tribunal administratif", "Uniquement par manifestation ou pétition", "C’est impossible de contester en France", "En contactant un député ou un élu local"],
+      "correctIndex": 0,
+      "explanation": "On peut faire un recours gracieux (même autorité) ou hiérarchique, puis saisir le tribunal administratif.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-039",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment consulter un spécialiste médical ?",
+      "options": ["Sur orientation du médecin traitant", "Directement sans consultation préalable", "Uniquement à l’hôpital public", "Sur prescription médicale obligatoire"],
+      "correctIndex": 0,
+      "explanation": "Le parcours de soins coordonnés passe par le médecin traitant sauf exceptions (gynécologue, ophtalmologue, psychiatre…).",
+      "isSituational": true
+    },
+    {
+      "id": "vs-040",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Que faire en cas de discrimination ?",
+      "options": ["Saisir le Défenseur des droits", "Accepter la situation sans réagir", "Changer de lieu de résidence", "C’est légal en France actuellement"],
+      "correctIndex": 0,
+      "explanation": "Le Défenseur des droits peut être saisi gratuitement. Une plainte peut aussi être déposée pour discrimination.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-041",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment participer à la vie de sa commune ?",
+      "options": ["En votant et en participant aux associations", "Uniquement en devenant maire ou conseiller", "C’est réservé aux seuls citoyens français", "En payant une taxe spéciale de participation"],
+      "correctIndex": 0,
+      "explanation": "Chacun peut voter, assister aux conseils municipaux (publics), participer à des associations ou des conseils de quartier.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-042",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment respecter les règles de vie en copropriété ?",
+      "options": ["En suivant le règlement et l’assemblée générale", "Il n’y a pas de règles en copropriété", "En payant plus de charges que les autres", "En évitant tout contact avec les voisins"],
+      "correctIndex": 0,
+      "explanation": "Le règlement de copropriété fixe les règles. Les décisions sont prises en assemblée générale des copropriétaires.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-043",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment se comporter dans l’espace public ?",
+      "options": ["En respectant autrui et les règles de civisme", "On peut faire ce qu’on veut partout", "En évitant tout contact avec les autres", "Les règles varient selon les villes et régions"],
+      "correctIndex": 0,
+      "explanation": "Le civisme inclut le respect d’autrui, de l’environnement, des règles de savoir-vivre et de la loi.",
+      "isSituational": true
+    },
+    {
+      "id": "vs-044",
+      "category": "vivre-societe",
+      "categoryLabel": "Vivre dans la société française",
+      "question": "Comment s’intégrer dans la société française ?",
+      "options": ["En apprenant le français et en participant", "En restant dans sa communauté d’origine", "En oubliant totalement sa culture d’origine", "L’intégration n’est pas nécessaire en France"],
+      "correctIndex": 0,
+      "explanation": "L’intégration passe par l’apprentissage du français, le respect des valeurs républicaines et la participation à la vie collective.",
+      "isSituational": true
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "close": "Fermer"
+  },
+
+  "a11y": {
+    "skipToContent": "Aller au contenu principal",
+    "toggleMenu": "Ouvrir ou fermer le menu",
+    "externalLink": "(s’ouvre dans un nouvel onglet)",
+    "currentPage": "page actuelle",
+    "questionNumber": "Question numéro {number}",
+    "answerOption": "Option de réponse {letter}",
+    "selected": "sélectionnée",
+    "correct": "bonne réponse",
+    "incorrect": "mauvaise réponse",
+    "expandQuestion": "Développer la question",
+    "collapseQuestion": "Réduire la question"
+  },
+
+  "meta": {
+    "title": "Réussir mon Examen Civique - Entraînement gratuit",
+    "titleTemplate": "{title} | Réussir mon Examen Civique",
+    "description": "Préparez-vous à l’examen civique français pour la naturalisation. 259 questions officielles avec réponses et explications. Gratuit et sans inscription.",
+    "ogTitle": "Réussir mon Examen Civique - Préparez votre naturalisation française",
+    "ogDescription": "Entraînez-vous avec les 259 questions officielles de l’examen civique. Gratuit et sans inscription.",
+    "author": "Raphaël Lustin",
+    "keywords": "examen civique, naturalisation française, citoyenneté française, test civique, questions officielles, préparation examen"
+  },
+
+  "nav": {
+    "brand": "Réussir mon Examen Civique",
+    "study": "Étudier",
+    "studyQuestions": "Étudier les questions",
+    "startQuiz": "Commencer le quiz",
+    "newQuiz": "Nouveau quiz",
+    "menu": "Menu"
+  },
+
+  "footer": {
+    "line1": "Entraînement gratuit pour l’examen civique de la naturalisation française.",
+    "line2": "Basé sur les 259 questions officielles du programme."
+  },
+
+  "home": {
+    "meta": {
+      "title": "Réussir mon Examen Civique - Entraînement gratuit",
+      "description": "Préparez-vous à l’examen civique français pour la naturalisation. 259 questions officielles avec réponses et explications. Gratuit et sans inscription."
+    },
+    "hero": {
+      "title": "Préparez votre examen civique",
+      "subtitle": "Entraînez-vous avec les 259 questions officielles pour réussir l’examen civique de la naturalisation française."
+    },
+    "progress": {
+      "title": "Votre progression",
+      "quizzesTaken": "Quiz terminés",
+      "bestScore": "Meilleur score",
+      "successRate": "Taux de réussite",
+      "thresholdReached": "Seuil atteint",
+      "yes": "Oui",
+      "no": "Non",
+      "categoriesToReview": "Catégories à réviser :",
+      "lastQuiz": "Dernier quiz : {date}"
+    },
+    "examInfo": {
+      "title": "Format de l’examen (Réforme 2026)",
+      "questions": "Questions",
+      "minutes": "Minutes",
+      "passingScore": "Pour réussir (80 %)",
+      "optionsPerQuestion": "Options par question"
+    },
+    "categories": {
+      "title": "Les 5 thématiques",
+      "questionCount": "{count} questions"
+    },
+    "cta": {
+      "continue": "Quiz en cours",
+      "start": "Commencer le quiz",
+      "study": "Étudier les questions",
+      "freeNoSignup": "Gratuit et sans inscription"
+    }
+  },
+
+  "quiz": {
+    "meta": {
+      "title": "Quiz - Réussir mon Examen Civique",
+      "description": "Testez vos connaissances avec un quiz de 40 questions en 45 minutes, comme à l'examen officiel."
+    },
+    "keyboard": {
+      "selectHint": "1-4 ou ↑↓ pour sélectionner",
+      "navHint": "← → ou Entrée pour naviguer"
+    },
+    "timer": {
+      "remaining": "Temps restant"
+    },
+    "progress": {
+      "question": "{current} / {total}",
+      "answered": "{count} répondue | {count} répondues"
+    },
+    "navigation": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "finish": "Terminer le quiz",
+      "unanswered": "{count} question sans réponse | {count} questions sans réponse"
+    },
+    "loading": "Chargement du quiz...",
+    "confirmModal": {
+      "title": "Confirmer la soumission",
+      "message": "Vous avez {count} question(s) sans réponse. Êtes-vous sûr de vouloir terminer le quiz ?",
+      "continue": "Continuer le quiz",
+      "finish": "Terminer"
+    },
+    "timeoutModal": {
+      "title": "Temps écoulé",
+      "message": "Le temps imparti de 45 minutes est terminé. Vos réponses vont être soumises automatiquement.",
+      "viewResults": "Voir mes résultats"
+    }
+  },
+
+  "results": {
+    "meta": {
+      "title": "Résultats - Réussir mon Examen Civique",
+      "description": "Consultez vos résultats et révisez les questions de l’examen civique."
+    },
+    "score": {
+      "passed": "Examen réussi !",
+      "failed": "Examen non réussi",
+      "threshold": "Seuil : 32/40"
+    },
+    "actions": {
+      "retry": "Réessayer",
+      "home": "Retour à l’accueil"
+    },
+    "category": {
+      "title": "Performance par catégorie"
+    },
+    "review": {
+      "title": "Révision des réponses",
+      "expandAll": "Tout déplier",
+      "collapseAll": "Tout replier",
+      "question": "Question {number}",
+      "noAnswer": "Vous n’avez pas répondu à cette question",
+      "explanation": "Explication"
+    },
+    "empty": {
+      "message": "Aucun résultat à afficher. Commencez un quiz pour voir vos résultats.",
+      "home": "Retour à l’accueil"
+    }
+  },
+
+  "study": {
+    "meta": {
+      "title": "Étudier - Réussir mon Examen Civique",
+      "description": "Parcourez et révisez les 259 questions officielles de l’examen civique par catégorie."
+    },
+    "header": {
+      "title": "Mode étude",
+      "subtitle": "Parcourez les {count} questions officielles et révisez à votre rythme."
+    },
+    "filters": {
+      "search": "Rechercher",
+      "searchPlaceholder": "Rechercher une question...",
+      "category": "Catégorie",
+      "allCategories": "Toutes les catégories ({count})",
+      "situationalOnly": "Questions situationnelles uniquement",
+      "shuffle": "Mélanger les questions"
+    },
+    "setup": {
+      "questionsSelected": "{count} question sélectionnée | {count} questions sélectionnées",
+      "start": "Commencer l’étude"
+    },
+    "quiz": {
+      "exit": "Quitter",
+      "score": "{correct}/{answered} correct",
+      "progress": "Question {current} sur {total}",
+      "correct": "Bonne réponse !",
+      "incorrect": "Mauvaise réponse",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "finish": "Terminer",
+      "validate": "Valider votre réponse"
+    },
+    "keyboard": {
+      "selectHint": "1-4 ou ↑↓ pour sélectionner",
+      "validateHint": "Entrée pour valider"
+    },
+    "results": {
+      "found": "{count} question trouvée | {count} questions trouvées",
+      "expandAll": "Tout afficher",
+      "collapseAll": "Tout masquer"
+    },
+    "badges": {
+      "situational": "Situationnelle"
+    },
+    "empty": {
+      "message": "Aucune question ne correspond à votre recherche.",
+      "reset": "Réinitialiser les filtres"
+    }
+  },
+
+  "categories": {
+    "full": {
+      "principes-valeurs": "Principes et valeurs de la République",
+      "systeme-institutionnel": "Système institutionnel et politique",
+      "droits-devoirs": "Droits et devoirs",
+      "histoire-geographie-culture": "Histoire, géographie et culture",
+      "vivre-societe": "Vivre dans la société française"
+    },
+    "short": {
+      "principes-valeurs": "Principes et valeurs",
+      "systeme-institutionnel": "Système institutionnel",
+      "droits-devoirs": "Droits et devoirs",
+      "histoire-geographie-culture": "Histoire et culture",
+      "vivre-societe": "Vivre en société"
+    }
+  }
+}
