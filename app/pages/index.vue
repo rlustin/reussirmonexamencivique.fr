@@ -144,7 +144,7 @@ const categories: { key: Category; count: number }[] = [
             ? 'inline-flex items-center justify-center rounded-lg bg-accent text-white hover:bg-accent-600 transition-colors text-lg px-8 py-3 w-full sm:w-auto text-center font-medium'
             : 'btn-primary text-lg px-8 py-3 w-full sm:w-auto text-center'"
         >
-          {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}
+          {{ hasQuizInProgress ? $t('home.cta.continue') : `🎯 ${$t('home.cta.start')}` }}
         </NuxtLink>
         <NuxtLink
           v-if="hasQuizInProgress"
@@ -154,7 +154,7 @@ const categories: { key: Category; count: number }[] = [
           {{ $t('nav.newQuiz') }}
         </NuxtLink>
         <NuxtLink to="/etudier" class="btn-secondary text-lg px-8 py-3 w-full sm:w-auto text-center">
-          {{ $t('home.cta.study') }}
+          📖 {{ $t('home.cta.study') }}
         </NuxtLink>
       </div>
       <p class="mt-4 text-sm text-gray-500 text-center">

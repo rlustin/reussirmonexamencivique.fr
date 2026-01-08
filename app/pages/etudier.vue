@@ -191,7 +191,7 @@ useSeoMeta({
       <template v-if="!isStudying">
         <!-- Header -->
         <div class="mb-8">
-          <h1 class="text-3xl font-bold text-foreground mb-2">{{ $t('study.header.title') }}</h1>
+          <h1 class="text-3xl font-bold text-foreground mb-2">📚 {{ $t('study.header.title') }}</h1>
           <p class="text-gray-600">
             {{ $t('study.header.subtitle', { count: allQuestions.length }) }}
           </p>
