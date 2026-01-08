@@ -33,7 +33,7 @@ defineEmits<{
       >
         {{ $t('quiz.navigation.finish') }}
       </button>
-      <p v-if="unansweredCount > 0" class="text-sm text-amber-600">
+      <p v-if="unansweredCount > 0" class="text-sm text-warning-600">
         {{ $t('quiz.navigation.unanswered', { count: unansweredCount }, unansweredCount) }}
       </p>
     </div>

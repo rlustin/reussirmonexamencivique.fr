@@ -68,7 +68,7 @@ function collapseAll() {
         v-for="(answer, index) in answers"
         :key="index"
         class="border rounded-lg overflow-hidden"
-        :class="answer.isCorrect ? 'border-green-200 bg-green-50/50' : 'border-red-200 bg-red-50/50'"
+        :class="answer.isCorrect ? 'border-success-100 bg-success-50/50' : 'border-error-100 bg-error-50/50'"
       >
         <!-- Question header (always visible) -->
         <button
@@ -142,7 +142,7 @@ function collapseAll() {
           v-if="isExpanded(index)"
           :id="`review-answer-${index}`"
           class="px-4 pb-4 pt-2 border-t"
-          :class="answer.isCorrect ? 'border-green-200' : 'border-red-200'"
+          :class="answer.isCorrect ? 'border-success-100' : 'border-error-100'"
         >
           <!-- Answer options -->
           <div class="space-y-2 mb-4">
@@ -151,8 +151,8 @@ function collapseAll() {
               :key="optIndex"
               class="flex items-start gap-3 p-3 rounded-lg"
               :class="{
-                'bg-green-100 border border-green-300': optIndex === answer.question.correctIndex,
-                'bg-red-100 border border-red-300': optIndex === answer.userAnswer && !answer.isCorrect,
+                'bg-success-100 border border-success': optIndex === answer.question.correctIndex,
+                'bg-error-100 border border-error': optIndex === answer.userAnswer && !answer.isCorrect,
                 'bg-white border border-gray-200': optIndex !== answer.question.correctIndex && optIndex !== answer.userAnswer,
               }"
             >
@@ -160,8 +160,8 @@ function collapseAll() {
               <span
                 class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-sm font-medium"
                 :class="{
-                  'bg-green-500 text-white': optIndex === answer.question.correctIndex,
-                  'bg-red-500 text-white': optIndex === answer.userAnswer && !answer.isCorrect,
+                  'bg-success text-white': optIndex === answer.question.correctIndex,
+                  'bg-error text-white': optIndex === answer.userAnswer && !answer.isCorrect,
                   'bg-gray-200 text-gray-600': optIndex !== answer.question.correctIndex && optIndex !== answer.userAnswer,
                 }"
               >
@@ -177,7 +177,7 @@ function collapseAll() {
               <svg
                 v-if="optIndex === answer.question.correctIndex"
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-green-600 flex-shrink-0"
+                class="w-5 h-5 text-success-600 flex-shrink-0"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -190,7 +190,7 @@ function collapseAll() {
               <svg
                 v-else-if="optIndex === answer.userAnswer && !answer.isCorrect"
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-red-600 flex-shrink-0"
+                class="w-5 h-5 text-error-600 flex-shrink-0"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -206,7 +206,7 @@ function collapseAll() {
           <!-- No answer warning -->
           <div
             v-if="answer.userAnswer === null"
-            class="flex items-center gap-2 text-amber-600 text-sm mb-4"
+            class="flex items-center gap-2 text-warning-600 text-sm mb-4"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -226,12 +226,12 @@ function collapseAll() {
           <!-- Explanation -->
           <div
             v-if="answer.question.explanation"
-            class="bg-blue-50 border border-blue-200 rounded-lg p-4"
+            class="bg-info-50 border border-info-200 rounded-lg p-4"
           >
             <div class="flex items-start gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5"
+                class="w-5 h-5 text-info-600 flex-shrink-0 mt-0.5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -242,8 +242,8 @@ function collapseAll() {
                 />
               </svg>
               <div>
-                <p class="text-sm font-medium text-blue-800 mb-1">{{ $t('results.review.explanation') }}</p>
-                <p class="text-sm text-blue-700">{{ answer.question.explanation }}</p>
+                <p class="text-sm font-medium text-info-800 mb-1">{{ $t('results.review.explanation') }}</p>
+                <p class="text-sm text-info-700">{{ answer.question.explanation }}</p>
               </div>
             </div>
           </div>

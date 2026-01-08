@@ -86,7 +86,7 @@ const categories: { key: Category; count: number }[] = [
               class="flex items-center justify-between text-sm"
             >
               <span class="text-gray-600">{{ $t(`categories.full.${cat.category}`) }}</span>
-              <span class="font-medium" :class="cat.percentage! < 50 ? 'text-error' : 'text-yellow-600'">
+              <span class="font-medium" :class="cat.percentage! < 50 ? 'text-error' : 'text-warning-600'">
                 {{ cat.percentage }}%
               </span>
             </div>
@@ -141,7 +141,7 @@ const categories: { key: Category; count: number }[] = [
         <NuxtLink
           to="/quiz"
           :class="hasQuizInProgress
-            ? 'inline-flex items-center justify-center rounded-lg bg-amber-500 text-white hover:bg-amber-600 transition-colors text-lg px-8 py-3 w-full sm:w-auto text-center font-medium'
+            ? 'inline-flex items-center justify-center rounded-lg bg-accent text-white hover:bg-accent-600 transition-colors text-lg px-8 py-3 w-full sm:w-auto text-center font-medium'
             : 'btn-primary text-lg px-8 py-3 w-full sm:w-auto text-center'"
         >
           {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}

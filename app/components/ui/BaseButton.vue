@@ -14,8 +14,8 @@ const { variant, size, disabled } = withDefaults(defineProps<Props>(), {
 const variantClasses = {
   primary: 'bg-primary text-white hover:bg-primary-700 focus:ring-primary',
   secondary: 'bg-gray-100 text-foreground hover:bg-gray-200 focus:ring-gray-500',
-  success: 'bg-success text-white hover:bg-green-700 focus:ring-green-500',
-  error: 'bg-error text-white hover:bg-red-700 focus:ring-red-500',
+  success: 'bg-success text-white hover:bg-success-700 focus:ring-success',
+  error: 'bg-error text-white hover:bg-error-700 focus:ring-error',
 }
 
 const sizeClasses = {

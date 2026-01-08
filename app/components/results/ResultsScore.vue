@@ -57,7 +57,7 @@ const formattedTime = computed(() => {
     <!-- Pass/Fail Badge -->
     <div
       class="inline-flex items-center gap-2 px-6 py-3 rounded-full text-lg font-semibold mb-6"
-      :class="passed ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'"
+      :class="passed ? 'bg-success-50 text-success-700' : 'bg-error-50 text-error-700'"
     >
       <svg
         v-if="passed"
