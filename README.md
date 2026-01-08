@@ -35,27 +35,23 @@ Available at https://reussirmonexamencivique.fr/
 
 ## Installation
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
+```bash
+make install
+make serve
 ```
 
 The application will be available at http://localhost:3000
 
-## Available Scripts
+## Available Commands
 
 ```bash
-npm run dev       # Development server
-npm run build     # Production build
-npm run generate  # Static site generation (SSG)
-npm run preview   # Preview the build
-npm run test      # Tests in watch mode
-npm run test:run  # Tests in CI mode
-npm run lint      # ESLint check
-npm run lint:fix  # ESLint auto-fix
-npm run format    # Prettier formatting
+make help      # Show available commands
+make install   # Install dependencies
+make serve     # Start development server
+make build     # Build for production (SSG)
+make test      # Run tests
+make lint      # Check code style
+make lintfix   # Fix code style issues
 ```
 
 ## Project Structure
