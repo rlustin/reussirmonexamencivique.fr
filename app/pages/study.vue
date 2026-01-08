@@ -4,6 +4,10 @@ import questionsData from '../../data/questions.json'
 import { shuffle } from '~/utils/shuffle'
 import { CATEGORIES } from '~/constants/exam'
 
+definePageMeta({
+  path: '/etudier',
+})
+
 const { t } = useI18n()
 
 const allQuestions = questionsData.questions as Question[]
