@@ -43,9 +43,8 @@ function goHome() {
 
         <!-- Action buttons -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <BaseButton
-            variant="primary"
-            size="lg"
+          <button
+            class="btn btn-primary px-6 py-3 text-lg"
             @click="tryAgain"
           >
             <svg
@@ -61,10 +60,9 @@ function goHome() {
               />
             </svg>
             {{ $t('results.actions.retry') }}
-          </BaseButton>
-          <BaseButton
-            variant="secondary"
-            size="lg"
+          </button>
+          <button
+            class="btn btn-secondary px-6 py-3 text-lg"
             @click="goHome"
           >
             <svg
@@ -78,7 +76,7 @@ function goHome() {
               />
             </svg>
             {{ $t('results.actions.home') }}
-          </BaseButton>
+          </button>
         </div>
 
         <!-- Category breakdown -->
@@ -98,10 +96,8 @@ function goHome() {
           <p class="text-gray-500 mb-6">
             {{ $t('results.empty.message') }}
           </p>
-          <NuxtLink to="/">
-            <BaseButton variant="primary">
-              {{ $t('results.empty.home') }}
-            </BaseButton>
+          <NuxtLink to="/" class="btn btn-primary">
+            {{ $t('results.empty.home') }}
           </NuxtLink>
         </BaseCard>
       </div>

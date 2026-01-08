@@ -88,6 +88,16 @@
       "title": "Quiz - Réussir mon Examen Civique",
       "description": "Testez vos connaissances avec un quiz de 40 questions en 45 minutes, comme à l'examen officiel."
     },
+    "start": {
+      "title": "Prêt pour le quiz ?",
+      "description": "Vous allez répondre à 40 questions en 45 minutes maximum. Comme pour l'examen officiel, vous devez obtenir au moins 32 bonnes réponses (80 %) pour réussir.",
+      "button": "Commencer le quiz",
+      "info": {
+        "questions": "40 questions",
+        "time": "45 minutes",
+        "passing": "32/40 pour réussir"
+      }
+    },
     "keyboard": {
       "selectHint": "1-4 ou ↑↓ pour sélectionner",
       "navHint": "← → ou Entrée pour naviguer"
