@@ -101,7 +101,7 @@
       }
     },
     "keyboard": {
-      "selectHint": "1-4 ou ↑↓ pour sélectionner",
+      "selectHint": "↑↓ pour sélectionner",
       "navHint": "← → ou Entrée pour naviguer"
     },
     "timer": {
@@ -195,7 +195,7 @@
       "validate": "Valider votre réponse"
     },
     "keyboard": {
-      "selectHint": "1-4 ou ↑↓ pour sélectionner",
+      "selectHint": "↑↓ pour sélectionner",
       "validateHint": "Entrée pour valider"
     },
     "results": {

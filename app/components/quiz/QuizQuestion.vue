@@ -17,7 +17,6 @@ defineEmits<Emits>()
 const { t } = useI18n()
 
 const optionLabels = ['A', 'B', 'C', 'D']
-const keyboardShortcuts = ['1', '2', '3', '4']
 
 // Generate unique ID for this question group
 const questionId = computed(() => `question-${props.question.id}`)
@@ -43,7 +42,6 @@ const questionId = computed(() => `question-${props.question.id}`)
         role="radio"
         :aria-checked="selectedAnswer === index"
         :aria-label="`${optionLabels[index]}. ${option}${selectedAnswer === index ? ` - ${t('a11y.selected')}` : ''}`"
-        :aria-keyshortcuts="`${index + 1}`"
         class="w-full text-left p-4 rounded-lg border-2 transition-all duration-200 min-h-[44px] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
         :class="[
           selectedAnswer === index
@@ -65,12 +63,6 @@ const questionId = computed(() => `question-${props.question.id}`)
             {{ optionLabels[index] }}
           </span>
           <span class="pt-1 text-foreground flex-1">{{ option }}</span>
-          <span
-            class="hidden sm:inline-flex flex-shrink-0 text-xs text-gray-400 font-mono px-2 py-1 bg-gray-50 rounded"
-            aria-hidden="true"
-          >
-            {{ keyboardShortcuts[index] }}
-          </span>
         </div>
       </button>
     </div>
