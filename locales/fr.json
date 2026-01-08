@@ -1,6 +1,6 @@
 {
   "common": {
-    "loading": "Chargement...",
+    "loading": "Chargement…",
     "error": "Une erreur est survenue",
     "retry": "Réessayer",
     "close": "Fermer"
@@ -31,7 +31,7 @@
 
   "nav": {
     "brand": "Réussir mon Examen Civique",
-    "exam": "L'examen",
+    "exam": "L’examen",
     "study": "Étudier",
     "studyQuestions": "Étudier les questions",
     "startQuiz": "Commencer le quiz",
@@ -40,9 +40,9 @@
   },
 
   "footer": {
-    "line1": "Entraînement gratuit pour l'examen civique de la naturalisation française.",
+    "line1": "Entraînement gratuit pour l’examen civique de la naturalisation française.",
     "line2": "Basé sur les 259 questions officielles du programme.",
-    "exam": "L'examen civique",
+    "exam": "L’examen civique",
     "about": "À propos"
   },
 
@@ -88,11 +88,11 @@
   "quiz": {
     "meta": {
       "title": "Quiz - Réussir mon Examen Civique",
-      "description": "Testez vos connaissances avec un quiz de 40 questions en 45 minutes, comme à l'examen officiel."
+      "description": "Testez vos connaissances avec un quiz de 40 questions en 45 minutes, comme à l’examen officiel."
     },
     "start": {
-      "title": "Prêt pour le quiz ?",
-      "description": "Vous allez répondre à 40 questions en 45 minutes maximum. Comme pour l'examen officiel, vous devez obtenir au moins 32 bonnes réponses (80 %) pour réussir.",
+      "title": "Prêt pour le quiz ?",
+      "description": "Vous allez répondre à 40 questions en 45 minutes maximum. Comme pour l’examen officiel, vous devez obtenir au moins 32 bonnes réponses (80 %) pour réussir.",
       "button": "Commencer le quiz",
       "info": {
         "questions": "40 questions",
@@ -117,10 +117,10 @@
       "finish": "Terminer le quiz",
       "unanswered": "{count} question sans réponse | {count} questions sans réponse"
     },
-    "loading": "Chargement du quiz...",
+    "loading": "Chargement du quiz…",
     "confirmModal": {
       "title": "Confirmer la soumission",
-      "message": "Vous avez {count} question(s) sans réponse. Êtes-vous sûr de vouloir terminer le quiz ?",
+      "message": "Vous avez {count} question(s) sans réponse. Êtes-vous sûr de vouloir terminer le quiz ?",
       "continue": "Continuer le quiz",
       "finish": "Terminer"
     },
@@ -173,7 +173,7 @@
     },
     "filters": {
       "search": "Rechercher",
-      "searchPlaceholder": "Rechercher une question...",
+      "searchPlaceholder": "Rechercher une question…",
       "category": "Catégorie",
       "allCategories": "Toutes les catégories ({count})",
       "situationalOnly": "Questions situationnelles uniquement",
@@ -231,40 +231,40 @@
 
   "exam": {
     "meta": {
-      "title": "L'examen civique - Réussir mon Examen Civique",
-      "description": "Tout savoir sur l'examen civique obligatoire depuis janvier 2026 pour la naturalisation française et les titres de séjour."
+      "title": "L’examen civique - Réussir mon Examen Civique",
+      "description": "Tout savoir sur l’examen civique obligatoire depuis janvier 2026 pour la naturalisation française et les titres de séjour."
     },
-    "title": "L'examen civique",
+    "title": "L’examen civique",
     "what": {
-      "title": "Qu'est-ce que l'examen civique ?",
-      "description": "L'examen civique est un test numérique créé par la loi du 26 janvier 2024. Il évalue la connaissance des principes et valeurs de la République française, ainsi que les droits et devoirs des résidents en France.",
-      "since": "Cet examen est obligatoire depuis le 1er janvier 2026 pour certaines démarches administratives liées à l'immigration et à la nationalité."
+      "title": "Qu’est-ce que l’examen civique ?",
+      "description": "L’examen civique est un test numérique créé par la loi du 26 janvier 2024. Il évalue la connaissance des principes et valeurs de la République française, ainsi que les droits et devoirs des résidents en France.",
+      "since": "Cet examen est obligatoire depuis le 1er janvier 2026 pour certaines démarches administratives liées à l’immigration et à la nationalité."
     },
     "format": {
-      "title": "Format de l'examen",
+      "title": "Format de l’examen",
       "questions": "questions",
       "duration": "durée maximale",
       "passing": "pour réussir",
       "successRate": "taux de réussite requis",
-      "breakdown": "L'examen se compose de deux types de questions :",
+      "breakdown": "L’examen se compose de deux types de questions :",
       "knowledge": "28 questions de connaissances générales",
       "situational": "12 questions de mise en situation",
       "mcq": "Chaque question propose 4 réponses possibles, dont une seule est correcte."
     },
     "who": {
-      "title": "Qui est concerné ?",
-      "intro": "L'examen civique est obligatoire pour :",
+      "title": "Qui est concerné ?",
+      "intro": "L’examen civique est obligatoire pour :",
       "naturalization": "Les demandeurs de la naturalisation française",
-      "residenceCard": "Les demandeurs d'une carte de séjour pluriannuelle ou d'une carte de résident (ressortissants non-UE)",
+      "residenceCard": "Les demandeurs d’une carte de séjour pluriannuelle ou d’une carte de résident (ressortissants non-UE)",
       "exceptions": {
         "title": "Exceptions",
-        "renewal": "Renouvellement d'un titre de séjour existant",
+        "renewal": "Renouvellement d’un titre de séjour existant",
         "protection": "Bénéficiaires de la protection internationale (réfugiés, protection subsidiaire)"
       }
     },
     "topics": {
       "title": "Les 5 thématiques",
-      "intro": "Les questions portent sur cinq grands domaines :",
+      "intro": "Les questions portent sur cinq grands domaines :",
       "principles": "Devise républicaine, symboles nationaux, laïcité, égalité femmes-hommes",
       "institutions": "Organisation des pouvoirs, collectivités territoriales, Union européenne",
       "rights": "Libertés fondamentales, droits civiques, obligations légales",
@@ -273,17 +273,17 @@
     },
     "training": {
       "title": "La formation civique",
-      "description": "Avant de passer l'examen, les nouveaux demandeurs de titre de séjour doivent suivre une formation civique obligatoire. Cette formation vise à faciliter l'appropriation des principes et valeurs de la République.",
+      "description": "Avant de passer l’examen, les nouveaux demandeurs de titre de séjour doivent suivre une formation civique obligatoire. Cette formation vise à faciliter l’appropriation des principes et valeurs de la République.",
       "days": "jours de formation",
       "hours": "heures au total",
-      "certificate": "À l'issue de la formation, une attestation nominative de sérieux et d'assiduité est délivrée. Ce document est à joindre au dossier de demande de titre de séjour."
+      "certificate": "À l’issue de la formation, une attestation nominative de sérieux et d’assiduité est délivrée. Ce document est à joindre au dossier de demande de titre de séjour."
     },
     "sources": {
       "title": "Sources officielles",
-      "description": "Pour plus d'informations, consultez les ressources officielles du gouvernement :"
+      "description": "Pour plus d’informations, consultez les ressources officielles du gouvernement :"
     },
     "cta": {
-      "intro": "Prêt à vous entraîner ? Testez vos connaissances avec nos outils gratuits.",
+      "intro": "Prêt à vous entraîner ? Testez vos connaissances avec nos outils gratuits.",
       "quiz": "Passer un quiz",
       "study": "Étudier les questions"
     }
@@ -297,44 +297,44 @@
     "title": "À propos",
     "project": {
       "title": "Le projet",
-      "description": "Réussir mon Examen Civique est un outil gratuit d'entraînement pour l'examen civique de la naturalisation française. Il permet de s'exercer avec les 259 questions officielles du programme dans des conditions similaires à l'examen réel.",
-      "disclaimer": "Ce site est un projet indépendant et n'est pas affilié au gouvernement français. Les questions sont issues du programme officiel publié par le Ministère de l'Intérieur."
+      "description": "Réussir mon Examen Civique est un outil gratuit d’entraînement pour l’examen civique de la naturalisation française. Il permet de s’exercer avec les 259 questions officielles du programme dans des conditions similaires à l’examen réel.",
+      "disclaimer": "Ce site est un projet indépendant et n’est pas affilié au gouvernement français. Les questions sont issues du programme officiel publié par le Ministère de l’Intérieur."
     },
     "credits": {
       "title": "Crédits",
       "icon": {
         "title": "Icône du bonnet phrygien",
-        "description": "L'icône du bonnet phrygien (symbole de Marianne et de la liberté) est créée par Delapouite et publiée sous licence Creative Commons BY 3.0."
+        "description": "L’icône du bonnet phrygien (symbole de Marianne et de la liberté) est créée par Delapouite et publiée sous licence Creative Commons BY 3.0."
       },
       "questions": {
-        "title": "Questions de l'examen",
-        "description": "Les questions sont issues du livret du citoyen et du programme officiel de l'examen civique publié par le Ministère de l'Intérieur français."
+        "title": "Questions de l’examen",
+        "description": "Les questions sont issues du livret du citoyen et du programme officiel de l’examen civique publié par le Ministère de l’Intérieur français."
       },
       "answers": {
         "title": "Réponses et explications",
-        "description": "Les réponses et explications sont rédigées par le site et ne proviennent pas d'une source officielle. Elles sont fournies à titre indicatif pour faciliter l'apprentissage. En cas de doute, référez-vous aux documents officiels."
+        "description": "Les réponses et explications sont rédigées par le site et ne proviennent pas d’une source officielle. Elles sont fournies à titre indicatif pour faciliter l’apprentissage. En cas de doute, référez-vous aux documents officiels."
       }
     },
     "sources": {
       "title": "Sources officielles",
-      "description": "Consultez les ressources officielles du gouvernement français :",
+      "description": "Consultez les ressources officielles du gouvernement français :",
       "servicePublic": {
         "title": "Service-Public.fr - Nouvel examen civique",
         "description": "Informations officielles sur le nouvel examen civique obligatoire depuis 2026."
       },
       "formationCivique": {
         "title": "Formation Civique Officielle",
-        "description": "Le site officiel de la formation civique du Ministère de l'Intérieur."
+        "description": "Le site officiel de la formation civique du Ministère de l’Intérieur."
       },
       "legifrance": {
         "title": "Légifrance - Arrêté du 10 octobre 2025",
-        "description": "Le texte réglementaire définissant les modalités de l'examen civique."
+        "description": "Le texte réglementaire définissant les modalités de l’examen civique."
       }
     },
     "contact": {
       "title": "Contact et contributions",
       "description": "Ce projet est open source. Vous pouvez consulter le code, signaler des problèmes ou contribuer sur GitHub."
     },
-    "backHome": "Retour à l'accueil"
+    "backHome": "Retour à l’accueil"
   }
 }
