@@ -3,6 +3,7 @@ import type { Category, Question } from '~/types'
 import questionsData from '../../data/questions.json'
 import { shuffle } from '~/utils/shuffle'
 import { CATEGORIES } from '~/constants/exam'
+import { shuffleOptions } from '~/composables/useQuiz'
 
 definePageMeta({
   path: '/etudier',
@@ -53,7 +54,7 @@ const categoryCount = computed(() => {
 const currentQuestion = computed(() => studyQuestions.value[currentIndex.value])
 
 function startStudy() {
-  studyQuestions.value = shuffle([...filteredQuestions.value])
+  studyQuestions.value = shuffle([...filteredQuestions.value]).map(shuffleOptions)
   currentIndex.value = 0
   highlightedAnswer.value = null
   confirmedAnswer.value = null
