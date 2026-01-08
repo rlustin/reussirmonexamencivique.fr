@@ -305,14 +305,6 @@ useSeoMeta({
                   {{ String.fromCharCode(65 + optIndex) }}
                 </span>
                 <span class="flex-1 pt-0.5">{{ option }}</span>
-                <!-- Keyboard shortcut hint -->
-                <span
-                  v-if="!hasAnswered"
-                  class="hidden sm:inline-flex flex-shrink-0 text-xs text-gray-400 font-mono px-2 py-1 bg-gray-50 rounded"
-                  aria-hidden="true"
-                >
-                  {{ optIndex + 1 }}
-                </span>
                 <!-- Feedback icons -->
                 <template v-if="hasAnswered">
                   <span v-if="optIndex === currentQuestion.correctIndex" class="text-success-600">
