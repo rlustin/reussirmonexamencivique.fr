@@ -52,7 +52,7 @@ useSeoMeta({
 
           <!-- Icon credit -->
           <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <img src="/favicon.svg" alt="" class="w-10 h-10 flex-shrink-0" aria-hidden="true">
+            <img src="/favicon.svg" alt="" class="w-10 h-10 flex-shrink-0" aria-hidden="true"/>
             <div>
               <h3 class="font-medium text-foreground">{{ $t('about.credits.icon.title') }}</h3>
               <p class="text-sm text-gray-600 mt-1">
