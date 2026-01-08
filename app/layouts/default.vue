@@ -138,6 +138,11 @@ watch(
         <p class="mt-1">
           {{ $t('footer.line2') }}
         </p>
+        <p class="mt-3">
+          <NuxtLink to="/a-propos" class="text-primary hover:underline">
+            {{ $t('footer.about') }}
+          </NuxtLink>
+        </p>
       </div>
     </footer>
   </div>

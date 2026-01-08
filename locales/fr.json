@@ -9,7 +9,6 @@
   "a11y": {
     "skipToContent": "Aller au contenu principal",
     "toggleMenu": "Ouvrir ou fermer le menu",
-    "externalLink": "(s’ouvre dans un nouvel onglet)",
     "currentPage": "page actuelle",
     "questionNumber": "Question numéro {number}",
     "answerOption": "Option de réponse {letter}",
@@ -40,8 +39,9 @@
   },
 
   "footer": {
-    "line1": "Entraînement gratuit pour l’examen civique de la naturalisation française.",
-    "line2": "Basé sur les 259 questions officielles du programme."
+    "line1": "Entraînement gratuit pour l'examen civique de la naturalisation française.",
+    "line2": "Basé sur les 259 questions officielles du programme.",
+    "about": "À propos"
   },
 
   "home": {
@@ -225,5 +225,54 @@
       "histoire-geographie-culture": "Histoire et culture",
       "vivre-societe": "Vivre en société"
     }
+  },
+
+  "about": {
+    "meta": {
+      "title": "À propos - Réussir mon Examen Civique",
+      "description": "Informations sur le site Réussir mon Examen Civique et crédits."
+    },
+    "title": "À propos",
+    "project": {
+      "title": "Le projet",
+      "description": "Réussir mon Examen Civique est un outil gratuit d'entraînement pour l'examen civique de la naturalisation française. Il permet de s'exercer avec les 259 questions officielles du programme dans des conditions similaires à l'examen réel.",
+      "disclaimer": "Ce site est un projet indépendant et n'est pas affilié au gouvernement français. Les questions sont issues du programme officiel publié par le Ministère de l'Intérieur."
+    },
+    "credits": {
+      "title": "Crédits",
+      "icon": {
+        "title": "Icône du bonnet phrygien",
+        "description": "L'icône du bonnet phrygien (symbole de Marianne et de la liberté) est créée par Delapouite et publiée sous licence Creative Commons BY 3.0."
+      },
+      "questions": {
+        "title": "Questions de l'examen",
+        "description": "Les questions sont issues du livret du citoyen et du programme officiel de l'examen civique publié par le Ministère de l'Intérieur français."
+      },
+      "answers": {
+        "title": "Réponses et explications",
+        "description": "Les réponses et explications sont rédigées par le site et ne proviennent pas d'une source officielle. Elles sont fournies à titre indicatif pour faciliter l'apprentissage. En cas de doute, référez-vous aux documents officiels."
+      }
+    },
+    "sources": {
+      "title": "Sources officielles",
+      "description": "Consultez les ressources officielles du gouvernement français :",
+      "servicePublic": {
+        "title": "Service-Public.fr - Nouvel examen civique",
+        "description": "Informations officielles sur le nouvel examen civique obligatoire depuis 2026."
+      },
+      "formationCivique": {
+        "title": "Formation Civique Officielle",
+        "description": "Le site officiel de la formation civique du Ministère de l'Intérieur."
+      },
+      "legifrance": {
+        "title": "Légifrance - Arrêté du 10 octobre 2025",
+        "description": "Le texte réglementaire définissant les modalités de l'examen civique."
+      }
+    },
+    "contact": {
+      "title": "Contact et contributions",
+      "description": "Ce projet est open source. Vous pouvez consulter le code, signaler des problèmes ou contribuer sur GitHub."
+    },
+    "backHome": "Retour à l'accueil"
   }
 }
