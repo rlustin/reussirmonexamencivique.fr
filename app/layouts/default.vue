@@ -33,11 +33,7 @@ watch(
       <div class="max-w-4xl mx-auto px-4 py-4">
         <nav class="flex items-center justify-between">
           <NuxtLink to="/" class="flex items-center gap-2">
-            <div class="flex gap-0.5">
-              <div class="w-2 h-6 bg-blue-600 rounded-sm" />
-              <div class="w-2 h-6 bg-white border border-gray-300 rounded-sm" />
-              <div class="w-2 h-6 bg-red-600 rounded-sm" />
-            </div>
+            <img src="/favicon.svg" alt="" class="w-8 h-8" aria-hidden="true">
             <span class="font-semibold text-lg text-foreground">{{ $t('nav.brand') }}</span>
           </NuxtLink>
 
