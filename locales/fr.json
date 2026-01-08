@@ -31,6 +31,7 @@
 
   "nav": {
     "brand": "Réussir mon Examen Civique",
+    "exam": "L'examen",
     "study": "Étudier",
     "studyQuestions": "Étudier les questions",
     "startQuiz": "Commencer le quiz",
@@ -41,6 +42,7 @@
   "footer": {
     "line1": "Entraînement gratuit pour l'examen civique de la naturalisation française.",
     "line2": "Basé sur les 259 questions officielles du programme.",
+    "exam": "L'examen civique",
     "about": "À propos"
   },
 
@@ -224,6 +226,66 @@
       "droits-devoirs": "Droits et devoirs",
       "histoire-geographie-culture": "Histoire et culture",
       "vivre-societe": "Vivre en société"
+    }
+  },
+
+  "exam": {
+    "meta": {
+      "title": "L'examen civique - Réussir mon Examen Civique",
+      "description": "Tout savoir sur l'examen civique obligatoire depuis janvier 2026 pour la naturalisation française et les titres de séjour."
+    },
+    "title": "L'examen civique",
+    "what": {
+      "title": "Qu'est-ce que l'examen civique ?",
+      "description": "L'examen civique est un test numérique créé par la loi du 26 janvier 2024. Il évalue la connaissance des principes et valeurs de la République française, ainsi que les droits et devoirs des résidents en France.",
+      "since": "Cet examen est obligatoire depuis le 1er janvier 2026 pour certaines démarches administratives liées à l'immigration et à la nationalité."
+    },
+    "format": {
+      "title": "Format de l'examen",
+      "questions": "questions",
+      "duration": "durée maximale",
+      "passing": "pour réussir",
+      "successRate": "taux de réussite requis",
+      "breakdown": "L'examen se compose de deux types de questions :",
+      "knowledge": "28 questions de connaissances générales",
+      "situational": "12 questions de mise en situation",
+      "mcq": "Chaque question propose 4 réponses possibles, dont une seule est correcte."
+    },
+    "who": {
+      "title": "Qui est concerné ?",
+      "intro": "L'examen civique est obligatoire pour :",
+      "naturalization": "Les demandeurs de la naturalisation française",
+      "residenceCard": "Les demandeurs d'une carte de séjour pluriannuelle ou d'une carte de résident (ressortissants non-UE)",
+      "exceptions": {
+        "title": "Exceptions",
+        "renewal": "Renouvellement d'un titre de séjour existant",
+        "protection": "Bénéficiaires de la protection internationale (réfugiés, protection subsidiaire)"
+      }
+    },
+    "topics": {
+      "title": "Les 5 thématiques",
+      "intro": "Les questions portent sur cinq grands domaines :",
+      "principles": "Devise républicaine, symboles nationaux, laïcité, égalité femmes-hommes",
+      "institutions": "Organisation des pouvoirs, collectivités territoriales, Union européenne",
+      "rights": "Libertés fondamentales, droits civiques, obligations légales",
+      "history": "Grandes dates, patrimoine culturel, géographie de la France",
+      "society": "Éducation, travail, santé, autorité parentale, vie quotidienne"
+    },
+    "training": {
+      "title": "La formation civique",
+      "description": "Avant de passer l'examen, les nouveaux demandeurs de titre de séjour doivent suivre une formation civique obligatoire. Cette formation vise à faciliter l'appropriation des principes et valeurs de la République.",
+      "days": "jours de formation",
+      "hours": "heures au total",
+      "certificate": "À l'issue de la formation, une attestation nominative de sérieux et d'assiduité est délivrée. Ce document est à joindre au dossier de demande de titre de séjour."
+    },
+    "sources": {
+      "title": "Sources officielles",
+      "description": "Pour plus d'informations, consultez les ressources officielles du gouvernement :"
+    },
+    "cta": {
+      "intro": "Prêt à vous entraîner ? Testez vos connaissances avec nos outils gratuits.",
+      "quiz": "Passer un quiz",
+      "study": "Étudier les questions"
     }
   },
 

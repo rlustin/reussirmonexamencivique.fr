@@ -40,6 +40,12 @@ watch(
           <!-- Desktop navigation -->
           <div class="hidden sm:flex items-center gap-4">
             <NuxtLink
+              to="/examen-civique"
+              class="text-gray-600 hover:text-primary transition-colors py-2 px-3"
+            >
+              {{ $t('nav.exam') }}
+            </NuxtLink>
+            <NuxtLink
               to="/etudier"
               class="text-gray-600 hover:text-primary transition-colors py-2 px-3"
             >
@@ -100,6 +106,12 @@ watch(
           aria-label="Menu de navigation mobile"
         >
           <NuxtLink
+            to="/examen-civique"
+            class="block py-3 px-2 text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
+          >
+            {{ $t('nav.exam') }}
+          </NuxtLink>
+          <NuxtLink
             to="/etudier"
             class="block py-3 px-2 text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
           >
@@ -139,6 +151,10 @@ watch(
           {{ $t('footer.line2') }}
         </p>
         <p class="mt-3">
+          <NuxtLink to="/examen-civique" class="text-primary hover:underline">
+            {{ $t('footer.exam') }}
+          </NuxtLink>
+          <span class="mx-2">·</span>
           <NuxtLink to="/a-propos" class="text-primary hover:underline">
             {{ $t('footer.about') }}
           </NuxtLink>
