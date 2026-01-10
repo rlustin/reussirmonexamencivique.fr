@@ -9,6 +9,8 @@ definePageMeta({
   path: '/etudier',
 })
 
+const route = useRoute()
+const router = useRouter()
 const { t } = useI18n()
 
 const allQuestions = questionsData.questions as Question[]
@@ -38,7 +40,7 @@ const categoryCount = computed(() => {
 
 const currentQuestion = computed(() => studyQuestions.value[currentIndex.value])
 
-function startStudy() {
+function initStudySession() {
   studyQuestions.value = shuffle([...filteredQuestions.value]).map(shuffleOptions)
   currentIndex.value = 0
   highlightedAnswer.value = null
@@ -46,6 +48,11 @@ function startStudy() {
   answeredCount.value = 0
   correctCount.value = 0
   isStudying.value = true
+}
+
+function startStudy() {
+  initStudySession()
+  router.push({ query: { mode: 'study' } })
 }
 
 function highlightAnswer(index: number) {
@@ -93,9 +100,28 @@ function exitStudy() {
   isStudying.value = false
   highlightedAnswer.value = null
   confirmedAnswer.value = null
+  router.push({ query: {} })
 }
 
 const isLastQuestion = computed(() => currentIndex.value === studyQuestions.value.length - 1)
+
+// Watch for route changes (handles browser back button)
+watch(() => route.query.mode, (newMode) => {
+  if (newMode === 'study' && !isStudying.value) {
+    initStudySession()
+  } else if (!newMode && isStudying.value) {
+    isStudying.value = false
+    highlightedAnswer.value = null
+    confirmedAnswer.value = null
+  }
+})
+
+// Initialize study mode if URL has mode=study on mount
+onMounted(() => {
+  if (route.query.mode === 'study') {
+    initStudySession()
+  }
+})
 
 // Keyboard navigation for study mode
 useKeyboardNav({
