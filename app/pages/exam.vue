@@ -7,7 +7,12 @@ const { t } = useI18n()
 
 useSeoMeta({
   title: t('exam.meta.title'),
+  ogTitle: t('exam.meta.title'),
   description: t('exam.meta.description'),
+  ogDescription: t('exam.meta.description'),
+  twitterTitle: t('exam.meta.title'),
+  twitterDescription: t('exam.meta.description'),
+  keywords: t('exam.meta.keywords'),
 })
 </script>
 
@@ -88,26 +93,26 @@ useSeoMeta({
         <p class="text-gray-600 mb-4">{{ $t('exam.topics.intro') }}</p>
 
         <div class="space-y-3">
-          <div class="p-3 bg-gray-50 rounded-lg">
-            <h3 class="font-medium text-foreground">1. {{ $t('categories.full.principes-valeurs') }}</h3>
+          <NuxtLink to="/etudier/principes-valeurs" class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h3 class="font-medium text-primary">1. {{ $t('categories.full.principes-valeurs') }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ $t('exam.topics.principles') }}</p>
-          </div>
-          <div class="p-3 bg-gray-50 rounded-lg">
-            <h3 class="font-medium text-foreground">2. {{ $t('categories.full.systeme-institutionnel') }}</h3>
+          </NuxtLink>
+          <NuxtLink to="/etudier/systeme-institutionnel" class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h3 class="font-medium text-primary">2. {{ $t('categories.full.systeme-institutionnel') }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ $t('exam.topics.institutions') }}</p>
-          </div>
-          <div class="p-3 bg-gray-50 rounded-lg">
-            <h3 class="font-medium text-foreground">3. {{ $t('categories.full.droits-devoirs') }}</h3>
+          </NuxtLink>
+          <NuxtLink to="/etudier/droits-devoirs" class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h3 class="font-medium text-primary">3. {{ $t('categories.full.droits-devoirs') }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ $t('exam.topics.rights') }}</p>
-          </div>
-          <div class="p-3 bg-gray-50 rounded-lg">
-            <h3 class="font-medium text-foreground">4. {{ $t('categories.full.histoire-geographie-culture') }}</h3>
+          </NuxtLink>
+          <NuxtLink to="/etudier/histoire-geographie-culture" class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h3 class="font-medium text-primary">4. {{ $t('categories.full.histoire-geographie-culture') }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ $t('exam.topics.history') }}</p>
-          </div>
-          <div class="p-3 bg-gray-50 rounded-lg">
-            <h3 class="font-medium text-foreground">5. {{ $t('categories.full.vivre-societe') }}</h3>
+          </NuxtLink>
+          <NuxtLink to="/etudier/vivre-societe" class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h3 class="font-medium text-primary">5. {{ $t('categories.full.vivre-societe') }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ $t('exam.topics.society') }}</p>
-          </div>
+          </NuxtLink>
         </div>
       </section>
 

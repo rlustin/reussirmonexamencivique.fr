@@ -1,45 +1,56 @@
 <script setup lang="ts">
-import type { Question } from '~/types'
-import questionsData from '../../data/questions.json'
+import type { Category, Question } from '~/types'
+import questionsData from '../../../data/questions.json'
 import { shuffle } from '~/utils/shuffle'
 import { CATEGORIES } from '~/constants/exam'
 import { shuffleOptions } from '~/composables/useQuiz'
 
-definePageMeta({
-  path: '/etudier',
+const route = useRoute()
+const { t } = useI18n()
+
+// Validate category parameter
+const categorySlug = computed(() => route.params.category as string)
+
+const isValidCategory = computed(() => {
+  return CATEGORIES.includes(categorySlug.value as Category)
 })
 
-const { t } = useI18n()
+// Redirect to 404 if invalid category
+if (!isValidCategory.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Page Not Found',
+  })
+}
+
+const category = computed(() => categorySlug.value as Category)
 
 const allQuestions = questionsData.questions as Question[]
 
-// Quiz state
+// Filter questions for this category
+const categoryQuestions = computed(() => {
+  return allQuestions.filter((q) => q.category === category.value)
+})
+
+const situationalCount = computed(() => {
+  return categoryQuestions.value.filter((q) => q.isSituational).length
+})
+
+// Study state
 const isStudying = ref(false)
 const currentIndex = ref(0)
-const highlightedAnswer = ref<number | null>(null) // Pre-selection before confirming
-const confirmedAnswer = ref<number | null>(null) // Confirmed answer (shows feedback)
+const highlightedAnswer = ref<number | null>(null)
+const confirmedAnswer = ref<number | null>(null)
 const studyQuestions = ref<Question[]>([])
 const answeredCount = ref(0)
 const correctCount = ref(0)
 
-// Computed for backward compatibility
 const hasAnswered = computed(() => confirmedAnswer.value !== null)
-
-const filteredQuestions = computed(() => allQuestions)
-
-// Category counts for links to category pages
-const categoryCount = computed(() => {
-  const counts: Record<string, number> = {}
-  for (const cat of CATEGORIES) {
-    counts[cat] = allQuestions.filter((q) => q.category === cat).length
-  }
-  return counts
-})
 
 const currentQuestion = computed(() => studyQuestions.value[currentIndex.value])
 
 function startStudy() {
-  studyQuestions.value = shuffle([...filteredQuestions.value]).map(shuffleOptions)
+  studyQuestions.value = shuffle([...categoryQuestions.value]).map(shuffleOptions)
   currentIndex.value = 0
   highlightedAnswer.value = null
   confirmedAnswer.value = null
@@ -65,10 +76,8 @@ function confirmAnswer() {
 function handleOptionClick(index: number) {
   if (hasAnswered.value) return
   if (highlightedAnswer.value === index) {
-    // Second click on same option confirms it
     confirmAnswer()
   } else {
-    // First click highlights
     highlightAnswer(index)
   }
 }
@@ -97,16 +106,14 @@ function exitStudy() {
 
 const isLastQuestion = computed(() => currentIndex.value === studyQuestions.value.length - 1)
 
-// Keyboard navigation for study mode
+// Keyboard navigation
 useKeyboardNav({
   onSelectAnswer: highlightAnswer,
   onNext: () => {
-    // If not answered yet but something is highlighted, confirm it
     if (!hasAnswered.value && highlightedAnswer.value !== null) {
       confirmAnswer()
       return
     }
-    // If answered, go to next question
     if (hasAnswered.value) {
       if (isLastQuestion.value) {
         exitStudy()
@@ -158,14 +165,29 @@ function getLetterClass(optIndex: number) {
   return 'bg-gray-200 text-gray-600'
 }
 
+// Other categories for navigation
+const otherCategories = computed(() => {
+  return CATEGORIES.filter((cat) => cat !== category.value)
+})
+
+// SEO
 useSeoMeta({
-  title: t('study.meta.title'),
-  ogTitle: t('study.meta.title'),
-  description: t('study.meta.description'),
-  ogDescription: t('study.meta.description'),
-  twitterTitle: t('study.meta.title'),
-  twitterDescription: t('study.meta.description'),
-  keywords: t('study.meta.keywords'),
+  title: t('categoryPage.meta.title', { category: t(`categories.full.${category.value}`) }),
+  ogTitle: t('categoryPage.meta.title', { category: t(`categories.full.${category.value}`) }),
+  description: t('categoryPage.meta.description', {
+    category: t(`categories.full.${category.value}`),
+    count: categoryQuestions.value.length,
+  }),
+  ogDescription: t('categoryPage.meta.description', {
+    category: t(`categories.full.${category.value}`),
+    count: categoryQuestions.value.length,
+  }),
+  twitterTitle: t('categoryPage.meta.title', { category: t(`categories.full.${category.value}`) }),
+  twitterDescription: t('categoryPage.meta.description', {
+    category: t(`categories.full.${category.value}`),
+    count: categoryQuestions.value.length,
+  }),
+  keywords: t('categoryPage.meta.keywords', { category: t(`categories.short.${category.value}`) }),
 })
 </script>
 
@@ -174,54 +196,80 @@ useSeoMeta({
     <div class="max-w-4xl mx-auto px-4">
       <!-- Filter/Setup Screen -->
       <template v-if="!isStudying">
+        <!-- Breadcrumb -->
+        <nav class="mb-6 text-sm" aria-label="Breadcrumb">
+          <ol class="flex items-center gap-2 text-gray-500">
+            <li>
+              <NuxtLink to="/" class="hover:text-primary">{{ $t('nav.brand') }}</NuxtLink>
+            </li>
+            <li class="flex items-center gap-2">
+              <span>/</span>
+              <NuxtLink to="/etudier" class="hover:text-primary">{{ $t('nav.study') }}</NuxtLink>
+            </li>
+            <li class="flex items-center gap-2">
+              <span>/</span>
+              <span class="text-foreground font-medium">{{ $t(`categories.short.${category}`) }}</span>
+            </li>
+          </ol>
+        </nav>
+
         <!-- Header -->
         <div class="mb-8">
-          <h1 class="text-3xl font-bold text-foreground mb-2">📚 {{ $t('study.header.title') }}</h1>
+          <h1 class="text-3xl font-bold text-foreground mb-2">
+            {{ $t(`categories.full.${category}`) }}
+          </h1>
           <p class="text-gray-600">
-            {{ $t('study.header.subtitle', { count: allQuestions.length }) }}
+            {{ $t('categoryPage.header.subtitle', { count: categoryQuestions.length }) }}
           </p>
+          <div v-if="situationalCount > 0" class="mt-2 text-sm text-gray-500">
+            {{ $t('categoryPage.header.situational', { count: situationalCount }, situationalCount) }}
+          </div>
         </div>
 
-        <!-- Study all questions -->
+        <!-- Category description -->
         <div class="card mb-6">
-          <h2 class="text-lg font-semibold text-foreground mb-2">{{ $t('study.allQuestions.title') }}</h2>
-          <p class="text-gray-600 mb-4">{{ $t('study.allQuestions.description', { count: allQuestions.length }) }}</p>
+          <h2 class="text-lg font-semibold mb-3">{{ $t('categoryPage.about.title') }}</h2>
+          <p class="text-gray-600">{{ $t(`categoryPage.descriptions.${category}`) }}</p>
+        </div>
+
+        <!-- Start button -->
+        <div class="text-center mb-12">
           <button
             type="button"
             class="btn btn-primary px-8 py-3 text-lg"
+            :disabled="categoryQuestions.length === 0"
             @click="startStudy"
           >
-            {{ $t('study.setup.start') }}
+            {{ $t('categoryPage.start') }}
           </button>
         </div>
 
-        <!-- Category links -->
-        <div class="card mb-6">
-          <h2 class="text-lg font-semibold text-foreground mb-4">{{ $t('study.categories.title') }}</h2>
+        <!-- Other categories -->
+        <div class="border-t border-gray-200 pt-8">
+          <h2 class="text-lg font-semibold text-foreground mb-4">{{ $t('categoryPage.otherCategories') }}</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <NuxtLink
-              v-for="cat in CATEGORIES"
+              v-for="cat in otherCategories"
               :key="cat"
               :to="`/etudier/${cat}`"
-              class="p-3 rounded-lg border border-gray-200 hover:border-primary hover:bg-primary-50 transition-colors"
+              class="card hover:shadow-md transition-shadow p-4"
             >
-              <h3 class="font-medium text-foreground">{{ $t(`categories.full.${cat}`) }}</h3>
-              <p class="text-sm text-gray-500">{{ categoryCount[cat] }} questions</p>
+              <h3 class="font-medium text-primary">{{ $t(`categories.full.${cat}`) }}</h3>
+              <p class="text-sm text-gray-500 mt-1">
+                {{ allQuestions.filter((q) => q.category === cat).length }} questions
+              </p>
             </NuxtLink>
           </div>
         </div>
 
         <!-- Related links -->
-        <div class="mt-12 pt-8 border-t border-gray-200">
-          <h2 class="text-lg font-semibold text-foreground mb-4">{{ $t('study.related.title') }}</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <NuxtLink to="/quiz" class="card hover:shadow-md transition-shadow p-4">
-              <h3 class="font-medium text-primary mb-1">{{ $t('study.related.quiz.title') }}</h3>
-              <p class="text-sm text-gray-600">{{ $t('study.related.quiz.description') }}</p>
+        <div class="mt-8 pt-8 border-t border-gray-200">
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <NuxtLink to="/etudier" class="btn btn-secondary">
+              {{ $t('categoryPage.backToStudy') }}
             </NuxtLink>
-            <NuxtLink to="/examen-civique" class="card hover:shadow-md transition-shadow p-4">
-              <h3 class="font-medium text-primary mb-1">{{ $t('study.related.exam.title') }}</h3>
-              <p class="text-sm text-gray-600">{{ $t('study.related.exam.description') }}</p>
+            <NuxtLink to="/quiz" class="btn btn-primary">
+              {{ $t('categoryPage.startQuiz') }}
             </NuxtLink>
           </div>
         </div>

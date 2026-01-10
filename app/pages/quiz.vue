@@ -5,7 +5,11 @@ const { t } = useI18n()
 
 useSeoMeta({
   title: t('quiz.meta.title'),
+  ogTitle: t('quiz.meta.title'),
   description: t('quiz.meta.description'),
+  ogDescription: t('quiz.meta.description'),
+  twitterTitle: t('quiz.meta.title'),
+  twitterDescription: t('quiz.meta.description'),
 })
 
 const router = useRouter()
@@ -172,6 +176,13 @@ const unansweredCount = computed(() => {
           >
             {{ $t('quiz.start.button') }}
           </button>
+
+          <div class="pt-4 border-t border-gray-100">
+            <p class="text-sm text-gray-500 mb-2">{{ $t('quiz.start.alternative') }}</p>
+            <NuxtLink to="/etudier" class="text-sm text-primary hover:underline">
+              {{ $t('quiz.start.studyLink') }}
+            </NuxtLink>
+          </div>
         </div>
       </BaseCard>
     </div>

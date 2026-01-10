@@ -7,7 +7,11 @@ const { t } = useI18n()
 
 useSeoMeta({
   title: t('about.meta.title'),
+  ogTitle: t('about.meta.title'),
   description: t('about.meta.description'),
+  ogDescription: t('about.meta.description'),
+  twitterTitle: t('about.meta.title'),
+  twitterDescription: t('about.meta.description'),
 })
 </script>
 

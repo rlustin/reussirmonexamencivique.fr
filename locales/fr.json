@@ -95,6 +95,8 @@
       "title": "Prêt pour le quiz ?",
       "description": "Vous allez répondre à 40 questions en 45 minutes maximum. Comme pour l’examen officiel, vous devez obtenir au moins 32 bonnes réponses (80 %) pour réussir.",
       "button": "Commencer le quiz",
+      "alternative": "Pas encore prêt ?",
+      "studyLink": "Révisez d’abord les questions en mode étude",
       "info": {
         "questions": "40 questions",
         "time": "45 minutes",
@@ -144,6 +146,7 @@
     },
     "actions": {
       "retry": "Réessayer",
+      "study": "Réviser",
       "home": "Retour à l’accueil"
     },
     "category": {
@@ -166,11 +169,19 @@
   "study": {
     "meta": {
       "title": "Étudier - Réussir mon Examen Civique",
-      "description": "Parcourez et révisez les 259 questions officielles de l’examen civique par catégorie."
+      "description": "Parcourez et révisez les 259 questions officielles de l’examen civique par catégorie.",
+      "keywords": "étudier examen civique, réviser naturalisation, questions officielles, préparation examen civique, quiz naturalisation française"
     },
     "header": {
       "title": "Mode étude",
-      "subtitle": "Parcourez les {count} questions officielles et révisez à votre rythme."
+      "subtitle": "Révisez les {count} questions officielles, toutes ensemble ou par thématique."
+    },
+    "categories": {
+      "title": "Étudier par thématique"
+    },
+    "allQuestions": {
+      "title": "Toutes les questions",
+      "description": "Révisez l’ensemble des {count} questions officielles, toutes catégories confondues, dans un ordre aléatoire."
     },
     "filters": {
       "search": "Rechercher",
@@ -210,6 +221,17 @@
     "empty": {
       "message": "Aucune question ne correspond à votre recherche.",
       "reset": "Réinitialiser les filtres"
+    },
+    "related": {
+      "title": "Voir aussi",
+      "quiz": {
+        "title": "Passer un quiz",
+        "description": "Testez vos connaissances en conditions d’examen avec 40 questions en 45 minutes."
+      },
+      "exam": {
+        "title": "En savoir plus sur l’examen",
+        "description": "Découvrez le format, les thématiques et les conditions de l’examen civique."
+      }
     }
   },
 
@@ -233,7 +255,8 @@
   "exam": {
     "meta": {
       "title": "L’examen civique - Réussir mon Examen Civique",
-      "description": "Tout savoir sur l’examen civique obligatoire depuis janvier 2026 pour la naturalisation française et les titres de séjour."
+      "description": "Tout savoir sur l’examen civique obligatoire depuis janvier 2026 pour la naturalisation française et les titres de séjour.",
+      "keywords": "examen civique 2026, naturalisation française, test civique obligatoire, formation civique, titre de séjour"
     },
     "title": "L’examen civique",
     "what": {
@@ -337,5 +360,31 @@
       "description": "Ce projet est open source. Vous pouvez consulter le code, signaler des problèmes ou contribuer sur GitHub."
     },
     "backHome": "Retour à l’accueil"
+  },
+
+  "categoryPage": {
+    "meta": {
+      "title": "{category} - Étudier | Réussir mon Examen Civique",
+      "description": "Révisez les {count} questions officielles sur le thème « {category} » de l’examen civique français.",
+      "keywords": "examen civique {category}, questions naturalisation, révision {category}"
+    },
+    "header": {
+      "subtitle": "Révisez les {count} questions officielles de cette catégorie.",
+      "situational": "Dont {count} question de mise en situation | Dont {count} questions de mise en situation"
+    },
+    "about": {
+      "title": "À propos de cette thématique"
+    },
+    "descriptions": {
+      "principes-valeurs": "Cette thématique aborde les fondements de la République française : la devise « Liberté, Égalité, Fraternité », les symboles nationaux (drapeau, Marianne, Marseillaise), les principes de laïcité, l’égalité entre les femmes et les hommes, et les valeurs républicaines.",
+      "systeme-institutionnel": "Cette thématique couvre l’organisation des pouvoirs publics en France : le Président de la République, le gouvernement, le Parlement, les collectivités territoriales, ainsi que le fonctionnement de l’Union européenne et ses institutions.",
+      "droits-devoirs": "Cette thématique traite des libertés fondamentales garanties par la Constitution, des droits civiques (vote, expression, association), ainsi que des obligations légales des citoyens et résidents en France.",
+      "histoire-geographie-culture": "Cette thématique explore les grandes dates et événements de l’histoire de France, le patrimoine culturel et artistique, la géographie du territoire, et les personnalités qui ont marqué la nation.",
+      "vivre-societe": "Cette thématique aborde la vie quotidienne en France : le système éducatif, le monde du travail, l’accès aux soins de santé, l’autorité parentale, et les règles de vie en société."
+    },
+    "start": "Commencer l’étude",
+    "otherCategories": "Autres thématiques",
+    "backToStudy": "Toutes les questions",
+    "startQuiz": "Passer un quiz"
   }
 }

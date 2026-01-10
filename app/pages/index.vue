@@ -154,15 +154,16 @@ const categories: { key: Category; count: number }[] = [
           {{ $t('home.categories.title') }}
         </h2>
         <ul class="space-y-2">
-          <li
+          <NuxtLink
             v-for="(category, index) in categories"
             :key="category.key"
-            class="flex justify-between items-center p-3 rounded-xl transition-colors hover:bg-warm-50"
+            :to="`/etudier/${category.key}`"
+            class="flex justify-between items-center p-3 rounded-xl transition-colors hover:bg-warm-50 group"
             :class="index < categories.length - 1 ? 'border-b border-warm-100' : ''"
           >
-            <span class="text-warm-800 font-medium">{{ $t(`categories.full.${category.key}`) }}</span>
+            <span class="text-warm-800 font-medium group-hover:text-primary transition-colors">{{ $t(`categories.full.${category.key}`) }}</span>
             <span class="text-sm text-warm-500 bg-warm-100 px-3 py-1 rounded-full">{{ $t('home.categories.questionCount', { count: category.count }) }}</span>
-          </li>
+          </NuxtLink>
         </ul>
       </div>
 
