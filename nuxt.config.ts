@@ -60,7 +60,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'theme-color', content: '#2563EB' },
+        { name: 'theme-color', content: '#F97066' },
         // Open Graph
         { property: 'og:type', content: 'website' },
         { property: 'og:locale', content: 'fr_FR' },

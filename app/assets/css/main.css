@@ -1,3 +1,9 @@
+@import '@fontsource/nunito/400.css';
+@import '@fontsource/nunito/500.css';
+@import '@fontsource/nunito/600.css';
+@import '@fontsource/nunito/700.css';
+@import '@fontsource/nunito/800.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +16,7 @@
 
   /* Improved focus styles for accessibility */
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-primary;
+    @apply outline-2 outline-offset-2 outline-primary-500;
   }
 
   /* Remove focus outline for mouse users but keep for keyboard */
@@ -20,7 +26,7 @@
 
   /* Ensure links have proper focus states */
   a:focus-visible {
-    @apply rounded outline-2 outline-offset-2 outline-primary;
+    @apply rounded-lg outline-2 outline-offset-2 outline-primary-500;
   }
 
   /* Reduce motion for users who prefer it */
@@ -38,26 +44,53 @@
 /* Custom component classes */
 @layer components {
   .btn {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-primary text-white hover:bg-primary-700 focus:ring-primary;
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-primary text-white hover:bg-primary-600 hover:shadow-soft active:scale-[0.98] focus:ring-primary-400;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-gray-100 text-foreground hover:bg-gray-200 focus:ring-gray-500;
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-warm-100 text-warm-800 hover:bg-warm-200 active:scale-[0.98] focus:ring-warm-400;
   }
 
   .btn-success {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-success text-white hover:bg-success-700 focus:ring-success;
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-success text-white hover:bg-success-600 hover:shadow-soft active:scale-[0.98] focus:ring-success;
   }
 
   .btn-error {
-    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-error text-white hover:bg-error-700 focus:ring-error;
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed bg-error text-white hover:bg-error-600 hover:shadow-soft active:scale-[0.98] focus:ring-error;
   }
 
   .card {
-    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+    @apply bg-white rounded-2xl shadow-soft border border-warm-200 p-6;
+  }
+
+  /* Decorative blob shapes */
+  .blob {
+    @apply absolute rounded-full opacity-60 blur-3xl pointer-events-none;
+  }
+
+  .blob-primary {
+    @apply bg-primary-200;
+  }
+
+  .blob-secondary {
+    @apply bg-secondary-200;
+  }
+
+  .blob-accent {
+    @apply bg-accent-100;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-primary to-secondary-500;
+  }
+
+  /* Warm hover states */
+  .hover-lift {
+    @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-soft-lg;
   }
 }

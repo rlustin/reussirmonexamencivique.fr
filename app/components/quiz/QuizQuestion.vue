@@ -28,7 +28,7 @@ const questionId = computed(() => `question-${props.question.id}`)
       <CategoryBadge :category="question.category" />
       <h2
         :id="questionId"
-        class="text-xl font-semibold text-foreground leading-relaxed"
+        class="text-xl font-bold text-foreground leading-relaxed"
       >
         {{ question.question }}
       </h2>
@@ -42,21 +42,21 @@ const questionId = computed(() => `question-${props.question.id}`)
         role="radio"
         :aria-checked="selectedAnswer === index"
         :aria-label="`${optionLabels[index]}. ${option}${selectedAnswer === index ? ` - ${t('a11y.selected')}` : ''}`"
-        class="w-full text-left p-4 rounded-lg border-2 transition-all duration-200 min-h-[44px] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+        class="w-full text-left p-4 rounded-xl border-2 transition-all duration-200 min-h-[44px] focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2"
         :class="[
           selectedAnswer === index
-            ? 'border-primary bg-primary/5 ring-2 ring-primary/20'
-            : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50',
+            ? 'border-primary bg-primary-50 shadow-soft'
+            : 'border-warm-200 hover:border-warm-300 hover:bg-warm-50',
         ]"
         @click="$emit('select', index)"
       >
         <div class="flex items-start gap-3">
           <span
-            class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold transition-colors"
+            class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-all"
             :class="[
               selectedAnswer === index
-                ? 'bg-primary text-white'
-                : 'bg-gray-100 text-gray-600',
+                ? 'bg-primary text-white shadow-soft'
+                : 'bg-warm-100 text-warm-600',
             ]"
             aria-hidden="true"
           >
@@ -68,9 +68,9 @@ const questionId = computed(() => `question-${props.question.id}`)
     </div>
 
     <!-- Keyboard hints footer (hidden on mobile) -->
-    <div class="hidden sm:flex items-center justify-center gap-4 pt-2 text-xs text-gray-400">
+    <div class="hidden sm:flex items-center justify-center gap-4 pt-2 text-xs text-warm-400">
       <span>{{ $t('quiz.keyboard.selectHint') }}</span>
-      <span class="text-gray-300">|</span>
+      <span class="text-warm-300">|</span>
       <span>{{ $t('quiz.keyboard.navHint') }}</span>
     </div>
   </div>

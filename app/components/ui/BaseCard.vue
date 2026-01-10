@@ -16,7 +16,7 @@ const paddingClasses = {
 
 <template>
   <div
-    class="bg-white rounded-lg shadow-sm border border-gray-200"
+    class="bg-white rounded-2xl shadow-soft border border-warm-200"
     :class="paddingClasses[padding]"
   >
     <slot />
