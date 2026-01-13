@@ -50,3 +50,17 @@ export interface UserProgress {
   lastQuizDate: string;
   categoryStats: Record<Category, { attempts: number; correct: number }>;
 }
+
+// Flashcards
+/** Status stored in localStorage for reviewed cards */
+export type FlashcardStoredStatus = 'known' | 'needs-review';
+
+/** Display status including 'unseen' for cards not yet reviewed */
+export type FlashcardStatus = FlashcardStoredStatus | 'unseen';
+
+export interface FlashcardProgress {
+  /** Only stores reviewed cards - absence means 'unseen' */
+  cards: Record<string, FlashcardStoredStatus>;
+  lastSession: string | null;
+  totalReviewed: number;
+}

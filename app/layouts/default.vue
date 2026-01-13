@@ -54,6 +54,12 @@ watch(
               {{ $t('nav.study') }}
             </NuxtLink>
             <NuxtLink
+              to="/flashcards"
+              class="text-warm-600 hover:text-primary hover:bg-warm-50 transition-colors py-2 px-3 rounded-lg font-medium"
+            >
+              {{ $t('nav.flashcards') }}
+            </NuxtLink>
+            <NuxtLink
               v-if="hasQuizInProgress"
               to="/quiz?new=1"
               class="text-warm-500 hover:text-warm-700 transition-colors py-2 px-2 text-sm font-medium"
@@ -118,6 +124,12 @@ watch(
             class="block py-3 px-3 text-warm-700 hover:text-primary hover:bg-warm-50 rounded-xl transition-colors font-medium"
           >
             {{ $t('nav.studyQuestions') }}
+          </NuxtLink>
+          <NuxtLink
+            to="/flashcards"
+            class="block py-3 px-3 text-warm-700 hover:text-primary hover:bg-warm-50 rounded-xl transition-colors font-medium"
+          >
+            {{ $t('nav.flashcards') }}
           </NuxtLink>
           <NuxtLink
             to="/quiz"

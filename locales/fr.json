@@ -34,6 +34,7 @@
     "exam": "L’examen",
     "study": "Étudier",
     "studyQuestions": "Étudier les questions",
+    "flashcards": "Cartes mémoire",
     "startQuiz": "Commencer le quiz",
     "newQuiz": "Nouveau quiz",
     "menu": "Menu"
@@ -386,5 +387,63 @@
     "otherCategories": "Autres thématiques",
     "backToStudy": "Toutes les questions",
     "startQuiz": "Passer un quiz"
+  },
+
+  "flashcards": {
+    "meta": {
+      "title": "Cartes mémoire - Réussir mon Examen Civique",
+      "description": "Révisez les 259 questions avec des cartes mémoire interactives."
+    },
+    "categoryMeta": {
+      "title": "{category} - Cartes mémoire | Réussir mon Examen Civique",
+      "description": "Révisez les {count} questions de la catégorie « {category} » avec des cartes mémoire."
+    },
+    "header": {
+      "title": "Cartes mémoire",
+      "subtitle": "Révisez efficacement avec des flashcards interactives"
+    },
+    "categoryHeader": {
+      "subtitle": "Révisez les {count} questions de cette catégorie avec des flashcards."
+    },
+    "stats": {
+      "total": "Total",
+      "known": "Acquises",
+      "needsReview": "À revoir",
+      "unseen": "Non vues"
+    },
+    "start": {
+      "allCards": "Toutes les cartes",
+      "needsReviewOnly": "À revoir uniquement",
+      "unseenOnly": "Non vues uniquement"
+    },
+    "session": {
+      "progress": "{current} / {total}",
+      "exit": "Quitter",
+      "knownCount": "{count} acquises",
+      "needsReviewCount": "{count} à revoir",
+      "unseenCount": "{count} non vues"
+    },
+    "category": {
+      "questionsCount": "{count} questions"
+    },
+    "card": {
+      "tapToFlip": "Cliquez pour retourner",
+      "answer": "Réponse"
+    },
+    "actions": {
+      "known": "Je sais",
+      "needsReview": "À revoir",
+      "previous": "Précédente",
+      "next": "Suivante",
+      "random": "Aléatoire"
+    },
+    "keyboard": {
+      "flipHint": "Espace pour retourner",
+      "navHint": "← → pour naviguer"
+    },
+    "empty": {
+      "message": "Aucune carte dans cette sélection."
+    },
+    "backToAll": "Toutes les cartes"
   }
 }
