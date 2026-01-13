@@ -244,6 +244,10 @@ function collapseAll() {
               <div>
                 <p class="text-sm font-medium text-info-800 mb-1">{{ $t('results.review.explanation') }}</p>
                 <p class="text-sm text-info-700">{{ answer.question.explanation }}</p>
+                <UiQuestionSources
+                  v-if="answer.question.sources?.length"
+                  :sources="answer.question.sources"
+                />
               </div>
             </div>
           </div>

@@ -5,6 +5,12 @@ export type Category =
   | "histoire-geographie-culture"
   | "vivre-societe";
 
+// Sources officielles pour les explications
+export interface QuestionSource {
+  label: string;
+  url: string;
+}
+
 export interface Question {
   id: string;
   category: Category;
@@ -14,6 +20,7 @@ export interface Question {
   correctIndex: number;
   explanation?: string;
   isSituational: boolean;
+  sources?: QuestionSource[];
 }
 
 export interface QuizState {

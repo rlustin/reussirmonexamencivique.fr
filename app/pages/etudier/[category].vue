@@ -424,13 +424,19 @@ useSeoMeta({
               </div>
             </div>
 
-            <!-- Explanation -->
+            <!-- Explanation & Sources -->
             <div v-if="currentQuestion.explanation" class="mt-4 p-4 bg-info-50 rounded-lg border border-info-100">
               <div class="flex items-start gap-2">
                 <svg class="w-5 h-5 text-info-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
                 </svg>
-                <p class="text-sm text-info-800">{{ currentQuestion.explanation }}</p>
+                <div>
+                  <p class="text-sm text-info-800">{{ currentQuestion.explanation }}</p>
+                  <UiQuestionSources
+                    v-if="currentQuestion.sources?.length"
+                    :sources="currentQuestion.sources"
+                  />
+                </div>
               </div>
             </div>
           </div>
