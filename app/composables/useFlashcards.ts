@@ -1,5 +1,5 @@
 import type { Question, Category, FlashcardStatus, FlashcardStoredStatus, FlashcardProgress } from '~/types'
-import questionsData from '@@/data/questions.json'
+import questionsData from '../../data/questions.json'
 import { shuffle } from '~/utils/shuffle'
 
 export const FLASHCARDS_STORAGE_KEY = 'examen-civique-flashcards'
