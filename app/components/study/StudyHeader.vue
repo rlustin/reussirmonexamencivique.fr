@@ -19,6 +19,7 @@ defineEmits<Emits>()
     <div class="flex items-center justify-between mb-4">
       <button
         type="button"
+        data-testid="exit-study-button"
         class="text-gray-600 hover:text-gray-800 flex items-center gap-2"
         @click="$emit('exit')"
       >

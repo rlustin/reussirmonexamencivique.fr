@@ -51,6 +51,7 @@ function getButtonAriaLabel(index: number): string {
           role="listitem"
           :aria-label="getButtonAriaLabel(index)"
           :aria-current="index === current - 1 ? 'true' : undefined"
+          :data-testid="`progress-dot-${index + 1}`"
           class="w-9 h-9 sm:w-8 sm:h-8 rounded text-sm sm:text-xs font-medium transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           :class="[
             index === current - 1

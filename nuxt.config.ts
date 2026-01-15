@@ -1,4 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// Strip data-testid attributes when STRIP_TEST_IDS=true (e.g., for actual deployment)
+// This is opt-in rather than automatic in production, so E2E tests can still use data-testid
+const stripTestIds = process.env.STRIP_TEST_IDS === 'true'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -50,6 +55,32 @@ export default defineNuxtConfig({
             // Separate vendor chunks for better caching
             'vue-vendor': ['vue', 'vue-router'],
           },
+        },
+      },
+    },
+    vue: {
+      template: {
+        compilerOptions: {
+          // Strip data-testid attributes when STRIP_TEST_IDS=true
+          nodeTransforms: stripTestIds
+            ? [
+                (node) => {
+                  if (node.type === 1 /* ELEMENT */) {
+                    node.props = node.props.filter((prop) => {
+                      // Static attributes: data-testid="..."
+                      if (prop.type === 6 /* ATTRIBUTE */) {
+                        return !prop.name.startsWith('data-testid')
+                      }
+                      // Dynamic attributes: :data-testid="..."
+                      if (prop.type === 7 /* DIRECTIVE */ && prop.arg?.content) {
+                        return !prop.arg.content.startsWith('data-testid')
+                      }
+                      return true
+                    })
+                  }
+                },
+              ]
+            : [],
         },
       },
     },

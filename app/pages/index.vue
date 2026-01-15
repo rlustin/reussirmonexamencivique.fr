@@ -114,7 +114,7 @@ const categories: { key: Category; count: number }[] = [
       </div>
 
       <!-- Exam info card -->
-      <div class="card mb-8">
+      <div class="card mb-8" data-testid="exam-info-section">
         <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
           <div class="p-1.5 rounded-lg bg-secondary-100">
             <svg class="w-5 h-5 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,19 +124,19 @@ const categories: { key: Category; count: number }[] = [
           {{ $t('home.examInfo.title') }}
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-primary-50 to-primary-100/50 border border-primary-100">
+          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-primary-50 to-primary-100/50 border border-primary-100" data-testid="exam-stat-questions">
             <div class="text-3xl font-extrabold text-primary">40</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.questions') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-secondary-50 to-secondary-100/50 border border-secondary-100">
+          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-secondary-50 to-secondary-100/50 border border-secondary-100" data-testid="exam-stat-minutes">
             <div class="text-3xl font-extrabold text-secondary-600">45</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.minutes') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-success-50 to-success-100/50 border border-success-100">
+          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-success-50 to-success-100/50 border border-success-100" data-testid="exam-stat-passing">
             <div class="text-3xl font-extrabold text-success">32/40</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.passingScore') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-accent-50 to-accent-100/50 border border-accent-100">
+          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-accent-50 to-accent-100/50 border border-accent-100" data-testid="exam-stat-options">
             <div class="text-3xl font-extrabold text-accent-600">4</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.optionsPerQuestion') }}</div>
           </div>

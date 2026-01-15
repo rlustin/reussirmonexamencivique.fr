@@ -40,7 +40,7 @@ defineEmits<Emits>()
     </h2>
 
     <!-- Options -->
-    <div class="space-y-3">
+    <div class="space-y-3" data-testid="answer-options">
       <button
         v-for="(option, optIndex) in question.options"
         :key="optIndex"
@@ -94,7 +94,7 @@ defineEmits<Emits>()
     </div>
 
     <!-- Feedback message -->
-    <div v-if="hasAnswered" class="mt-6">
+    <div v-if="hasAnswered" class="mt-6" data-testid="answer-feedback">
       <div
         v-if="confirmedAnswer === question.correctIndex"
         class="p-4 bg-success-50 border border-success-100 rounded-lg"
@@ -119,7 +119,7 @@ defineEmits<Emits>()
       </div>
 
       <!-- Explanation & Sources -->
-      <div v-if="question.explanation" class="mt-4 p-4 bg-info-50 rounded-lg border border-info-100">
+      <div v-if="question.explanation" class="mt-4 p-4 bg-info-50 rounded-lg border border-info-100" data-testid="explanation-box">
         <div class="flex items-start gap-2">
           <svg class="w-5 h-5 text-info-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
