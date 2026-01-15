@@ -1,5 +1,6 @@
 import type { Category, QuizResult, UserProgress } from '~/types'
 import { CATEGORIES, DEFAULT_CATEGORY_STATS } from '~/constants/exam'
+import { useStoredState } from '~/utils/storage'
 
 export const STORAGE_KEY = 'examen-civique-progress'
 
@@ -59,49 +60,27 @@ export function calculateAverageScore(
   return totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : null
 }
 
-function loadProgress(): UserProgress {
-  if (import.meta.server) return { ...defaultProgress }
-
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY)
-    if (stored) {
-      const parsed = JSON.parse(stored)
-      return {
-        ...defaultProgress,
-        ...parsed,
-        categoryStats: {
-          ...defaultProgress.categoryStats,
-          ...parsed.categoryStats,
-        },
-      }
-    }
-  } catch {
-    // Invalid data, use default
-  }
-  return { ...defaultProgress }
-}
-
-function saveProgress(progress: UserProgress): void {
-  if (import.meta.server) return
-
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
-  } catch {
-    // Storage full or unavailable
+/**
+ * Custom merge strategy to preserve nested categoryStats structure
+ */
+function mergeProgress(defaults: UserProgress, stored: Partial<UserProgress>): UserProgress {
+  return {
+    ...defaults,
+    ...stored,
+    categoryStats: {
+      ...defaults.categoryStats,
+      ...stored.categoryStats,
+    },
   }
 }
 
 export function useProgress() {
-  const progress = useState<UserProgress>('user-progress', () => loadProgress())
-  const isLoaded = useState('progress-loaded', () => false)
-
-  // Load from localStorage on client-side
-  onMounted(() => {
-    if (!isLoaded.value) {
-      progress.value = loadProgress()
-      isLoaded.value = true
-    }
-  })
+  const { state: progress, save: saveProgress, reset } = useStoredState(
+    'user-progress',
+    STORAGE_KEY,
+    defaultProgress,
+    mergeProgress
+  )
 
   function recordQuizResult(result: QuizResult): void {
     const newProgress = { ...progress.value }
@@ -122,12 +101,11 @@ export function useProgress() {
     }
 
     progress.value = newProgress
-    saveProgress(newProgress)
+    saveProgress()
   }
 
   function resetProgress(): void {
-    progress.value = { ...defaultProgress }
-    saveProgress(progress.value)
+    reset()
   }
 
   const hasProgress = computed(() => {

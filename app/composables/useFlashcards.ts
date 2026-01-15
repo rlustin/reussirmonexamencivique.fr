@@ -1,6 +1,7 @@
 import type { Question, Category, FlashcardStatus, FlashcardStoredStatus, FlashcardProgress } from '~/types'
 import questionsData from '../../data/questions.json'
 import { shuffle } from '~/utils/shuffle'
+import { useStoredState } from '~/utils/storage'
 
 export const FLASHCARDS_STORAGE_KEY = 'examen-civique-flashcards'
 
@@ -13,49 +14,19 @@ export const defaultFlashcardProgress: FlashcardProgress = {
   totalReviewed: 0,
 }
 
-function loadProgress(): FlashcardProgress {
-  if (import.meta.server) return { ...defaultFlashcardProgress }
-
-  try {
-    const stored = localStorage.getItem(FLASHCARDS_STORAGE_KEY)
-    if (stored) {
-      return { ...defaultFlashcardProgress, ...JSON.parse(stored) }
-    }
-  } catch (error) {
-    console.warn('[useFlashcards] Failed to load progress from localStorage:', error)
-  }
-  return { ...defaultFlashcardProgress }
-}
-
-function saveProgress(progress: FlashcardProgress): void {
-  if (import.meta.server) return
-
-  try {
-    localStorage.setItem(FLASHCARDS_STORAGE_KEY, JSON.stringify(progress))
-  } catch (error) {
-    console.warn('[useFlashcards] Failed to save progress to localStorage:', error)
-  }
-}
-
 export function useFlashcards() {
   const allQuestions = questionsData.questions as Question[]
 
-  const progress = useState<FlashcardProgress>('flashcard-progress', () => loadProgress())
-  // Track if client-side localStorage data has been loaded.
-  // SSR returns defaults, then onMounted loads real data from localStorage.
-  // This may cause a brief flash of default values on hydration - acceptable trade-off for localStorage.
-  const isLoaded = useState('flashcards-loaded', () => false)
+  const { state: progress, isLoaded, save: saveProgress, reset: resetStoredProgress } = useStoredState(
+    'flashcard-progress',
+    FLASHCARDS_STORAGE_KEY,
+    defaultFlashcardProgress
+  )
+
   const currentDeck = ref<Question[]>([])
   const currentIndex = ref(0)
   const isFlipped = ref(false)
   const isAnimating = ref(false)
-
-  onMounted(() => {
-    if (!isLoaded.value) {
-      progress.value = loadProgress()
-      isLoaded.value = true
-    }
-  })
 
   const currentCard = computed(() => currentDeck.value[currentIndex.value] || null)
 
@@ -120,7 +91,7 @@ export function useFlashcards() {
     }
 
     progress.value.lastSession = new Date().toISOString()
-    saveProgress(progress.value)
+    saveProgress()
 
     // Advance to next card automatically after flip animation
     if (currentIndex.value < currentDeck.value.length - 1) {
@@ -150,8 +121,7 @@ export function useFlashcards() {
   }
 
   function resetProgress(): void {
-    progress.value = { ...defaultFlashcardProgress }
-    saveProgress(progress.value)
+    resetStoredProgress()
   }
 
   function getCategoryStats(category: Category) {
