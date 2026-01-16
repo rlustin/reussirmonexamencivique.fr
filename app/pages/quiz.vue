@@ -253,78 +253,17 @@ const unansweredCount = computed(() => {
     </template>
 
     <!-- Confirm submit modal -->
-    <Teleport to="body">
-      <div
-        v-if="showConfirmModal"
-        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="confirm-modal-title"
-        @keydown.escape="cancelSubmit"
-      >
-        <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6 space-y-4">
-          <h3 id="confirm-modal-title" class="text-xl font-bold text-foreground">
-            {{ $t('quiz.confirmModal.title') }}
-          </h3>
-          <p class="text-gray-600">
-            {{ $t('quiz.confirmModal.message', { count: unansweredCount }) }}
-          </p>
-          <div class="flex gap-3 pt-2">
-            <button
-              class="btn btn-secondary flex-1"
-              @click="cancelSubmit"
-            >
-              {{ $t('quiz.confirmModal.continue') }}
-            </button>
-            <button
-              class="btn btn-primary flex-1"
-              @click="confirmSubmit"
-            >
-              {{ $t('quiz.confirmModal.finish') }}
-            </button>
-          </div>
-        </div>
-      </div>
-    </Teleport>
+    <QuizConfirmSubmitModal
+      :show="showConfirmModal"
+      :unanswered-count="unansweredCount"
+      @confirm="confirmSubmit"
+      @cancel="cancelSubmit"
+    />
 
     <!-- Timeout modal -->
-    <Teleport to="body">
-      <div
-        v-if="showTimeoutModal"
-        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
-        role="alertdialog"
-        aria-modal="true"
-        aria-labelledby="timeout-modal-title"
-        aria-describedby="timeout-modal-description"
-      >
-        <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6 space-y-4">
-          <div class="flex items-center gap-3 text-error">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-8 h-8"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <h3 id="timeout-modal-title" class="text-xl font-bold">{{ $t('quiz.timeoutModal.title') }}</h3>
-          </div>
-          <p id="timeout-modal-description" class="text-gray-600">
-            {{ $t('quiz.timeoutModal.message') }}
-          </p>
-          <button
-            class="btn btn-primary w-full"
-            @click="handleTimeoutConfirm"
-          >
-            {{ $t('quiz.timeoutModal.viewResults') }}
-          </button>
-        </div>
-      </div>
-    </Teleport>
+    <QuizTimeoutModal
+      :show="showTimeoutModal"
+      @confirm="handleTimeoutConfirm"
+    />
   </div>
 </template>
