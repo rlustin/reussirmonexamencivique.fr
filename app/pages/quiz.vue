@@ -151,21 +151,15 @@ const unansweredCount = computed(() => {
 
           <div class="flex justify-center gap-4 text-sm text-gray-500">
             <div class="flex items-center gap-1.5">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-              </svg>
+              <IconsQuestionCircle class="w-5 h-5 text-primary" aria-hidden="true" />
               <span>{{ $t('quiz.start.info.questions') }}</span>
             </div>
             <div class="flex items-center gap-1.5">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
-              </svg>
+              <IconsClock class="w-5 h-5 text-primary" aria-hidden="true" />
               <span>{{ $t('quiz.start.info.time') }}</span>
             </div>
             <div class="flex items-center gap-1.5">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
+              <IconsCheck class="w-5 h-5 text-primary" aria-hidden="true" />
               <span>{{ $t('quiz.start.info.passing') }}</span>
             </div>
           </div>

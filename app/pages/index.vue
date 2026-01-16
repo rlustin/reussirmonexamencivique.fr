@@ -49,9 +49,7 @@ const categories: { key: Category; count: number }[] = [
           </p>
 
           <div class="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-success-50 text-success-700 text-sm font-medium">
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
+            <IconsCheckCircle class="w-4 h-4" />
             {{ $t('home.hero.reassurance') }}
           </div>
         </div>
@@ -61,9 +59,7 @@ const categories: { key: Category; count: number }[] = [
       <div v-if="hasProgress" class="card mb-8 border-l-4 border-l-primary bg-gradient-to-br from-white to-primary-50/30">
         <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-foreground">
           <div class="p-1.5 rounded-lg bg-primary-100">
-            <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
+            <IconsCheckCircle class="w-5 h-5 text-primary" />
           </div>
           {{ $t('home.progress.title') }}
         </h2>
@@ -117,9 +113,7 @@ const categories: { key: Category; count: number }[] = [
       <div class="card mb-8" data-testid="exam-info-section">
         <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
           <div class="p-1.5 rounded-lg bg-secondary-100">
-            <svg class="w-5 h-5 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-            </svg>
+            <IconsClipboard class="w-5 h-5 text-secondary-600" />
           </div>
           {{ $t('home.examInfo.title') }}
         </h2>
@@ -147,9 +141,7 @@ const categories: { key: Category; count: number }[] = [
       <div class="card mb-8">
         <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
           <div class="p-1.5 rounded-lg bg-info-100">
-            <svg class="w-5 h-5 text-info-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-            </svg>
+            <IconsArchive class="w-5 h-5 text-info-600" />
           </div>
           {{ $t('home.categories.title') }}
         </h2>
