@@ -33,9 +33,7 @@ watch(
       <div class="max-w-4xl mx-auto px-4 py-4">
         <nav class="flex items-center justify-between">
           <NuxtLink to="/" class="flex items-center gap-2.5 group">
-            <div class="p-1.5 rounded-xl bg-gradient-to-br from-primary-100 to-secondary-100 group-hover:from-primary-200 group-hover:to-secondary-200 transition-colors">
-              <img src="/favicon.svg" alt="" class="w-6 h-6" aria-hidden="true"/>
-            </div>
+            <img src="/favicon.svg" alt="" class="w-8 h-8" aria-hidden="true"/>
             <span class="font-bold text-lg text-foreground">{{ $t('nav.brand') }}</span>
           </NuxtLink>
 
@@ -143,9 +141,7 @@ watch(
     <footer class="bg-warm-50 border-t border-warm-200 py-8" role="contentinfo">
       <div class="max-w-4xl mx-auto px-4 text-center">
         <div class="flex justify-center mb-4">
-          <div class="p-2 rounded-xl bg-gradient-to-br from-primary-100 to-secondary-100">
-            <img src="/favicon.svg" alt="" class="w-6 h-6" aria-hidden="true"/>
-          </div>
+          <img src="/favicon.svg" alt="" class="w-8 h-8" aria-hidden="true"/>
         </div>
         <p class="text-sm text-warm-600">
           {{ $t('footer.line1') }}

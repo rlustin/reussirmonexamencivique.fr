@@ -54,21 +54,6 @@ useSeoMeta({
             </p>
           </div>
 
-          <!-- Icon credit -->
-          <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <img src="/favicon.svg" alt="" class="w-10 h-10 flex-shrink-0" aria-hidden="true"/>
-            <div>
-              <h3 class="font-medium text-foreground">{{ $t('about.credits.icon.title') }}</h3>
-              <p class="text-sm text-gray-600 mt-1">
-                {{ $t('about.credits.icon.description') }}
-              </p>
-              <a
-                href="https://game-icons.net/1x1/delapouite/phrygian-cap.html"                class="text-sm text-primary hover:underline mt-2 inline-block"
-              >
-                game-icons.net
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 

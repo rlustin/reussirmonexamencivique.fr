@@ -327,10 +327,6 @@
     },
     "credits": {
       "title": "Crédits",
-      "icon": {
-        "title": "Icône du bonnet phrygien",
-        "description": "L’icône du bonnet phrygien (symbole de Marianne et de la liberté) est créée par Delapouite et publiée sous licence Creative Commons BY 3.0."
-      },
       "questions": {
         "title": "Questions de l’examen",
         "description": "Les questions sont issues du livret du citoyen et du programme officiel de l’examen civique publié par le Ministère de l’Intérieur français."

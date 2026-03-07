@@ -53,15 +53,15 @@ export default {
           500: '#F59E0B',
           600: '#D97706',
         },
-        // Soft purple - secondary warm tone
+        // Marianne blue - secondary tone
         secondary: {
-          DEFAULT: '#A78BFA',
-          50: '#F5F3FF',
-          100: '#EDE9FE',
-          200: '#DDD6FE',
-          500: '#A78BFA',
-          600: '#8B5CF6',
-          700: '#7C3AED',
+          DEFAULT: '#0458A3',
+          50: '#EFF6FF',
+          100: '#DBEAFE',
+          200: '#BFDBFE',
+          500: '#0458A3',
+          600: '#03478A',
+          700: '#023668',
         },
         warning: {
           DEFAULT: '#F59E0B',
