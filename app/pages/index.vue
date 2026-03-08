@@ -33,7 +33,7 @@ const categories: { key: Category; count: number }[] = [
 
 <template>
   <div class="py-8 sm:py-12">
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="max-w-5xl mx-auto px-4">
       <!-- Hero section -->
       <div class="relative text-center mb-12 py-8">
         <div class="blob blob-primary w-64 h-64 -top-20 -left-32 hidden sm:block"/>
@@ -55,8 +55,100 @@ const categories: { key: Category; count: number }[] = [
         </div>
       </div>
 
+      <!-- Bento grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8" data-testid="exam-info-section">
+
+        <!-- CTA tile — spans 2 cols, prominent -->
+        <div class="bento-tile col-span-2 row-span-2 bg-gradient-to-br from-primary to-primary-600 text-white flex flex-col justify-between">
+          <div>
+            <div class="p-2 rounded-xl bg-white/20 w-fit mb-4">
+              <IconsClipboardList class="w-6 h-6" />
+            </div>
+            <h2 class="text-2xl font-extrabold leading-tight mb-2">
+              {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}
+            </h2>
+            <p class="text-white/80 text-sm leading-relaxed">
+              {{ $t('home.cta.freeNoSignup') }}
+            </p>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 mt-6">
+            <NuxtLink
+              to="/quiz"
+              class="inline-flex items-center justify-center rounded-xl bg-white text-primary-700 hover:bg-primary-50 transition-all px-6 py-3 font-bold active:scale-[0.98] text-center"
+            >
+              {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}
+            </NuxtLink>
+            <NuxtLink
+              v-if="hasQuizInProgress"
+              to="/quiz?new=1"
+              class="inline-flex items-center justify-center rounded-xl border-2 border-white/40 text-white hover:bg-white/10 transition-all px-6 py-3 font-bold active:scale-[0.98] text-center"
+            >
+              {{ $t('nav.newQuiz') }}
+            </NuxtLink>
+          </div>
+        </div>
+
+        <!-- Exam stat tiles -->
+        <div class="bento-tile bg-white flex flex-col items-center justify-center text-center" data-testid="exam-stat-questions">
+          <div class="text-3xl sm:text-4xl font-extrabold text-primary">40</div>
+          <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.questions') }}</div>
+        </div>
+        <div class="bento-tile bg-white flex flex-col items-center justify-center text-center" data-testid="exam-stat-minutes">
+          <div class="text-3xl sm:text-4xl font-extrabold text-primary">45</div>
+          <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.minutes') }}</div>
+        </div>
+        <div class="bento-tile bg-white flex flex-col items-center justify-center text-center" data-testid="exam-stat-passing">
+          <div class="text-3xl sm:text-4xl font-extrabold text-primary">32/40</div>
+          <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.passingScore') }}</div>
+        </div>
+        <div class="bento-tile bg-white flex flex-col items-center justify-center text-center" data-testid="exam-stat-options">
+          <div class="text-3xl sm:text-4xl font-extrabold text-primary">4</div>
+          <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.optionsPerQuestion') }}</div>
+        </div>
+
+        <!-- Study tile — spans 2 cols -->
+        <div class="bento-tile col-span-2 bg-gradient-to-br from-secondary to-secondary-700 text-white flex flex-col justify-between">
+          <div>
+            <div class="p-2 rounded-xl bg-white/20 w-fit mb-4">
+              <IconsBook class="w-6 h-6" />
+            </div>
+            <h3 class="text-2xl font-extrabold leading-tight mb-2">{{ $t('home.cta.study') }}</h3>
+            <p class="text-white/80 text-sm leading-relaxed">{{ $t('home.categories.title') }}</p>
+          </div>
+          <div class="mt-6">
+            <NuxtLink
+              to="/etudier"
+              class="inline-flex items-center justify-center rounded-xl bg-white text-secondary-700 hover:bg-secondary-50 transition-all px-6 py-3 font-bold active:scale-[0.98] text-center"
+            >
+              {{ $t('home.cta.study') }}
+            </NuxtLink>
+          </div>
+        </div>
+
+        <!-- Categories list tile — spans 2 cols -->
+        <div class="bento-tile col-span-2 bg-white">
+          <h3 class="font-bold text-foreground mb-3 flex items-center gap-2">
+            <div class="p-1.5 rounded-lg bg-secondary-100">
+              <IconsArchive class="w-4 h-4 text-secondary-600" />
+            </div>
+            {{ $t('home.categories.title') }}
+          </h3>
+          <ul class="space-y-1">
+            <NuxtLink
+              v-for="category in categories"
+              :key="category.key"
+              :to="`/etudier/${category.key}`"
+              class="flex justify-between items-center p-2.5 rounded-lg transition-colors hover:bg-warm-50 group"
+            >
+              <span class="text-sm text-warm-800 font-medium group-hover:text-primary transition-colors">{{ $t(`categories.full.${category.key}`) }}</span>
+              <span class="text-xs text-warm-500 bg-warm-100 px-2.5 py-0.5 rounded-full">{{ category.count }}</span>
+            </NuxtLink>
+          </ul>
+        </div>
+      </div>
+
       <!-- Progress card (shown only if user has taken quizzes) -->
-      <div v-if="hasProgress" class="card mb-8 border-l-4 border-l-primary bg-gradient-to-br from-white to-primary-50/30">
+      <div v-if="hasProgress" class="bento-tile bg-gradient-to-br from-white to-primary-50/30 border-l-4 border-l-primary mb-8">
         <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-foreground">
           <div class="p-1.5 rounded-lg bg-primary-100">
             <IconsCheckCircle class="w-5 h-5 text-primary" />
@@ -108,81 +200,6 @@ const categories: { key: Category; count: number }[] = [
           {{ $t('home.progress.lastQuiz', { date: lastQuizFormatted }) }}
         </p>
       </div>
-
-      <!-- Exam info card -->
-      <div class="card mb-8" data-testid="exam-info-section">
-        <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
-          <div class="p-1.5 rounded-lg bg-secondary-100">
-            <IconsClipboard class="w-5 h-5 text-secondary-600" />
-          </div>
-          {{ $t('home.examInfo.title') }}
-        </h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-questions">
-            <div class="text-3xl font-extrabold text-primary">40</div>
-            <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.questions') }}</div>
-          </div>
-          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-minutes">
-            <div class="text-3xl font-extrabold text-primary">45</div>
-            <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.minutes') }}</div>
-          </div>
-          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-passing">
-            <div class="text-3xl font-extrabold text-primary">32/40</div>
-            <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.passingScore') }}</div>
-          </div>
-          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-options">
-            <div class="text-3xl font-extrabold text-primary">4</div>
-            <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.optionsPerQuestion') }}</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Categories -->
-      <div class="card mb-8">
-        <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
-          <div class="p-1.5 rounded-lg bg-secondary-100">
-            <IconsArchive class="w-5 h-5 text-secondary-600" />
-          </div>
-          {{ $t('home.categories.title') }}
-        </h2>
-        <ul class="space-y-2">
-          <NuxtLink
-            v-for="(category, index) in categories"
-            :key="category.key"
-            :to="`/etudier/${category.key}`"
-            class="flex justify-between items-center p-3 rounded-xl transition-colors hover:bg-warm-50 group"
-            :class="index < categories.length - 1 ? 'border-b border-warm-100' : ''"
-          >
-            <span class="text-warm-800 font-medium group-hover:text-primary transition-colors">{{ $t(`categories.full.${category.key}`) }}</span>
-            <span class="text-sm text-warm-500 bg-warm-100 px-3 py-1 rounded-full">{{ $t('home.categories.questionCount', { count: category.count }) }}</span>
-          </NuxtLink>
-        </ul>
-      </div>
-
-      <!-- CTA -->
-      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <NuxtLink
-          to="/quiz"
-          :class="hasQuizInProgress
-            ? 'inline-flex items-center justify-center rounded-xl bg-primary text-white hover:bg-primary-600 hover:shadow-soft-lg transition-all text-lg px-8 py-4 w-full sm:w-auto text-center font-bold active:scale-[0.98]'
-            : 'btn-primary text-lg px-8 py-4 w-full sm:w-auto text-center shadow-soft hover:shadow-soft-lg'"
-        >
-          {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}
-        </NuxtLink>
-        <NuxtLink
-          v-if="hasQuizInProgress"
-          to="/quiz?new=1"
-          class="inline-flex items-center justify-center rounded-xl border-2 border-warm-300 text-warm-700 hover:bg-warm-100 transition-all text-lg px-8 py-4 w-full sm:w-auto text-center font-bold active:scale-[0.98]"
-        >
-          {{ $t('nav.newQuiz') }}
-        </NuxtLink>
-        <NuxtLink to="/etudier" class="btn-secondary text-lg px-8 py-4 w-full sm:w-auto text-center">
-          {{ $t('home.cta.study') }}
-        </NuxtLink>
-      </div>
-      <p class="mt-6 text-sm text-warm-500 text-center">
-        {{ $t('home.cta.freeNoSignup') }}
-      </p>
     </div>
   </div>
 </template>

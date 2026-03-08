@@ -89,6 +89,11 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-primary to-secondary-500;
   }
 
+  /* Bento grid tiles */
+  .bento-tile {
+    @apply rounded-2xl shadow-soft border border-warm-200 p-6;
+  }
+
   /* Warm hover states */
   .hover-lift {
     @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-soft-lg;

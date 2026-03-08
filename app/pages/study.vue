@@ -59,59 +59,83 @@ useSeoMeta({
 
 <template>
   <div class="py-8">
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="max-w-5xl mx-auto px-4">
       <!-- Filter/Setup Screen -->
       <template v-if="!isStudying">
         <!-- Header -->
         <div class="mb-8">
-          <h1 class="text-3xl font-bold text-foreground mb-2">📚 {{ $t('study.header.title') }}</h1>
-          <p class="text-gray-600">
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-foreground mb-2">{{ $t('study.header.title') }}</h1>
+          <p class="text-warm-600">
             {{ $t('study.header.subtitle', { count: allQuestions.length }) }}
           </p>
         </div>
 
-        <!-- Study all questions -->
-        <div class="card mb-6">
-          <h2 class="text-lg font-semibold text-foreground mb-2">{{ $t('study.allQuestions.title') }}</h2>
-          <p class="text-gray-600 mb-4">{{ $t('study.allQuestions.description', { count: allQuestions.length }) }}</p>
-          <button
-            type="button"
-            class="btn btn-primary px-8 py-3 text-lg"
-            @click="startStudy"
+        <!-- Bento grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+
+          <!-- Study all tile — 2 cols, 3 rows -->
+          <div class="bento-tile col-span-2 md:row-span-3 bg-gradient-to-br from-secondary to-secondary-700 text-white flex flex-col justify-between">
+            <div>
+              <div class="p-2 rounded-xl bg-white/20 w-fit mb-4">
+                <IconsBook class="w-6 h-6" />
+              </div>
+              <h2 class="text-2xl font-extrabold leading-tight mb-2">{{ $t('study.allQuestions.title') }}</h2>
+              <p class="text-white/80 text-sm leading-relaxed">{{ $t('study.allQuestions.description', { count: allQuestions.length }) }}</p>
+            </div>
+            <div class="mt-6">
+              <button
+                type="button"
+                class="inline-flex items-center justify-center rounded-xl bg-white text-secondary-700 hover:bg-secondary-50 transition-all px-6 py-3 font-bold active:scale-[0.98] text-center cursor-pointer"
+                @click="startStudy"
+              >
+                {{ $t('study.setup.start') }}
+              </button>
+            </div>
+          </div>
+
+          <!-- 5 category tiles beside and below the hero (fill 2 right cols) -->
+          <NuxtLink
+            v-for="cat in CATEGORIES"
+            :key="cat"
+            :to="`/etudier/${cat}`"
+            class="bento-tile bg-white group hover:shadow-soft-lg hover:-translate-y-0.5 transition-all flex flex-col justify-between"
           >
-            {{ $t('study.setup.start') }}
-          </button>
-        </div>
+            <h3 class="font-bold text-sm text-foreground group-hover:text-primary transition-colors leading-snug">{{ $t(`categories.full.${cat}`) }}</h3>
+            <div class="mt-3">
+              <span class="text-xs text-warm-500 bg-warm-100 px-2.5 py-0.5 rounded-full">{{ categoryCount[cat] }}</span>
+            </div>
+          </NuxtLink>
 
-        <!-- Category links -->
-        <div class="card mb-6">
-          <h2 class="text-lg font-semibold text-foreground mb-4">{{ $t('study.categories.title') }}</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <NuxtLink
-              v-for="cat in CATEGORIES"
-              :key="cat"
-              :to="`/etudier/${cat}`"
-              class="p-3 rounded-lg border border-gray-200 hover:border-primary hover:bg-primary-50 transition-colors"
-            >
-              <h3 class="font-medium text-foreground">{{ $t(`categories.full.${cat}`) }}</h3>
-              <p class="text-sm text-gray-500">{{ categoryCount[cat] }} questions</p>
-            </NuxtLink>
-          </div>
-        </div>
+          <!-- Empty spacer to complete the grid row (5 tiles = 2+2+1, need 1 more) -->
+          <div class="hidden md:block" />
 
-        <!-- Related links -->
-        <div class="mt-12 pt-8 border-t border-gray-200">
-          <h2 class="text-lg font-semibold text-foreground mb-4">{{ $t('study.related.title') }}</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <NuxtLink to="/quiz" class="card hover:shadow-md transition-shadow p-4">
-              <h3 class="font-medium text-primary mb-1">{{ $t('study.related.quiz.title') }}</h3>
-              <p class="text-sm text-gray-600">{{ $t('study.related.quiz.description') }}</p>
-            </NuxtLink>
-            <NuxtLink to="/examen-civique" class="card hover:shadow-md transition-shadow p-4">
-              <h3 class="font-medium text-primary mb-1">{{ $t('study.related.exam.title') }}</h3>
-              <p class="text-sm text-gray-600">{{ $t('study.related.exam.description') }}</p>
-            </NuxtLink>
-          </div>
+          <!-- Quiz CTA tile -->
+          <NuxtLink
+            to="/quiz"
+            class="bento-tile col-span-2 bg-gradient-to-br from-primary to-primary-600 text-white group hover:shadow-soft-lg hover:-translate-y-0.5 transition-all flex items-start gap-4"
+          >
+            <div class="p-2 rounded-xl bg-white/20 shrink-0">
+              <IconsClipboardList class="w-6 h-6" />
+            </div>
+            <div>
+              <h3 class="font-bold text-lg">{{ $t('study.related.quiz.title') }}</h3>
+              <p class="text-white/80 text-sm mt-1">{{ $t('study.related.quiz.description') }}</p>
+            </div>
+          </NuxtLink>
+
+          <!-- Exam info tile -->
+          <NuxtLink
+            to="/examen-civique"
+            class="bento-tile col-span-2 bg-white group hover:shadow-soft-lg hover:-translate-y-0.5 transition-all flex items-start gap-4"
+          >
+            <div class="p-2 rounded-xl bg-secondary-100 shrink-0">
+              <IconsInfoCircle class="w-6 h-6 text-secondary-600" />
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-foreground group-hover:text-secondary-600 transition-colors">{{ $t('study.related.exam.title') }}</h3>
+              <p class="text-warm-600 text-sm mt-1">{{ $t('study.related.exam.description') }}</p>
+            </div>
+          </NuxtLink>
         </div>
       </template>
 
