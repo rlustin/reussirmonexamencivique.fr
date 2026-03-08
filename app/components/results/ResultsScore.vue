@@ -70,11 +70,11 @@ const formattedTime = computed(() => {
         <span class="font-semibold">{{ formattedTime }}</span>
       </div>
       <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-warm-50">
-        <IconsClipboardList class="w-5 h-5 text-info" />
+        <IconsClipboardList class="w-5 h-5 text-secondary" />
         <span class="font-semibold">{{ percentage }}%</span>
       </div>
       <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-warm-50">
-        <IconsStar class="w-5 h-5 text-accent" />
+        <IconsStar class="w-5 h-5 text-primary" />
         <span class="font-semibold">{{ $t('results.score.threshold') }}</span>
       </div>
     </div>

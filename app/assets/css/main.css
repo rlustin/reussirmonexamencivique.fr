@@ -81,7 +81,7 @@
   }
 
   .blob-accent {
-    @apply bg-accent-100;
+    @apply bg-primary-100;
   }
 
   /* Gradient text */

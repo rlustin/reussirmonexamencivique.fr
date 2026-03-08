@@ -67,7 +67,7 @@ watch(
             <NuxtLink
               to="/quiz"
               :class="hasQuizInProgress
-                ? 'inline-flex items-center justify-center rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-600 hover:shadow-soft transition-all active:scale-[0.98]'
+                ? 'inline-flex items-center justify-center rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-600 hover:shadow-soft transition-all active:scale-[0.98]'
                 : 'btn-primary text-sm'"
             >
               {{ hasQuizInProgress ? $t('home.cta.continue') : $t('nav.startQuiz') }}
@@ -116,7 +116,7 @@ watch(
           <NuxtLink
             to="/quiz"
             :class="hasQuizInProgress
-              ? 'block py-3 px-4 bg-accent text-white text-center rounded-xl hover:bg-accent-600 transition-all min-h-[44px] flex items-center justify-center font-semibold shadow-soft'
+              ? 'block py-3 px-4 bg-primary text-white text-center rounded-xl hover:bg-primary-600 transition-all min-h-[44px] flex items-center justify-center font-semibold shadow-soft'
               : 'block py-3 px-4 bg-primary text-white text-center rounded-xl hover:bg-primary-600 transition-all min-h-[44px] flex items-center justify-center font-semibold shadow-soft'"
           >
             {{ hasQuizInProgress ? $t('home.cta.continue') : $t('nav.startQuiz') }}

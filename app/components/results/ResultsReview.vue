@@ -155,7 +155,7 @@ function collapseAll() {
           <!-- No answer warning -->
           <div
             v-if="answer.userAnswer === null"
-            class="flex items-center gap-2 text-warning-600 text-sm mb-4"
+            class="flex items-center gap-2 text-error-600 text-sm mb-4"
           >
             <IconsWarning class="w-4 h-4" />
             <span>{{ $t('results.review.noAnswer') }}</span>
@@ -164,13 +164,13 @@ function collapseAll() {
           <!-- Explanation -->
           <div
             v-if="answer.question.explanation"
-            class="bg-info-50 border border-info-200 rounded-lg p-4"
+            class="bg-secondary-50 border border-secondary-200 rounded-lg p-4"
           >
             <div class="flex items-start gap-2">
-              <IconsInfoCircle class="w-5 h-5 text-info-600 flex-shrink-0 mt-0.5" />
+              <IconsInfoCircle class="w-5 h-5 text-secondary-600 flex-shrink-0 mt-0.5" />
               <div>
-                <p class="text-sm font-medium text-info-800 mb-1">{{ $t('results.review.explanation') }}</p>
-                <p class="text-sm text-info-700">{{ answer.question.explanation }}</p>
+                <p class="text-sm font-medium text-secondary-800 mb-1">{{ $t('results.review.explanation') }}</p>
+                <p class="text-sm text-secondary-700">{{ answer.question.explanation }}</p>
                 <UiQuestionSources
                   v-if="answer.question.sources?.length"
                   :sources="answer.question.sources"

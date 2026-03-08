@@ -8,10 +8,10 @@ interface Props {
 const { category } = defineProps<Props>()
 
 const categoryColors: Record<Category, string> = {
-  'principes-valeurs': 'bg-info-100 text-info-700',
+  'principes-valeurs': 'bg-secondary-100 text-secondary-700',
   'systeme-institutionnel': 'bg-secondary-100 text-secondary-700',
   'droits-devoirs': 'bg-success-100 text-success-700',
-  'histoire-geographie-culture': 'bg-accent-100 text-accent-600',
+  'histoire-geographie-culture': 'bg-primary-100 text-primary-700',
   'vivre-societe': 'bg-primary-100 text-primary-700',
 }
 </script>

@@ -45,14 +45,6 @@ export default {
           600: '#BE123C',
           700: '#9F1239',
         },
-        // Warm amber accent
-        accent: {
-          DEFAULT: '#F59E0B',
-          50: '#FFFBEB',
-          100: '#FEF3C7',
-          500: '#F59E0B',
-          600: '#D97706',
-        },
         // Marianne blue - secondary tone
         secondary: {
           DEFAULT: '#0458A3',
@@ -62,25 +54,7 @@ export default {
           500: '#0458A3',
           600: '#03478A',
           700: '#023668',
-        },
-        warning: {
-          DEFAULT: '#F59E0B',
-          50: '#FFFBEB',
-          100: '#FEF3C7',
-          500: '#F59E0B',
-          600: '#D97706',
-          700: '#B45309',
-        },
-        // Warm blue for info
-        info: {
-          DEFAULT: '#60A5FA',
-          50: '#EFF6FF',
-          100: '#DBEAFE',
-          200: '#BFDBFE',
-          500: '#60A5FA',
-          600: '#3B82F6',
-          700: '#2563EB',
-          800: '#1E40AF',
+          800: '#012347',
         },
         // Warm cream background
         background: '#FFFAF5',

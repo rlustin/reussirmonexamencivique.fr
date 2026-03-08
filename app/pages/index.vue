@@ -97,7 +97,7 @@ const categories: { key: Category; count: number }[] = [
               class="flex items-center justify-between text-sm p-2 rounded-lg bg-white/60"
             >
               <span class="text-warm-700">{{ $t(`categories.full.${cat.category}`) }}</span>
-              <span class="font-bold px-2 py-0.5 rounded-full text-xs" :class="cat.percentage! < 50 ? 'bg-error-100 text-error-700' : 'bg-warning-100 text-warning-700'">
+              <span class="font-bold px-2 py-0.5 rounded-full text-xs" :class="cat.percentage! < 50 ? 'bg-error-100 text-error-700' : 'bg-primary-100 text-primary-700'">
                 {{ cat.percentage }}%
               </span>
             </div>
@@ -118,20 +118,20 @@ const categories: { key: Category; count: number }[] = [
           {{ $t('home.examInfo.title') }}
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-primary-50 to-primary-100/50 border border-primary-100" data-testid="exam-stat-questions">
+          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-questions">
             <div class="text-3xl font-extrabold text-primary">40</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.questions') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-secondary-50 to-secondary-100/50 border border-secondary-100" data-testid="exam-stat-minutes">
-            <div class="text-3xl font-extrabold text-secondary-600">45</div>
+          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-minutes">
+            <div class="text-3xl font-extrabold text-primary">45</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.minutes') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-success-50 to-success-100/50 border border-success-100" data-testid="exam-stat-passing">
-            <div class="text-3xl font-extrabold text-success">32/40</div>
+          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-passing">
+            <div class="text-3xl font-extrabold text-primary">32/40</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.passingScore') }}</div>
           </div>
-          <div class="text-center p-4 rounded-xl bg-gradient-to-br from-accent-50 to-accent-100/50 border border-accent-100" data-testid="exam-stat-options">
-            <div class="text-3xl font-extrabold text-accent-600">4</div>
+          <div class="text-center p-4 rounded-xl bg-warm-50 border border-warm-200" data-testid="exam-stat-options">
+            <div class="text-3xl font-extrabold text-primary">4</div>
             <div class="text-sm text-warm-600 mt-1">{{ $t('home.examInfo.optionsPerQuestion') }}</div>
           </div>
         </div>
@@ -140,8 +140,8 @@ const categories: { key: Category; count: number }[] = [
       <!-- Categories -->
       <div class="card mb-8">
         <h2 class="text-lg font-bold mb-5 flex items-center gap-2 text-foreground">
-          <div class="p-1.5 rounded-lg bg-info-100">
-            <IconsArchive class="w-5 h-5 text-info-600" />
+          <div class="p-1.5 rounded-lg bg-secondary-100">
+            <IconsArchive class="w-5 h-5 text-secondary-600" />
           </div>
           {{ $t('home.categories.title') }}
         </h2>
@@ -164,7 +164,7 @@ const categories: { key: Category; count: number }[] = [
         <NuxtLink
           to="/quiz"
           :class="hasQuizInProgress
-            ? 'inline-flex items-center justify-center rounded-xl bg-accent text-white hover:bg-accent-600 hover:shadow-soft-lg transition-all text-lg px-8 py-4 w-full sm:w-auto text-center font-bold active:scale-[0.98]'
+            ? 'inline-flex items-center justify-center rounded-xl bg-primary text-white hover:bg-primary-600 hover:shadow-soft-lg transition-all text-lg px-8 py-4 w-full sm:w-auto text-center font-bold active:scale-[0.98]'
             : 'btn-primary text-lg px-8 py-4 w-full sm:w-auto text-center shadow-soft hover:shadow-soft-lg'"
         >
           {{ hasQuizInProgress ? $t('home.cta.continue') : $t('home.cta.start') }}

@@ -111,11 +111,11 @@ defineEmits<Emits>()
       </div>
 
       <!-- Explanation & Sources -->
-      <div v-if="question.explanation" class="mt-4 p-4 bg-info-50 rounded-lg border border-info-100" data-testid="explanation-box">
+      <div v-if="question.explanation" class="mt-4 p-4 bg-secondary-50 rounded-lg border border-secondary-100" data-testid="explanation-box">
         <div class="flex items-start gap-2">
-          <IconsInfoCircle class="w-5 h-5 text-info-600 flex-shrink-0 mt-0.5" />
+          <IconsInfoCircle class="w-5 h-5 text-secondary-600 flex-shrink-0 mt-0.5" />
           <div>
-            <p class="text-sm text-info-800">{{ question.explanation }}</p>
+            <p class="text-sm text-secondary-800">{{ question.explanation }}</p>
             <UiQuestionSources
               v-if="question.sources?.length"
               :sources="question.sources"
