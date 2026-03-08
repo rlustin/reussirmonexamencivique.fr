@@ -1,4 +1,11 @@
-import { test, expect } from '@playwright/test'
+import { test, expect, type Page } from '@playwright/test'
+
+/** Click the start button and wait for study mode to activate */
+async function startStudyMode(page: Page) {
+  await page.getByRole('button', { name: /commencer/i }).click()
+  await expect(page).toHaveURL(/mode=study/)
+  await expect(page.getByTestId('exit-study-button')).toBeVisible()
+}
 
 test.describe('Study flow', () => {
   test.beforeEach(async ({ context }) => {
@@ -32,11 +39,7 @@ test.describe('Study flow', () => {
   test('can start study mode from main study page', async ({ page }) => {
     await page.goto('/etudier')
 
-    // Click the start button for all questions
-    await page.getByRole('button', { name: /commencer/i }).click()
-
-    // Should show study interface with question
-    await expect(page.locator('h2').first()).toBeVisible()
+    await startStudyMode(page)
 
     // Should show study controls
     await expect(page.getByRole('button', { name: /précédent/i })).toBeVisible()
@@ -55,23 +58,15 @@ test.describe('Study flow', () => {
   test('can start study mode from category page', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Click the start button
-    await page.getByRole('button', { name: /commencer/i }).click()
-
-    // Should show study interface with question
-    await expect(page.locator('h2').first()).toBeVisible()
+    await startStudyMode(page)
   })
 
   test('can answer a question in study mode', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
-    await page.getByRole('button', { name: /commencer/i }).click()
+    await startStudyMode(page)
 
-    // Wait for question to load
-    await expect(page.locator('h2').first()).toBeVisible()
-
-    // Click on the first answer option button (buttons in .space-y-3 container)
+    // Click on the first answer option button
     const optionContainer = page.getByTestId('answer-options')
     await optionContainer.locator('button').first().click()
 
@@ -85,11 +80,10 @@ test.describe('Study flow', () => {
   test('can navigate between questions in study mode', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
-    await page.getByRole('button', { name: /commencer/i }).click()
+    await startStudyMode(page)
 
-    // Wait for question to load - get initial question text
-    const questionHeading = page.locator('h2').first()
+    // Get initial question text
+    const questionHeading = page.getByTestId('answer-options').locator('..').locator('h2')
     await expect(questionHeading).toBeVisible()
     const firstQuestionText = await questionHeading.textContent()
 
@@ -118,13 +112,9 @@ test.describe('Study flow', () => {
   test('can exit study mode', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
-    await page.getByRole('button', { name: /commencer/i }).click()
+    await startStudyMode(page)
 
-    // Wait for study mode
-    await expect(page.locator('h2').first()).toBeVisible()
-
-    // Click exit button using data-testid for robustness
+    // Click exit button
     await page.getByTestId('exit-study-button').click()
 
     // Should return to category page
@@ -134,11 +124,7 @@ test.describe('Study flow', () => {
   test('shows correct/incorrect feedback with explanations', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
-    await page.getByRole('button', { name: /commencer/i }).click()
-
-    // Wait for question to load
-    await expect(page.locator('h2').first()).toBeVisible()
+    await startStudyMode(page)
 
     // Answer the question
     const optionContainer = page.getByTestId('answer-options')
@@ -152,11 +138,7 @@ test.describe('Study flow', () => {
   test('tracks progress through study session', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
-    await page.getByRole('button', { name: /commencer/i }).click()
-
-    // Wait for question to load
-    await expect(page.locator('h2').first()).toBeVisible()
+    await startStudyMode(page)
 
     // Should show progress indicator (e.g., "1/38" or similar)
     await expect(page.getByText(/\d+\s*\/\s*\d+/)).toBeVisible()

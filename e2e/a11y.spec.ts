@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+import type { Page } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
 
 // Exclude certain rules with known pre-existing issues that need code changes to fix:
@@ -17,11 +18,17 @@ const axeConfig = {
   },
 }
 
+function buildAxe(page: Page) {
+  return new AxeBuilder({ page })
+    .options(axeConfig)
+    .exclude('[class*="nuxt-devtools"]')
+}
+
 test.describe('Accessibility', () => {
   test('homepage has no accessibility violations', async ({ page }) => {
     await page.goto('/')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -29,7 +36,7 @@ test.describe('Accessibility', () => {
   test('quiz start page has no accessibility violations', async ({ page }) => {
     await page.goto('/quiz')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -48,7 +55,7 @@ test.describe('Accessibility', () => {
     // Wait for question to be visible
     await expect(page.getByText(/question 1/i)).toBeVisible()
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -56,7 +63,7 @@ test.describe('Accessibility', () => {
   test('study page has no accessibility violations', async ({ page }) => {
     await page.goto('/etudier')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -64,7 +71,7 @@ test.describe('Accessibility', () => {
   test('category study page has no accessibility violations', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -72,13 +79,12 @@ test.describe('Accessibility', () => {
   test('study mode has no accessibility violations', async ({ page }) => {
     await page.goto('/etudier/principes-valeurs')
 
-    // Start studying
+    // Start studying and wait for transition
     await page.getByRole('button', { name: /commencer/i }).click()
+    await expect(page).toHaveURL(/mode=study/)
+    await expect(page.getByTestId('exit-study-button')).toBeVisible()
 
-    // Wait for question to be visible
-    await expect(page.locator('h2').first()).toBeVisible()
-
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -86,7 +92,7 @@ test.describe('Accessibility', () => {
   test('about page has no accessibility violations', async ({ page }) => {
     await page.goto('/a-propos')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
@@ -94,7 +100,7 @@ test.describe('Accessibility', () => {
   test('exam info page has no accessibility violations', async ({ page }) => {
     await page.goto('/examen-civique')
 
-    const results = await new AxeBuilder({ page }).options(axeConfig).analyze()
+    const results = await buildAxe(page).analyze()
 
     expect(results.violations).toEqual([])
   })
